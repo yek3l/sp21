@@ -12,7 +12,10 @@ class NavigationBar extends React.Component {
                     <Link className="navbar-brand" to="/">
                         CS10: The Beauty and Joy of Computing
                     </Link>
-                    <div className="collapse navbar-collapse ml-auto">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
                         {getNavbarLinks()}
                     </div>
                 </div>
