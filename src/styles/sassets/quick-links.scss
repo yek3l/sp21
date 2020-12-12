@@ -1,0 +1,38 @@
+@import "../main.scss";
+
+
+.quick-link-anchor {
+    text-decoration: none;
+}
+
+.quick-link {
+    display: inline-flex;
+    flex-direction: row;
+    vertical-align: bottom;
+    align-items: center;
+    cursor: pointer;
+
+
+    border-radius: 18px;
+    width: 175px;
+    height: 35px;
+    border: 1px solid #dadada;
+    padding-left: 12px;
+
+    .material-icons {
+        max-width: 24px;
+        max-height: 24px;
+    }
+
+    .quick-link-label {
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    transition: transform 100ms;
+}
+
+.quick-link:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 2px 0px #bebebe;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 import "../styles/main.scss";
-import navbar_config from "../course-config/navbar-config.json";
+import navbar_config from "../course-data/navbar-config.json";
 
 class NavigationBar extends React.Component {
 

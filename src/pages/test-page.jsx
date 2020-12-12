@@ -9,7 +9,7 @@ class TestPage extends React.Component {
                 <Link to="/">Home</Link>
                 Looks like this is still under construction. Sorry!
             </div>
-        )
+        );
     }
 
 }
