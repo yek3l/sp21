@@ -1,0 +1,30 @@
+[
+    {
+        "label" : "Lectures",
+        "path" : "/lectures"
+    },
+    {
+        "label" : "Labs",
+        "path" : "/labs"
+    },
+    {
+        "label" : "Discussion",
+        "path" : "/discussion"
+    },
+    {
+        "label" : "Syllabus",
+        "path" : "/syllabus"
+    },
+    {
+        "label" : "Staff",
+        "path" : "/staff"
+    },
+    {
+        "label" : "Snap!",
+        "path" : "https://snap.berkeley.edu/snap/snap.html"
+    },
+    {
+        "label" : "Resources",
+        "path" : "/resources"
+    }
+]
