@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby";
 import "../styles/main.scss";
+import "../styles/sassets/navigation-bar.scss";
 import navbar_config from "../course-data/navbar-config.json";
 
 class NavigationBar extends React.Component {
@@ -15,7 +16,7 @@ class NavigationBar extends React.Component {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         {getNavbarLinks()}
                     </div>
                 </div>
@@ -49,7 +50,7 @@ function getNavbarLinks() {
     let links = [];
     navbar_config.forEach(navlink => links.push(getLink(navlink)))
     return (
-        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <ul className="navbar-nav ms-auto">
             {links}
         </ul>
     )

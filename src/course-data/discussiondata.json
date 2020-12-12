@@ -1,0 +1,563 @@
+{
+    "welcome" : {
+        "title" : "Welcome to CS10!",
+        "worksheet" : "https://drive.google.com/file/d/1I2zpzaObntYjF6F8RPEcbaI6QamT8tbp/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1QuwrIGVjknvsmdzKzSOqv9W1NgXi9qWW/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1wfZgeHOWgw68RMaAYQoEUcBfytkY8suETgZyWlrwbaI/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MK2wGnoWTKh0Vg8FEfJlvFz",
+        "resources" : [
+            {
+                "title" : "GDrive recording mirror",
+                "link" : "https://drive.google.com/drive/folders/1wvffS8_rGTbQUTevNXzgXQrM_0c6WoZk?usp=sharing",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "numberRepresentation" : {
+        "title" : "Number Representation, Boolean Logic, and Conditionals",
+        "worksheet" : "https://drive.google.com/file/d/1zu_LUvizMKIY1rcKhHnW2cDzdbt2tX9h/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1IWUHjBk5zEFe8qfDfC_v6sR_J0oGzGCv/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/12lud4x-nNpQCYr3dcxdQt6XybcHhIdANT0fynbo9MUM/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MIvW8lYOoODMcF4uMd3AfOQ",
+        "resources" : [
+            {
+                "title" : "GDrive recording mirror",
+                "link" : "https://drive.google.com/drive/folders/1YbFvkAqRSwBoI_qmt0g7NBNWHAjxJXHs?usp=sharing",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "notes (Maxson)",
+                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "purplemath notes",
+                "link" : "https://www.purplemath.com/modules/numbbase.htm",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "khan academy",
+                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "boolean video",
+                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "scoping" : {
+        "title" : "Domain/Range, HOFs, Scoping",
+        "worksheet" : "https://drive.google.com/file/d/1Q6atdJLbjCiLos5FJfkp6ap6Gc4ugyam/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1Va6JfIFvi1i6v3bD05gCZrtn0FRt1I8E/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/19njh2jbEpxl6VhTAGXV6R8u9LoJ14z4yKgfkEbx53Ys/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKweAzb42I5sjEXz5oq-y_8",
+        "resources" : [
+            {
+                "title" : "GDrive recording mirror",
+                "link" : "https://drive.google.com/drive/folders/1HiGMiVBrEEVGn0BLqAlUVfQhD4YvxhL_?usp=sharing",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "Extra Quest Review Worksheet",
+                "link" : "https://drive.google.com/file/d/1stkus1OkUu7-VY_tzrwlwUtWp6rvTA06/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Extra Quest Review Solutions",
+                "link" : "https://drive.google.com/file/d/1WcZrAM8DdTsZNtXar1KHNNhj-zSGXha2/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "[sp18] HOF slides (Matthew)",
+                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677",
+                "icon" : "slideshow"
+            }
+        ]
+    },
+    "algorithms" : {
+        "title" : "Quest Rehash (Mutability, HOFs) & Algorithms",
+        "worksheet" : "https://drive.google.com/file/d/1_kiftZ4ozLw_DGgpRQW1SV7xp2lcEkUe/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1SBWe98aNsBhncl4B1sNNDVuyK2NJ4yRw/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1llBfYg6wLREpYow9qLg2XN4N1az7TsVlHrTwiJ4xjjQ/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MIzyIqpYtI7bYzVBsGVawuo",
+        "resources" : [
+            {
+                "title" : "GDrive recording mirror",
+                "link" : "https://drive.google.com/drive/folders/1iX94fBmHSxHz32gYc6Tm3AAk2Tjo4jDA?usp=sharing",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "Snap! Mutability Demo",
+                "link" : "https://snap.berkeley.edu/snapsource/snap.html?fbclid=IwAR3aSYKZE8bnpV-gr5xixfziWZgCH3LKmHCeV6seNANYMZ8y1FOQf6XYCVM#present:Username=cs10staff&ProjectName=Mutability%20Discussion",
+                "icon" : "computer"
+            },
+            {
+                "title" : "Extra HOFs Worksheet",
+                "link" : "https://drive.google.com/file/d/1oS542BrZkKX6et9F-pxbqDF6Wk_EEkfF/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Extra HOFs Worksheet Solutions",
+                "link" : "https://drive.google.com/file/d/19t-tvV6ylvlBEOYaQgprYvX8oPz4-92t/view?usp=sharing",
+                "icon" : "assignment"
+            }
+        ]
+    },
+    "algorithmicComplexity" : {
+        "title" : "Algorithmic Complexity",
+        "worksheet" : "https://drive.google.com/file/d/10FQfzoL7XMXeKYO2cn9okG8kBUWTqsuh/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1LPtRIAKjOTbA-PtRb5vde4h21WlY3b3t/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1rmgbyMFLe0zZBAVo1teolsV727he-CfK3v_5hsRme-8/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MK-GN21qAEfvdzUPZX6EUSb",
+        "resources" : [
+            {
+                "title" : "GDrive recording mirror",
+                "link" : "https://drive.google.com/drive/folders/12EEsk8BMy_8EOJ8KprS4kBrGhJF-B1R6?usp=sharing",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "Binary search video",
+                "link" : "https://www.youtube.com/watch?v=T98PIp4omUA",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "Extra Complexity Worksheet",
+                "link" : "https://drive.google.com/file/d/1qohL-JXByojCnu1sbGWNgHYtDqFwoUdn/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Extra Complexity Worksheet Solutions",
+                "link" : "https://drive.google.com/file/d/1kalSkAH_180qu68X2Og3qsSYUC38DEj7/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Maddie's Notes",
+                "link" : "https://drive.google.com/file/d/1fgCQ3nYBm_Iyg_5ms4jwtFLpOAFJssVs/view?usp=sharing",
+                "icon" : "library_books"
+            }
+        ]
+    },
+    "recursion1" : {
+        "title" : "Recursion I",
+        "worksheet" : "https://drive.google.com/file/d/1hSiHo8FXYHg7MkzwMEZe8zuwVHM8pRJJ/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1hq2y_SzNqZWZySdSmQUQWpdkHzFHHfTt/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1pgBJx5lY6_VgbQECehISt-CrXvTWjFs2Wmp3pHBO0j4/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be",
+        "resources" : [
+            {
+                "title" : "Recursion write up (Murtz)",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "Recursion Crib Sheet",
+                "link" : "https://cs10.org/fa20/resources-snap.html",
+                "icon" : "library_books"
+            }, 
+            {
+                "title" : "Extra Recursion Problems",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/is0qrz2l9ra25h/jn5lxcdrzbco/Recursion_Practice_Problems.pdf",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Fractal Tutorial Video (Lara)",
+                "link" : "https://www.youtube.com/watch?v=_grjGdT6eqg&feature=youtu.be",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "recursion2" : {
+        "title" : "Recursion II",
+        "worksheet" : "https://drive.google.com/file/d/1-dej8TPVu3A2Gvdwh9FwEJdQNkaI4pCb/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1oiafUHNkZLn3kskOo4vliKZMVtVnoHEg/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1AvDJOCHjfpOksOLEes23UrPqHnxOQEI2W4VquGhcfSA/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLkNzAgxY_vvFXYDDboitIS",
+        "resources" : [
+            {
+                "title" : "Count Change Guide (Murtz)",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "SP20 Combined Discussion Recording (with music)",
+                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "midtermReview" : {
+        "title" : "Midterm Review",
+        "worksheet" : "https://drive.google.com/file/d/1E1BmdHNZLl4gUYwpVO-wxvPgmQ_vdXDD/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1QdjfeVcYgggtH2wORo_dXiPPHuTQJySj/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1QYwlLzgKF504PtFDCBj7MGjgWhErUH-CA0lQO48xUPU/",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5ML2PP0fgjG7evC-3F4QUydA",
+        "resources" : [
+            {
+                "title" : "Extra Practice Fractals",
+                "link" : "https://snap.berkeley.edu/snap/snap.html#present:Username=patriciayu7&ProjectName=Fractal%20Practice",
+                "icon" : "code"
+            },
+            {
+                "title" : "FA19 Midterm Video Walkthrough",
+                "link" : "https://drive.google.com/drive/u/1/folders/11Hd2UWrPbhsOHNx03iVdIsVlwVgYbp7D",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "python1" : {
+        "title" : "Intro to Python",
+        "worksheet" : "https://drive.google.com/file/d/13gFCaazAMuPY6D8HjUBVc4-r4o9w7OnY/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1QQ2LsSdm-LeoFGVCKxR4g44Zd5Jgux1_/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/u/1/d/1MaN2dKLNIQSpQoDYMr8415d-8zla-qj3dgI4KfVA_s0/",
+        "recording" : "https://www.youtube.com/watch?v=yjkOKNNTUCA&feature=youtu.be",
+        "resources" : [
+            {
+                "title" : "Kahoot!",
+                "link" : "https://create.kahoot.it/share/discussion-9-intro-to-python/9086a47f-7b3b-4f0f-985a-1112f06fcc9e",
+                "icon" : "videogame_asset"
+            },
+            {
+                "title" : "Python Cheat Sheet",
+                "link" : "https://docs.google.com/document/d/119yepX72fEf6c4Dd8ZT6bl22pZa0ZMCionJE86Ktw8Y/edit?usp=sharing",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "61A Code (Python Editor + Debugger)",
+                "link" : "https://code.cs61a.org/",
+                "icon" : "computer"
+            },
+            {
+                "title" : "61A Textbook 1",
+                "link" : "http://composingprograms.com/",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "61A Textbook 2",
+                "link" : "https://sequoiatree.github.io/",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "Extra Python Worksheet",
+                "link" : "https://drive.google.com/file/d/1ADJTyAS3cAj-c5Of_UR-yzbYEIX8_7KP/view",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Extra Python Worksheet Solutions",
+                "link" : "https://drive.google.com/file/d/1O3fF0z6R2n24SUBS7tch5dwGk1yZR2bI/view",
+                "icon" : "assignment"
+            }
+        ]
+    },
+    "python2" : {
+        "title" : "Data Structures in Python",
+        "worksheet" : "https://drive.google.com/file/d/1Yggluv14T3GB5i69PdsC1ftTdouROen1/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1uPYlaRQU_V79GFvgWQEy67Uatzk2Dw0S/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/155nSei8-K5NHMibJ-il-LNJcWA81y3Y1U2t5tshZ_h4/edit#slide=id.p",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MJcrnzWJlLzWNjab39-uswG",
+        "resources" : [
+            {
+                "title" : "Extra Dictionary Problems",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnuxcab8i8/questions.py",
+                "icon" : "code"
+            },
+            {
+                "title" : "Extra Dictionary Problem Solutions",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnvdkjodfx/solutions.py",
+                "icon" : "code"
+            }
+        ]
+    },
+    "socialImplications1" : {
+        "title" : "Social Implications Topics (Election)",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
+        "resources" : [
+            {
+                "title" : "Resources on Piazza",
+                "link" : "https://piazza.com/class/ke94crp1bn9ce?cid=453",
+                "icon" : "slideshow"
+            }
+        ]
+    },
+    "python3" : {
+        "title" : "OOP in Python",
+        "worksheet" : "https://drive.google.com/file/d/1GfWYYdYjsbX6SviS25LvMDhaJnbn_0GZ/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1XeGLJIp5z2h3fxH7kNqWXIDVVyRfxzoM/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1JnYRCftY50Erz-Pf35xM-1iVOC8jWy2G6RlUjdzshfI/edit?usp=sharing",
+        "recording" : "https://youtu.be/ZdGv3HkYNpg",
+        "resources" : [
+            {
+                "title" : "Programiz OOP Write Up",
+                "link" : "https://www.programiz.com/python-programming/object-oriented-programming",
+                "icon" : "description"
+            },
+            {
+                "title" : "SwarOOP Summary",
+                "link" : "https://python.swaroopch.com/oop.html",
+                "icon" : "description"
+            },
+            {
+                "title" : "What is the use of self in Python?: Edureka!",
+                "link" : "https://www.edureka.co/blog/self-in-python/",
+                "icon" : "library_books"
+            }
+        ]
+    },
+    "conceptOverview" : {
+        "title" : "Python HOFs, Lambdas, and Tree Recursion",
+        "worksheet" : "https://drive.google.com/file/d/1JlHgkuNdXYamh1WMcICoHizsaC1T1ZoM/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/17J4THFQHW-T4Att0f-xzjLOuiLixsZMg/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1Q_0_Om_MmOnTHTN6SznyfL-IWgPeT6xoLka4Z-HCRK0/edit",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLqZ335qknLqj-422OjEr3Q",
+        "resources" : [
+            {
+                "title" : "Python Lambda Guide",
+                "link" : "https://www.w3schools.com/python/python_lambda.asp",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "Variations on Climbing Stairs",
+                "link" : "https://www.youtube.com/watch?v=5o-kdjv7FD0",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "finalReview" : {
+        "title" : "Final Exam Review and Farewell",
+        "worksheet" : "https://drive.google.com/file/d/1pmqp3k8lFV15KcNxrw7Y8eRb9T4ztK6T/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1LHUABtmuJ4cK9muTqVDhA_kzO4cxUM4C/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1qsA0HIOmVsaLF_MyviKr1oHAf_5BvU-C-SwJkNKjK5Q/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLOa4ZLirTDu-1FCP_dEit0",
+        "resources" : [
+            {
+                "title" : "FA19 Final Walkthrough Videos",
+                "link" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKIWZyMaq39zP4hHxOorqKq",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "TA/AI+ Q&A Panel",
+                "link" : "https://www.youtube.com/watch?v=fEWqfMbjam0",
+                "icon" : "video_library"
+            },
+            {
+                "title" : "Extra Final Review Worksheet",
+                "link" : "https://drive.google.com/file/d/1u3dsAuF03t-oc3qdm48qtwIc_6VVJOEH/view?usp=sharing",
+                "icon" : "assignment"
+            },
+            {
+                "title" : "Extra Final Review Solutions",
+                "link" : "https://drive.google.com/file/d/1m2TlMMlFgNOQCz1wAf7UScLpNbDZ5Djv/view?usp=sharing",
+                "icon" : "assignment"
+            }
+        ]
+    },
+    "numberSystems" : {
+        "title" : "Number Systems",
+        "worksheet" : "https://drive.google.com/file/d/1BkSL9dMxPA9bHSQAS11AgoXjRbAUGOp3/view?usp=sharing",
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
+        "resources" : [
+            {
+                "title" : "[sp20] slides (Patricia)",
+                "link" : "https://docs.google.com/presentation/d/1T_EjIffS61f3LqlRasxvsZ-lIcbcgwdzNTAKSCkutyM/edit?usp=sharing",
+                "icon" : "description"
+            },
+            {
+                "title" : "notes (Maxson)",
+                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing",
+                "icon" : "library_books"
+            },
+            {
+                "title" : "purplemath notes",
+                "link" : "https://www.purplemath.com/modules/numbbase.htm",
+                "icon" : "notes"
+            },
+            {
+                "title" : "khan academy",
+                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "booleans" : {
+        "title" : "Boolean Logic + Scoping",
+        "worksheet" : "https://drive.google.com/file/d/1dQ69V53AsIbzn4sp6-Qo21EnAKUaNypB/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://drive.google.com/drive/folders/17U7IQirUkoSgp4C2YTF_8V55evKW1Muj?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1uPFO3TOGOH6nYIaDFZ0-fNVlE41Moi14?usp=sharing",
+        "resources" : [
+            {
+                "title" : "boolean video",
+                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU",
+                "icon" : "video_library"
+            }
+        ]
+    },
+    "lists" : {
+        "title" : "Lists + Mutability",
+        "worksheet" : "https://drive.google.com/file/d/1Ng63RL71V2BcVeow0IC1cWBGbAvjKRHd/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1QplewxrbWMqLIMvQQGd6IshT3fbGsZgEGahPhEnV30w/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1TjxRQfiqF2ODAv5neCGwBK78mfGTK9Lj?usp=sharing",
+        "resources" : [
+            {
+                "title" : "write up (Murtz)",
+                "link" : "https://drive.google.com/file/d/1l8ncgA_Rejau6BiRGeRK-7FfkEbR_V-5/view?usp=sharing",
+                "icon" : "library_books"
+            }
+        ]
+    },
+    "HOFs" : {
+        "title" : "HOFs",
+        "worksheet" : "https://drive.google.com/file/d/15Y7Bu2gbOJ-bYnfwOxqPYsM0ukb4QnAW/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1IgX0jAHbjCN7HyTHwPhh0yewtqPo0FsrbmIDziJfYVc/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1QbyddrUvhYKs3i2pKUtBSfVP4K2GIp_x?usp=sharing",
+        "resources" : [
+            {
+                "title" : "[sp18] slides (Matthew)",
+                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677",
+                "icon" : "description"
+            }
+        ]
+    },
+    "introRecursion" : {
+        "title" : "HOF Review, Intro to Recursion",
+        "worksheet" : "https://drive.google.com/file/d/1pkFrhBGEtO3j7bcBOTWLrJy3W1WrmN_i/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1-xOvPQfW1o0C54HLhdTvRcJnURPz6oADeFVKsBDcO3k/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1Qef03nhwMRcjYUnQR3WMEMljYgE3KsEM?usp=sharing",
+        "resources" : []
+    },
+    "Recursion I" : {
+        "title" : "Recursion I",
+        "worksheet" : "https://drive.google.com/file/d/1brNIOWq3lW0XrLkAiDcJrknMFYaKsX2p/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1HsE5PfkQQ_mSdzg90e1bSUcdpC_Bc7KAabCNWr6_MrM/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/17XMMIR2NPXrfTDl8Qo8BFxnJ1NHa-XAw?usp=sharing",
+        "resources" : [
+            {
+                "title" : "[fa19] walkthrough",
+                "link" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be",
+                "icon" : "videocam"
+            },
+            {
+                "title" : "write up (Murtz)",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf",
+                "icon" : "description"
+            }
+        ]
+    },
+    "recursionII" : {
+        "title" : "Recursion II",
+        "worksheet" : "https://drive.google.com/file/d/12r5vyBCHFthJlsedqBgDNf5zXSIrp0NG/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1y7VrGWdDIRGbM3vMu4sJL5w2dHo1kBseUTVR2oH9FjU/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1BmX8LynWyOOFLtnPauG_Y4iiV9kYJ5Fh?usp=sharing",
+        "resources" : [
+            {
+                "title" : "[sp20] walkthrough",
+                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be",
+                "icon" : "videocam"
+            },
+            {
+                "title" : "count change (Murtz)",
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf",
+                "icon" : "library_books"
+            }
+        ]
+    },
+    "mtreview" : {
+        "title" : "Midterm Review",
+        "worksheet" : "https://drive.google.com/file/d/1R4nBGYBMgJl_v3CMzswF4wNc9XVyj0NJ/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1_0NzK0C543NbTus0_PsoYlq3Nxoeq2m1XgvzKQ87tpg/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1gjniCmzvrWETE_UV49hPR4nQWWmr8aaC?usp=sharing",
+        "resources" : [
+            {
+                "title" : "practice",
+                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1u7XmpweXL-WX3o6CxiZU3AGy8vBmPAyR/view?usp=sharing",
+                "icon" : "create"
+            },
+            {
+                "title" : "solutions",
+                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1uNCh0xJoDwS3WUJs3i0xOgoX3sh5KykI/view?usp=sharing",
+                "icon" : "done_all"
+            }
+        ]
+    },
+
+    "complexity" : {
+        "title" : "Algorithmic Complexity",
+        "worksheet" : "https://drive.google.com/file/d/1b_YWXat4sQUy85JIbX4DJV5_ubNPmGqg/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1x-CB1FghVBghYADQfSK_CqGGYDWBwebXrsn556WnSrA/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1t3otMrs2QgxqhyhuNj_K_JkimovhKrG0?usp=sharing",
+        "resources" : [
+            {
+                "title" : "Python runtime reference",
+                "link" : "https://wiki.python.org/moin/TimeComplexity",
+                "icon" : "create"
+            }
+        ]
+    },
+
+    "concurrency" : {
+        "title" : "Concurrency",
+        "worksheet" : "https://drive.google.com/file/d/1epnMecbZnKpzNkjtxgQw_mGWa2COOhCu/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/1zQ2VsA2t6zW9vYD2M9S9n3B5jcCXIgIP9INQF4Ib1Nk/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1FO1vWWP0tysf1bLkWaJt-YxKiN0wsCEf?usp=sharing",
+        "resources" : [
+            {
+                "title" : "MIT Write Up",
+                "link" : "http://web.mit.edu/6.005/www/fa14/classes/17-concurrency/#:~:text=Concurrency%20means%20multiple%20computations%20are,cores%20on%20a%20single%20chip)",
+                "icon" : "description"
+            },
+            {
+                "title" : "Scratch Concurrency",
+                "link" : "https://en.scratch-wiki.info/wiki/Concurrency#:~:text=Concurrency%20is%20an%20idea%20in,runs%20in%20its%20own%20thread.",
+                "icon" : "library_books"
+            }
+        ]
+    },
+
+    "paradigm" : {
+        "title" : "Programming Paradigms (+ Final Review 1)",
+        "worksheet" : "https://drive.google.com/file/d/1LQSmjSqRIuW-VRvDByWUJxnxKD6z-ck2/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://docs.google.com/presentation/d/15LEmHFIxXrn4OnkD7NP1G3FoTcZSbnIOdkqjT49TRvc/edit?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/1qOV_mbNKR6Hf7bZYVUtnukK0rk_WD_uw?usp=sharing",
+        "resources" : []
+    },
+
+    "oop" : {
+        "title" : "Object Oriented Programming",
+        "worksheet" : "https://drive.google.com/file/d/1z9MOBeGSIwxJRRd2MdaOV93S6wvjRYEm/view?usp=sharing",
+        "solutions" : null,
+        "slides" : "https://drive.google.com/file/d/1qBADLQ73ljw6fslrOtnZn_FY9GswwHmv/view?usp=sharing",
+        "recording" : "https://drive.google.com/drive/folders/10cB7i_pCJ-dSSNB0OWvenO0mtomfoE9m?usp=sharing",
+        "resources" : [
+            {
+                "title" : "Programiz Write Up",
+                "link" : "https://www.programiz.com/python-programming/object-oriented-programming",
+                "icon" : "description"
+            },
+            {
+                "title" : "Swaroop Summary",
+                "link" : "https://python.swaroopch.com/oop.html",
+                "icon" : "description"
+            },
+            {
+                "title" : "The Self in Python: Edureka!",
+                "link" : "https://www.edureka.co/blog/self-in-python/#:~:text=The%20self%20is%20used%20to,attributes%20with%20the%20given%20arguments.&text=In%20Python%2C%20we%20have%20methods,automatically%2C%20but%20not%20received%20automatically.",
+                "icon" : "library_books"
+            }
+        ]
+    }
+}
