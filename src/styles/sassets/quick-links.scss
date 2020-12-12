@@ -1,8 +1,17 @@
 @import "../main.scss";
 
+.quick-link-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    align-content: flex-start;
+    overflow-wrap: normal;
+}
 
 .quick-link-anchor {
     text-decoration: none;
+    margin-right: 2%
 }
 
 .quick-link {
@@ -14,10 +23,10 @@
 
 
     border-radius: 18px;
-    width: 175px;
+    max-width: 200px;
     height: 35px;
     border: 1px solid #dadada;
-    padding-left: 12px;
+    padding: 0 12px;
 
     .material-icons {
         max-width: 24px;

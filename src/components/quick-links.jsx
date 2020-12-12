@@ -20,3 +20,17 @@ export function QuickLink(icon, label, link) {
         </a>
     );
 }
+
+export function renderQuickLinks() {
+
+    let quicklinks = [];
+    quick_link_config.forEach(
+        quicklink => quicklinks.push(QuickLink(quicklink.icon, quicklink.label, quicklink.link))
+    )
+    
+    return (
+        <div className="quick-link-bar">
+            {quicklinks}
+        </div>
+    );
+}

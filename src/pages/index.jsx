@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import NavigationBar from "../components/navigation.jsx";
-import { QuickLink } from "../components/quick-links.jsx";
+import { renderQuickLinks } from "../components/quick-links.jsx";
 import { Helmet } from 'react-helmet';
 
 class Home extends React.Component {
@@ -26,7 +26,7 @@ class Home extends React.Component {
               <h1>
                 Dashboard
               </h1>
-              { QuickLink("video_call", "CS10 Zoom", "https://cs10.org") }
+              { renderQuickLinks() }
             </div>
         </div>
       </div>
