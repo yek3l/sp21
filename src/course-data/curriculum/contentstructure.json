@@ -1,0 +1,208 @@
+{
+    "1" : {
+        "lectures" : [
+            "welcome + abstraction"
+        ],
+        "labs" : [
+            "intro"
+        ],
+        "discussion" : [
+            "welcome"
+        ],
+        "homework" : [
+            "mastermind1"
+        ]
+    },
+
+    "2" : {
+        "lectures" : [
+            "functions",
+            "numbers + abstraction"
+        ],
+        "labs" : [
+            "byob",
+            "conditionals"
+        ],
+        "discussion" : [
+            "numberRepresentation"
+        ]
+    },
+
+    "3" : {
+        "lectures" : [
+            "lists + scoping"
+        ],
+        "labs" : [
+            "abstraction",
+            "lists"
+        ],
+        "discussion" : [
+            "scoping"
+        ]
+    },
+
+    "4" : {
+        "lectures" : [
+            "social implications one",
+            "algorithms"
+        ],
+        "labs" : [
+            "work session",
+            "algorithms"
+        ],
+        "discussion" : [
+            "algorithms"
+        ]
+    },
+
+    "5" : {
+        "lectures" : [
+            "complexity",
+            "testing + proj3"
+        ],
+        "labs" : [
+            "complexity",
+            "testing"
+        ],
+        "discussion" : [
+            "algorithmicComplexity"
+        ]
+    },
+
+    "6" : {
+        "lectures" : [
+            "recursion one",
+            "social implications two"
+        ],
+        "labs" : [
+            "boards",
+            "work session"
+        ],
+        "discussion" : [
+            "recursion1"
+        ]
+    },
+
+    "7" : {
+        "lectures" : [
+            "recursion two",
+            "recursion three"
+        ],
+        "labs" : [
+            "fractals",
+            "recursiveReporters"
+        ],
+        "discussion" : [
+            "recursion2"
+        ]
+    },
+
+    "8" : {
+        "lectures" : [
+            "procedures",
+            "paradigms"
+        ],
+        "labs" : [
+            "functionsAsData",
+            "catchup lab"
+        ],
+        "discussion" : [
+            "midtermReview"
+        ]
+    },
+
+    "9" : {
+        "lectures" : [
+            "python one",
+            "python two"
+        ],
+        "labs" : [
+            "pythonIntro",
+            "dataStructures"
+        ],
+        "discussion" : [
+            "python1"
+        ]
+    },
+
+    "10" : {
+        "lectures" : [
+            "python four",
+            "python three"
+        ],
+        "labs" : [
+            "oop",
+            "work session"
+        ],
+        "discussion" : [
+            "python2"
+        ]
+    },
+
+    "11" : {
+        "lectures" : [
+            "election",
+            "social implications three"
+        ],
+        "labs" : [
+            "election",
+            "textProcessing"
+        ],
+        "discussion" : [
+            "socialImplications1"
+        ]
+    },
+
+    "12" : {
+        "lectures" : [
+            "python five"
+        ],
+        "labs" : [
+            "dataScience",
+            "libraries"
+        ],
+        "discussion" : [
+            "python3"
+        ]
+    },
+
+    "13" : {
+        "lectures" : [
+            "concurrency",
+            "hci"
+        ],
+        "labs" : [
+            "concurrency",
+            "work session"
+        ],
+        "discussion" : [
+            "conceptOverview"
+        ]
+    },
+
+    "14" : {
+        "lectures" : [
+            "ai"
+        ],
+        "labs" : [
+            "work session"
+        ],
+        "discussion" : [
+            "none"
+        ]
+    },
+
+    "15" : {
+        "lectures" : [
+            "alumni",
+            "farewell"
+        ],
+        "labs" : [
+            "work session",
+            "work session"
+        ],
+        "discussion" : [
+            "finalReview"
+        ]
+    }
+}
