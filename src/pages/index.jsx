@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "../components/navigation.jsx";
 import { renderQuickLinks } from "../components/quick-links.jsx";
 import { Helmet } from 'react-helmet';
+import { WeekLectureContent } from "../components/schedule-components/weeklyschedule.jsx";
 
 class Home extends React.Component {
 
@@ -28,6 +29,9 @@ class Home extends React.Component {
                 Dashboard
               </h1>
               { renderQuickLinks() }
+              <div>
+                { WeekLectureContent(1) }
+              </div>
             </div>
         </div>
       </div>

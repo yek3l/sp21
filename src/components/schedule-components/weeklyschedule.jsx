@@ -1,14 +1,14 @@
 import React from "react";
 import { ContentItem } from "./schedule.jsx";
 // import general_config from "../course-data/general-config.json";
-import content_structure from "../course-data/content-structure.json";
-import lecture_data from "../course-data/lecture-data.json";
+import content_structure from "../../course-data/curriculum/content-structure.json";
+import lecture_data from "../../course-data/curriculum/lecture-data.json";
 
 /*
     Contains the weekly schedule component + logic
 */
 
-function WeekLectureContent(currentWeek) {
+export function WeekLectureContent(currentWeek) {
     return WeekContentSection("Lecture", getLectureContentItems(currentWeek));
 }
 

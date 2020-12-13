@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
-import "../styles/sassets/schedule.scss";
+import "../../styles/sassets/schedule.scss";
 
 export function ContentItem(header, subheader, links) {
     /*
