@@ -21,7 +21,7 @@ export function ContentItem(header, subheader, links) {
             <h1 data-tip data-for={header}>
                 {header}
             </h1>
-            <ReactTooltip place="top" id={header} effect="solid">
+            <ReactTooltip className="tool-tip" place="top" id={header} effect="solid">
                 {header}
             </ReactTooltip>
         </div>
@@ -46,7 +46,7 @@ function ContentItemLink(link) {
                     {link.icon}
                 </span>
             </a>
-            <ReactTooltip place="top" id={link.title} effect="solid">
+            <ReactTooltip className="tool-tip" place="top" id={link.title} effect="solid">
                 {link.title}
             </ReactTooltip>
        </div>    
