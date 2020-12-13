@@ -8,7 +8,7 @@ class NavigationBar extends React.Component {
 
     render() {
         return (
-            <div className="navbar navbar-expand-lg navbar-light bg-light">
+            <div className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <Link className="navbar-brand" to="/">
                         CS10: The Beauty and Joy of Computing

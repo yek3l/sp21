@@ -9,7 +9,7 @@ export default class Calendar extends React.Component {
           <div className="col">
               <div className="calendar-container">
                 <FullCalendar
-                    plugins={[ dayGridPlugin ]}
+                    plugins={[dayGridPlugin ]}
                     initialView="dayGridMonth"
                 />
               </div>
