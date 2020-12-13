@@ -53,6 +53,32 @@ export function SpecialContentItem(header) {
     )
 }
 
+export function getContentNumbers(contentKey) {
+    let content_mapping = {
+        "lectures" : lecture_data,
+        "labs" : lab_data,
+        "discussion" : disc_data
+    }
+
+    let source_content = content_mapping[contentKey];
+
+    let weeks = Object.keys(content_structure).length;
+    let content_numbering = {}
+    var count = 1;
+    for (let week = 1; week <= weeks; week++) {
+        let week_content = content_structure[week][contentKey]
+        for (let i = 0; i < week_content.length; i++) {
+            let content = week_content[i];
+            let exists = source_content[content]
+            if (exists !== undefined) {
+                content_numbering[content] = count;
+                count += 1;
+            }
+        }
+    }
+    return content_numbering;
+}
+
 function ContentItemLink(link) {
     /*
         Link should be an object containing the following:

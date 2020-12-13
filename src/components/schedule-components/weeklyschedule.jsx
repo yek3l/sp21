@@ -1,5 +1,5 @@
 import React from "react";
-import { ContentItem, SpecialContentItem, getCurrentWeek } from "./schedule.jsx";
+import { ContentItem, SpecialContentItem, getCurrentWeek, getContentNumbers } from "./schedule.jsx";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
@@ -39,6 +39,8 @@ function WeekContentSection(header, contentItems) {
 
 function WeekLectureContent(currentWeek) {
     let contentItems = getContentItems(currentWeek, "lectures")
+    let contentNumbers = getContentNumbers("lectures");
+    console.log(contentNumbers);
     return WeekContentSection("Lecture", contentItems);
 }
 
@@ -71,18 +73,20 @@ function getContentItems(currentWeek, contentKey) {
 
     let keys = content_structure[currentWeek][contentKey];
     let content_source = content_mapping[contentKey]
+    let content_numbering = getContentNumbers(contentKey);
     for (let i = 0; i < keys.length; i++) {
         let key = keys[i];
+        let number = content_numbering[key];
         var contentData = content_source[key];
         if (contentData !== undefined) {
             if (contentKey === "lectures") {
-                contentItems.push(lectureDataToContentItem(contentData, 1 + i));
+                contentItems.push(lectureDataToContentItem(contentData, number));
             }
             if (contentKey === "labs") {
-                contentItems.push(labDataToContentItem(contentData, 1 + i));
+                contentItems.push(labDataToContentItem(contentData, number));
             }
             if (contentKey === "discussion") {
-                contentItems.push(discDataToContentItem(contentData, 1 + i));
+                contentItems.push(discDataToContentItem(contentData, number));
             }
         } else {
             contentData = special_events[key]
@@ -120,10 +124,6 @@ function discDataToContentItem(discData, contentCount) {
     let icon_2 = new Link("solutions", discData["checkoff"], "done_all");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
     return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3]);
-}
-
-function getContentNumber() {
-    return 1;
 }
 
 class Link {
