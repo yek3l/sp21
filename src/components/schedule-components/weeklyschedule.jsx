@@ -1,10 +1,11 @@
 import React from "react";
-import { ContentItem } from "./schedule.jsx";
-// import general_config from "../course-data/general-config.json";
+import { ContentItem, SpecialContentItem } from "./schedule.jsx";
+import general_config from "../../course-data/general-config.json";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
+import special_events from "../../course-data/curriculum/special-events.json";
 import "../../styles/sassets/schedule.scss";
 
 /*
@@ -12,13 +13,15 @@ import "../../styles/sassets/schedule.scss";
 */
 
 function WeekContent(currentWeek) {
+    let week = getCurrentWeek();
+    currentWeek = week;
     return (
-        <div>
+        <div className="col-6">
             { WeekLectureContent(currentWeek) }
             { WeekLabContent(currentWeek) }
             { WeekDiscContent(currentWeek) }
         </div>
-    );
+    );  
 }
 
 // Week Section Component
@@ -36,52 +39,61 @@ function WeekContentSection(header, contentItems) {
 }
 
 function WeekLectureContent(currentWeek) {
-    return WeekContentSection("Lecture", getLectureContentItems(currentWeek));
+    let contentItems = getContentItems(currentWeek, "lectures")
+    return WeekContentSection("Lecture", contentItems);
 }
 
 function WeekLabContent(currentWeek) {
-    return WeekContentSection("Lab", getLabContentItems(currentWeek));
+    let contentItems = getContentItems(currentWeek, "labs")
+    return WeekContentSection("Lab", contentItems);
 }
 
 function WeekDiscContent(currentWeek) {
-    return WeekContentSection("Discussion", getDiscussionContentItems(currentWeek));
+    let contentItems = getContentItems(currentWeek, "discussion")
+    return WeekContentSection("Discussion", contentItems);
 }
 
-// Content Item Rendering
-function getLectureContentItems(currentWeek) {
-    let weekLectureData = getContentData(currentWeek, "lectures");
-    let contentItems = [];
-    for (let i = 0; i < weekLectureData.length; i++) {
-        // TODO: Add support for holidays/special events.
-        let lectureData = weekLectureData[i];
-        contentItems.push(lectureDataToContentItem(lectureData, 1));
-    }
-    return contentItems;
-}
 
-function getLabContentItems(currentWeek) {
-    let weekLabData = getContentData(currentWeek, "labs");
-    let contentItems = [];
-    for (let i = 0; i < weekLabData.length; i++) {
-        // TODO: Add support for holidays/special events.
-        let labData = weekLabData[i];
-        contentItems.push(labDataToContentItem(labData, 1));
-    }
-    return contentItems;
-}
-
-function getDiscussionContentItems(currentWeek) {
-    let weekDiscData = getContentData(currentWeek, "discussion");
-    let contentItems = [];
-    for (let i = 0; i < weekDiscData.length; i++) {
-        // TODO: Add support for holidays/special events.
-        let discData = weekDiscData[i];
-        contentItems.push(discDataToContentItem(discData, 1));
-    }
-    return contentItems;
-}
 
 // Data -> Content Items
+
+/*
+    This function does the heavy lifting of accessing the curriculum data.
+    Will search the contentKey by default, and fallback on special-event
+    in case it can't find the
+*/
+function getContentItems(currentWeek, contentKey) {
+    let content_mapping = {
+        "lectures" : lecture_data,
+        "labs" : lab_data,
+        "discussion" : disc_data
+    }
+    let contentItems = [];
+
+    let keys = content_structure[currentWeek][contentKey];
+    let content_source = content_mapping[contentKey]
+    for (let i = 0; i < keys.length; i++) {
+        let key = keys[i];
+        var contentData = content_source[key];
+        if (contentData !== undefined) {
+            if (contentKey === "lectures") {
+                contentItems.push(lectureDataToContentItem(contentData, 1 + i));
+            }
+            if (contentKey === "labs") {
+                contentItems.push(labDataToContentItem(contentData, 1 + i));
+            }
+            if (contentKey === "discussion") {
+                contentItems.push(discDataToContentItem(contentData, 1 + i));
+            }
+        } else {
+            contentData = special_events[key]
+            contentItems.push(SpecialContentItem(contentData))
+        }
+    }
+
+    return contentItems;
+}
+
 /* 
     Converts a single content value (i.e one value in the lecture-data json)),
     into a ContentItem component.
@@ -111,29 +123,22 @@ function discDataToContentItem(discData, contentCount) {
     return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3]);
 }
 
-// Data Grabbers
-function getContentData(currentWeek, contentKey) {
-    /*
-        Returns an array containing the values from the requested
-        contentKey json (i.e. lecture-data).
-    */
-
-   let content_mapping = {
-        "lectures" : lecture_data,
-        "labs" : lab_data,
-        "discussion" : disc_data
-    }
-
-    let keys = content_structure[currentWeek][contentKey];
-    let content_source = content_mapping[contentKey];
-    let resources = [];
-    keys.forEach(key => resources.push(content_source[key]));
-    return resources;
+// General Utilities
+function getSundayOfDate(date) {
+    let d = new Date(date);
+    let diff = d.getDate() - d.getDay();
+    return new Date(d.setDate(diff));
 }
 
-// General Utilities
 function getCurrentWeek() {
-    return 1;
+    let today = new Date();
+    let current_sunday = getSundayOfDate(today);
+    let start_sunday = getSundayOfDate(general_config["semester-start-date"])
+
+    // date differences are returned in milliseconds. Divisor converts to days
+    let divisor = 1000 * 60 * 60 * 24
+    let difference = (current_sunday - start_sunday) / divisor
+    return Math.floor(difference / 7);
 }
 
 function getContentNumber() {

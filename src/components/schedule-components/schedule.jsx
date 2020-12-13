@@ -8,6 +8,7 @@ export function ContentItem(header, subheader, links) {
     */
 
     let content_links = [];
+    // TODO: Make popover
     links.slice(0, 3).forEach(
         link => content_links.push(ContentItemLink(link))
     )
@@ -31,6 +32,26 @@ export function ContentItem(header, subheader, links) {
     </div>)
 }
 
+export function SpecialContentItem(header) {
+    /*
+        Note: only the first 2 links will be displayed.
+    */
+
+
+    return (
+        <div className="content-item">
+            <div className="content-item-header">
+                <h1 data-tip data-for={header}>
+                    {header}
+                </h1>
+                <ReactTooltip className="tool-tip" place="top" id={header} effect="solid">
+                    {header}
+                </ReactTooltip>
+            </div>
+        </div>
+    )
+}
+
 function ContentItemLink(link) {
     /*
         Link should be an object containing the following:
@@ -38,7 +59,6 @@ function ContentItemLink(link) {
             - dest
             - icon
     */
-   console.log(link);
    return (
        <div className="icon-bubble">
            <a href={link.dest} target="_blank" rel="noreferrer" data-tip data-for={link.title}>

@@ -3,10 +3,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 320px;
-    border: 1px solid #dadada;
+    min-width: 320px;
+    max-width: 320px;
+    box-shadow: 0 1px 3px 0px #bebebe;
     border-radius: 8px;
     padding: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
 
     .content-item-header {
         display: block;
@@ -52,6 +55,12 @@
     }}
 }
 
+.week-content {
+    display: flex;
+    flex-direction: column;
+    width: 40%
+}
+
 .week-content-section {
 
     h1 {
@@ -61,7 +70,7 @@
     .content-items {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
 }

@@ -2,6 +2,7 @@ import React from "react";
 
 // Styles
 import "../styles/main.scss"
+import "../styles/sassets/dashboard.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
@@ -28,7 +29,9 @@ class Home extends React.Component {
                 Dashboard
               </h1>
               { renderQuickLinks() }
-              { WeekContent(1) }
+              <div className="dashboard-body">
+              { WeekContent(4) }
+              </div>
             </div>
         </div>
       </div>
