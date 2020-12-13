@@ -2,6 +2,9 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import "../../styles/sassets/schedule.scss";
 import general_config from "../../course-data/general-config.json";
+import lecture_data from "../../course-data/curriculum/lecture-data.json";
+import lab_data from "../../course-data/curriculum/lab-data.json";
+import disc_data from "../../course-data/curriculum/discussion-data.json";
 
 export function ContentItem(header, subheader, links) {
     /*
