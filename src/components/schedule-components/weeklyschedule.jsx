@@ -1,6 +1,5 @@
 import React from "react";
-import { ContentItem, SpecialContentItem } from "./schedule.jsx";
-import general_config from "../../course-data/general-config.json";
+import { ContentItem, SpecialContentItem, getCurrentWeek } from "./schedule.jsx";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
@@ -121,24 +120,6 @@ function discDataToContentItem(discData, contentCount) {
     let icon_2 = new Link("solutions", discData["checkoff"], "done_all");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
     return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3]);
-}
-
-// General Utilities
-function getSundayOfDate(date) {
-    let d = new Date(date);
-    let diff = d.getDate() - d.getDay();
-    return new Date(d.setDate(diff));
-}
-
-function getCurrentWeek() {
-    let today = new Date();
-    let current_sunday = getSundayOfDate(today);
-    let start_sunday = getSundayOfDate(general_config["semester-start-date"])
-
-    // date differences are returned in milliseconds. Divisor converts to days
-    let divisor = 1000 * 60 * 60 * 24
-    let difference = (current_sunday - start_sunday) / divisor
-    return Math.floor(difference / 7);
 }
 
 function getContentNumber() {

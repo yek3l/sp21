@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import "../../styles/sassets/schedule.scss";
+import general_config from "../../course-data/general-config.json";
 
 export function ContentItem(header, subheader, links) {
     /*
@@ -71,4 +72,22 @@ function ContentItemLink(link) {
             </ReactTooltip>
        </div>    
    );
+}
+
+// General Utilities
+function getSundayOfDate(date) {
+    let d = new Date(date);
+    let diff = d.getDate() - d.getDay();
+    return new Date(d.setDate(diff));
+}
+
+export function getCurrentWeek() {
+    let today = new Date();
+    let current_sunday = getSundayOfDate(today);
+    let start_sunday = getSundayOfDate(general_config["semester-start-date"])
+
+    // date differences are returned in milliseconds. Divisor converts to days
+    let divisor = 1000 * 60 * 60 * 24
+    let difference = (current_sunday - start_sunday) / divisor
+    return Math.floor(difference / 7);
 }
