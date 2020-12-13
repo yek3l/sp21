@@ -10,6 +10,7 @@ import NavigationBar from "../components/navigation.jsx";
 import { renderQuickLinks } from "../components/quick-links.jsx";
 import { Helmet } from 'react-helmet';
 import WeekContent from "../components/schedule-components/weeklyschedule.jsx";
+import Calendar from "../components/schedule-components/calendar.jsx";
 
 class Home extends React.Component {
 
@@ -24,14 +25,16 @@ class Home extends React.Component {
         </Helmet>
         <div>
             <NavigationBar />
-            <div className="container-fluid">
+            <div className="container-fluid content-body">
               <h1>
                 Dashboard
               </h1>
               { renderQuickLinks() }
-              <div className="dashboard-body">
-                { WeekContent(4) }
-                
+              <div className="content-section">
+                <div className="dashboard-body">
+                  { WeekContent(4) }
+                  <Calendar />
+                </div>
               </div>
             </div>
         </div>

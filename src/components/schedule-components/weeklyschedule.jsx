@@ -15,7 +15,7 @@ function WeekContent(currentWeek) {
     let week = getCurrentWeek();
     currentWeek = week;
     return (
-        <div className="col-6">
+        <div className="col-6 week-content">
             { WeekLectureContent(currentWeek) }
             { WeekLabContent(currentWeek) }
             { WeekDiscContent(currentWeek) }
