@@ -207,7 +207,7 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-oop.topic&course=cs10_su18.html&novideo&noreading&noassignment",
         "checkoff" : "https://docs.google.com/forms/d/e/1FAIpQLSe65UC4-0M_c1OfCNws2m1eLM5v2losAGIMbcPvKZpxguog5g/viewform",
         "checkOffQuestions" : [
-            "Reading Response Question (Required): AlphaStar was able to beat pro humans in StarCraft, but it may have had "unfair" advantages as a result of being a computer AI, rather than a human.  Using an example from the reading, what is one advantage that AlphaStar has over human players?  In your opinion, is creating a computer agent that can defeat humans in a game like StarCraft an important accomplishment, despite these \"unfair\" advantages the computer may have?",
+            "Reading Response Question (Required): AlphaStar was able to beat pro humans in StarCraft, but it may have had \"unfair\" advantages as a result of being a computer AI, rather than a human.  Using an example from the reading, what is one advantage that AlphaStar has over human players?  In your opinion, is creating a computer agent that can defeat humans in a game like StarCraft an important accomplishment, despite these \"unfair\" advantages the computer may have?",
             "Describe the purpose of an \"init\" function.",
             "What takes precedence, an instance attribute or a class attribute?",
             "Name two different ways to assign instance attributes.",
