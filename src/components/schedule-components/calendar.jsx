@@ -1,6 +1,6 @@
 import React from "react";
 import FullCalendar from '@fullcalendar/react';
-import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid'
 import "../../styles/sassets/schedule.scss";
 
 export default class Calendar extends React.Component {
@@ -9,7 +9,7 @@ export default class Calendar extends React.Component {
           <div className="col">
               <div className="calendar-container">
                 <FullCalendar
-                    plugins={[dayGridPlugin ]}
+                    plugins={[timeGridPlugin ]}
                     initialView="dayGridMonth"
                 />
               </div>
