@@ -40,7 +40,6 @@ function WeekContentSection(header, contentItems) {
 function WeekLectureContent(currentWeek) {
     let contentItems = getContentItems(currentWeek, "lectures")
     let contentNumbers = getContentNumbers("lectures");
-    console.log(contentNumbers);
     return WeekContentSection("Lecture", contentItems);
 }
 

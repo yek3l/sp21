@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import "../../styles/sassets/schedule.scss";
+import content_structure from "../../course-data/curriculum/content-structure.json";
 import general_config from "../../course-data/general-config.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
