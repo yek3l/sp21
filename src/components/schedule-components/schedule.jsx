@@ -90,6 +90,20 @@ function ContentItemLink(link) {
             - dest
             - icon
     */
+   if (link.dest === null) {
+        return (
+            <div className="icon-bubble disabled">
+                <div data-tip data-for={link.title}>
+                    <span className="material-icons">
+                        {link.icon}
+                    </span>
+                </div>
+                <ReactTooltip className="tool-tip" place="top" id={link.title} effect="solid">
+                    {link.title}
+                </ReactTooltip>
+            </div>    
+        );
+   }
    return (
        <div className="icon-bubble">
            <a href={link.dest} target="_blank" rel="noreferrer" data-tip data-for={link.title}>

@@ -39,7 +39,6 @@ function WeekContentSection(header, contentItems) {
 
 function WeekLectureContent(currentWeek) {
     let contentItems = getContentItems(currentWeek, "lectures")
-    let contentNumbers = getContentNumbers("lectures");
     return WeekContentSection("Lecture", contentItems);
 }
 
@@ -105,8 +104,8 @@ function getContentItems(currentWeek, contentKey) {
         contentCount: the count of the particular content (e.g. lecture 1)
 */
 function lectureDataToContentItem(lectureData, contentCount) {
-    let icon_1 = new Link("webcast", lectureData["webcast"], "videocam");
-    let icon_2 = new Link("webcast slides", lectureData["webcast_slides"], "slideshow");
+    let icon_1 = new Link("live session recording", lectureData["live_session_recording"], "videocam");
+    let icon_2 = new Link("live session slides", lectureData["live_session_slides"], "slideshow");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
     return ContentItem(lectureData["title"], "Lecture " + contentCount, [icon_1, icon_2, icon_3]);
 }

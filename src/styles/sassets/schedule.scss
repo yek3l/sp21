@@ -55,6 +55,16 @@
     }}
 }
 
+.disabled {
+    background-color: #7eb2ff;
+    
+    div { span {
+        max-height: 20px;
+        padding-top: 4px;
+        color: white;
+    }}
+}
+
 .week-content {
     display: flex;
     flex-direction: column;
