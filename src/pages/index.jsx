@@ -29,7 +29,7 @@ class Home extends React.Component {
         </Helmet>
         <div>
             <NavigationBar />
-            <div className="container content-body">
+            <div className="container-fluid content-body">
               <h1>
                 Dashboard
               </h1>

@@ -43,6 +43,8 @@
     .quick-link-label {
         font-size: 14px;
         margin: 0 auto;
+        display: inline;
+        text-overflow: ellipsis;
     }
 
     transition-timing-function: linear;
