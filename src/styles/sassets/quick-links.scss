@@ -10,9 +10,15 @@
 }
 
 .quick-link-anchor {
+    margin-right: 2%;
     text-decoration: none;
-    margin-right: 2%
 }
+
+.quick-link-anchor:hover {
+    text-decoration: none;
+}
+
+
 
 .quick-link {
     display: inline-flex;
@@ -45,4 +51,5 @@
 
 .quick-link:hover {
     box-shadow: 0 1px 3px 0px #bebebe;
+    text-decoration: none;
 }
