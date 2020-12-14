@@ -38,7 +38,10 @@
     .content-item-links {
         min-width: 126px;
     }
+}
 
+.icon-link:hover {
+    text-decoration: none;
 }
 
 .icon-bubble {
@@ -52,11 +55,11 @@
     justify-content: space-around;
     margin-left: 10px;
 
-    a { span {
+    span {
         max-height: 20px;
         padding-top: 4px;
         color: white;
-    }}
+    }
 }
 
 .disabled {

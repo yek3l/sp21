@@ -118,8 +118,8 @@ function labDataToContentItem(labData, contentCount) {
 }
 
 function discDataToContentItem(discData, contentCount) {
-    let icon_1 = new Link("worksheet", discData["link"], "create");
-    let icon_2 = new Link("solutions", discData["checkoff"], "done_all");
+    let icon_1 = new Link("worksheet", discData["worksheet"], "create");
+    let icon_2 = new Link("solutions", discData["solutions"], "done_all");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
     return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3]);
 }

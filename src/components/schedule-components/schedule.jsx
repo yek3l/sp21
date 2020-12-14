@@ -1,5 +1,6 @@
 import React from 'react';
-import ReactTooltip from 'react-tooltip';
+import Tooltip from 'react-bootstrap/Tooltip';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import "../../styles/sassets/schedule.scss";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import general_config from "../../course-data/general-config.json";
@@ -24,12 +25,16 @@ export function ContentItem(header, subheader, links) {
             <h2>
                 {subheader}
             </h2>
-            <h1 data-tip data-for={header}>
-                {header}
-            </h1>
-            <ReactTooltip className="tool-tip" place="top" id={header} effect="solid">
-                {header}
-            </ReactTooltip>
+            <OverlayTrigger key="header" placement="top"
+                overlay={
+                    <Tooltip id={"tooltip-" + header}>
+                        {header}
+                    </Tooltip>
+                }>
+                    <h1>
+                        {header}
+                    </h1>
+            </ OverlayTrigger>
         </div>
         <div className="content-item-links">
             { content_links }
@@ -43,17 +48,24 @@ export function SpecialContentItem(header) {
     */
 
 
-    return (
-        <div className="content-item">
-            <div className="content-item-header">
-                <h1 data-tip data-for={header}>
-                    {header}
-                </h1>
-                <ReactTooltip className="tool-tip" place="top" id={header} effect="solid">
-                    {header}
-                </ReactTooltip>
+    return (    
+            <div className="content-item">
+                <div className="content-item-header">
+                <OverlayTrigger
+                    key="header"
+                    placement="top"
+                    overlay={
+                        <Tooltip id={"tooltip-" + header}>
+                            {header}
+                        </Tooltip>
+                    }
+                >
+                    <h1>
+                        {header}
+                    </h1>
+                </ OverlayTrigger>
+                </div>
             </div>
-        </div>
     )
 }
 
@@ -90,31 +102,30 @@ function ContentItemLink(link) {
             - dest
             - icon
     */
-   if (link.dest === null) {
+   if (link.dest === null || link.dest === undefined) {
         return (
             <div className="icon-bubble disabled">
-                <div data-tip data-for={link.title}>
                     <span className="material-icons">
                         {link.icon}
                     </span>
-                </div>
-                <ReactTooltip className="tool-tip" place="top" id={link.title} effect="solid">
-                    {link.title}
-                </ReactTooltip>
             </div>    
         );
    }
    return (
-       <div className="icon-bubble">
-           <a href={link.dest} target="_blank" rel="noreferrer" data-tip data-for={link.title}>
-                <span className="material-icons">
-                    {link.icon}
-                </span>
-            </a>
-            <ReactTooltip className="tool-tip" place="top" id={link.title} effect="solid">
-                {link.title}
-            </ReactTooltip>
-       </div>    
+        <a className="icon-link" href={link.dest} target="_blank" rel="noreferrer">
+            <div className="icon-bubble">
+                <OverlayTrigger key="header" placement="top"
+                    overlay={
+                        <Tooltip id={"tooltip-" + link.title}>
+                            {link.title}
+                        </Tooltip>
+                    }>
+                            <span className="material-icons">
+                                {link.icon}
+                            </span>
+                </ OverlayTrigger>
+            </div>
+        </a>
    );
 }
 
