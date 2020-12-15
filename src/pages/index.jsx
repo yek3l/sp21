@@ -38,10 +38,7 @@ class Home extends React.Component {
                 <h2>
                   This week in CS10
                 </h2>
-                <div className="dashboard-body">
-                  { WeekContent(4) }
-                  <CourseCalendar />
-                </div>
+                {WeekContent(1)}
               </div>
             </div>
         </div>

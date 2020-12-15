@@ -8,7 +8,7 @@ import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
 
-export function ContentItem(header, subheader, links) {
+export function ContentItem(header, subheader, links, subheaderbg) {
     /*
         Note: only the first 2 links will be displayed.
     */
@@ -20,26 +20,20 @@ export function ContentItem(header, subheader, links) {
     )
 
     return (
-    <div className="content-item">
-        <div className="content-item-header">
-            <h2>
-                {subheader}
-            </h2>
-            <OverlayTrigger key="header" placement="top"
-                overlay={
-                    <Tooltip id={"tooltip-" + header}>
-                        {header}
-                    </Tooltip>
-                }>
-                    <h1>
-                        {header}
-                    </h1>
-            </ OverlayTrigger>
+        <div class="content-item">
+            <div class="content-header">
+                <div class="label" style={{backgroundColor : subheaderbg}}>
+                    {subheader}
+                </div>
+                <div class="title">
+                    {header}
+                </div>
+            </div>
+            <div class="links">
+                {content_links}
+            </div>
         </div>
-        <div className="content-item-links">
-            { content_links }
-        </div>
-    </div>)
+    )
 }
 
 export function SpecialContentItem(header) {
@@ -49,23 +43,7 @@ export function SpecialContentItem(header) {
 
 
     return (    
-            <div className="content-item">
-                <div className="content-item-header">
-                <OverlayTrigger
-                    key="header"
-                    placement="top"
-                    overlay={
-                        <Tooltip id={"tooltip-" + header}>
-                            {header}
-                        </Tooltip>
-                    }
-                >
-                    <h1>
-                        {header}
-                    </h1>
-                </ OverlayTrigger>
-                </div>
-            </div>
+        <h1>hi</h1>
     )
 }
 
@@ -113,18 +91,16 @@ function ContentItemLink(link) {
    }
    return (
         <a className="icon-link" href={link.dest} target="_blank" rel="noreferrer">
-            <div className="icon-bubble">
-                <OverlayTrigger key="header" placement="top"
-                    overlay={
-                        <Tooltip id={"tooltip-" + link.title}>
-                            {link.title}
-                        </Tooltip>
-                    }>
-                            <span className="material-icons">
-                                {link.icon}
-                            </span>
-                </ OverlayTrigger>
-            </div>
+            <OverlayTrigger key="header" placement="top"
+                overlay={
+                    <Tooltip id={"tooltip-" + link.title}>
+                        {link.title}
+                    </Tooltip>
+                }>
+                        <span className="material-icons">
+                            {link.icon}
+                        </span>
+            </ OverlayTrigger>
         </a>
    );
 }

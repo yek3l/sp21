@@ -5,17 +5,20 @@ import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
 import special_events from "../../course-data/curriculum/special-events.json";
+import general_config from "../../course-data/general-config.json";
 import "../../styles/sassets/schedule.scss";
 
 /*
     Contains the weekly schedule component + logic
 */
 
+let content_label_colors = general_config["content-label-colors"];
+
 function WeekContent(currentWeek) {
     let week = getCurrentWeek();
     currentWeek = week;
     return (
-        <div className="col week-content">
+        <div className="week-content col-5">
             { WeekLectureContent(currentWeek) }
             { WeekLabContent(currentWeek) }
             { WeekDiscContent(currentWeek) }
@@ -104,24 +107,27 @@ function getContentItems(currentWeek, contentKey) {
         contentCount: the count of the particular content (e.g. lecture 1)
 */
 function lectureDataToContentItem(lectureData, contentCount) {
+    let color = content_label_colors["lectures"];
     let icon_1 = new Link("live session recording", lectureData["live_session_recording"], "videocam");
     let icon_2 = new Link("live session slides", lectureData["live_session_slides"], "slideshow");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(lectureData["title"], "Lecture " + contentCount, [icon_1, icon_2, icon_3]);
+    return ContentItem(lectureData["title"], "Lecture " + contentCount, [icon_1, icon_2, icon_3], color);
 }
 
 function labDataToContentItem(labData, contentCount) {
+    let color = content_label_colors["labs"];
     let icon_1 = new Link("lab page", labData["link"], "computer");
     let icon_2 = new Link("checkoff form", labData["checkoff"], "check_box");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(labData["title"], "Lab " + contentCount, [icon_1, icon_2, icon_3]);
+    return ContentItem(labData["title"], "Lab " + contentCount, [icon_1, icon_2, icon_3], color);
 }
 
 function discDataToContentItem(discData, contentCount) {
+    let color = content_label_colors["discussion"];
     let icon_1 = new Link("worksheet", discData["worksheet"], "create");
     let icon_2 = new Link("solutions", discData["solutions"], "done_all");
     let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3]);
+    return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3], color);
 }
 
 class Link {

@@ -11,8 +11,8 @@ import "../../styles/sassets/schedule.scss";
 export default class Calendar extends React.Component {
     render() {
       return (
-          <div className="col">
-              <div className="calendar-container">
+          <div class="col">
+                <div className="calendar-container">
                 <FullCalendar
                     plugins={[ 
                       timeGridPlugin,

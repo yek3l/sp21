@@ -1,5 +1,12 @@
 {
     "semester-start-date" : "8/26/2020",
     "semester-end-date" : "12/18/2020",
-    "active" : true
+    "active" : true,
+    "content-label-colors" : {
+        "lectures" : "#0074FD",
+        "discussion" : "#FF4B4B",
+        "labs" : "#F3B200",
+        "projects" : "#38CA05",
+        "readings" : "#8445C2"
+    }
 }
