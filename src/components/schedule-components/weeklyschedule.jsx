@@ -14,11 +14,13 @@ import "../../styles/sassets/schedule.scss";
 
 let content_label_colors = general_config["content-label-colors"];
 
-function WeekContent(currentWeek) {
-    let week = getCurrentWeek();
-    currentWeek = week;
+function WeekContent() {
+    let currentWeek = 7;
     return (
         <div className="week-content col-5">
+            <h5>
+                Week {currentWeek}
+            </h5>
             { WeekLectureContent(currentWeek) }
             { WeekLabContent(currentWeek) }
             { WeekDiscContent(currentWeek) }
@@ -30,9 +32,6 @@ function WeekContent(currentWeek) {
 function WeekContentSection(header, contentItems) {
     return (
         <div className="week-content-section">
-            <h1>
-                {header}
-            </h1>
             <div className="content-items">
                 {contentItems}
             </div>

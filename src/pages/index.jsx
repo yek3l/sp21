@@ -35,10 +35,7 @@ class Home extends React.Component {
               </h1>
               { renderQuickLinks() }
               <div className="content-section">
-                <h2>
-                  This week in CS10
-                </h2>
-                {WeekContent(1)}
+                {WeekContent()}
               </div>
             </div>
         </div>

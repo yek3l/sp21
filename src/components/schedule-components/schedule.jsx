@@ -25,9 +25,16 @@ export function ContentItem(header, subheader, links, subheaderbg) {
                 <div class="label" style={{backgroundColor : subheaderbg}}>
                     {subheader}
                 </div>
-                <div class="title">
-                    {header}
-                </div>
+                <OverlayTrigger key="header" placement="top"
+                    overlay={
+                        <Tooltip id={"tooltip-" + header}>
+                            {header}
+                        </Tooltip>
+                    }>
+                    <div class="title">
+                        {header}
+                    </div>
+                </OverlayTrigger>
             </div>
             <div class="links">
                 {content_links}
@@ -43,7 +50,23 @@ export function SpecialContentItem(header) {
 
 
     return (    
-        <h1>hi</h1>
+        <div class="content-item">
+            <div class="content-header">
+                <div class="label" style={{backgroundColor : "#7eb2ff"}}>
+                    No New Content
+                </div>
+                <OverlayTrigger key="header" placement="top"
+                    overlay={
+                        <Tooltip id={"tooltip-" + header}>
+                            {header}
+                        </Tooltip>
+                    }>
+                    <div class="title">
+                        {header}
+                    </div>
+                </OverlayTrigger>
+            </div>
+        </div>
     )
 }
 
@@ -82,11 +105,9 @@ function ContentItemLink(link) {
     */
    if (link.dest === null || link.dest === undefined) {
         return (
-            <div className="icon-bubble disabled">
-                    <span className="material-icons">
-                        {link.icon}
-                    </span>
-            </div>    
+            <span className="material-icons disabled">
+                {link.icon}
+            </span>
         );
    }
    return (
