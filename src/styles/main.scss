@@ -1,4 +1,5 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./sassets/breakpoints";
 
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
@@ -6,6 +7,9 @@ $primary-color: #333;
 body {
   font: 100% $font-stack;
   color: $primary-color;
+  @include smartphone-portrait {
+    height: 200vh;
+  }
 }
 
 .content-section {
