@@ -27,14 +27,15 @@ export default class Calendar extends React.Component {
         )
       }
       return (
-        <div className="calendar-container col">
+        <div className="calendar-container">
           <FullCalendar
+              contentHeight="auto"
+              
               plugins={[ 
                 timeGridPlugin,
                 googleCalendarPlugin,
                 bootstrapPlugin
               ]}
-              contentHeight="1000px"
               themeSystem="bootstrap"
               initialView="timeGridDay"
           />
