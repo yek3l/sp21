@@ -46,7 +46,6 @@
     }
 
     @include smartphone-portrait {
-        max-width: 300px;
         .content-header {
             width: 70%;
         }
@@ -81,21 +80,15 @@ span {
 }
 
 .week-content-section {
-
     .content-items {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
 
-    @include smartphone-portrait {
-        max-width: 375px;
-    }
-
 }
 
 .calendar-container {
     @include shadow-card;
-    width: 345px;
     padding: 30px;
 }
