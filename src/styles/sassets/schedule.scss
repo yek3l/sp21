@@ -46,6 +46,7 @@
     }
 
     @include smartphone-portrait {
+        max-width: 90%;
         .content-header {
             width: 70%;
         }
@@ -109,5 +110,6 @@ span {
     @include smartphone-portrait {
         flex: 0 0 98.6%;
         max-width: 98.6%;
+        height: fit-content;
     }
 }
