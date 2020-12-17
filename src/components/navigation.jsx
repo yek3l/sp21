@@ -3,24 +3,23 @@ import { Link } from "gatsby";
 import "../styles/main.scss";
 import "../styles/sassets/navigation-bar.scss";
 import navbar_config from "../course-data/navbar-config.json";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 class NavigationBar extends React.Component {
 
     render() {
         return (
-            <div className="navbar navbar-expand-lg navbar-dark bg-blue">
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">
-                        CS10: The Beauty and Joy of Computing
-                    </Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <Navbar className="bg-blue" expand="lg">
+                <Link className="navbar-brand" to="/">
+                    CS10: The Beauty and Joy of Computing
+                </Link>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="mr-auto">
                         {getNavbarLinks()}
-                    </div>
-                </div>
-            </div>
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
         );
     }
 }

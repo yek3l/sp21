@@ -46,6 +46,7 @@
     }
 
     @include smartphone-portrait {
+        max-width: 90%;
         .content-header {
             width: 70%;
         }
@@ -77,6 +78,14 @@ span {
     flex-wrap: wrap;
     padding: 10px;
     margin-right: 20px;
+
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    
+    @include smartphone-portrait {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 .week-content-section {
