@@ -13,7 +13,7 @@ export default class Calendar extends React.Component {
     render() {
       if (isBrowser) {
         return (
-          <div className="calendar-container col">
+          <div className="calendar-container">
             <FullCalendar
                 plugins={[ 
                   timeGridPlugin,
@@ -27,10 +27,9 @@ export default class Calendar extends React.Component {
         )
       }
       return (
-        <div className="calendar-container col-12">
+        <div className="calendar-container">
           <FullCalendar
               contentHeight="auto"
-              
               plugins={[ 
                 timeGridPlugin,
                 googleCalendarPlugin,

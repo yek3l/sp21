@@ -8,7 +8,6 @@ import special_events from "../../course-data/curriculum/special-events.json";
 import general_config from "../../course-data/general-config.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../styles/sassets/schedule.scss";
-import { isMobile } from "react-device-detect";
 
 /*
     Contains the weekly schedule component + logic

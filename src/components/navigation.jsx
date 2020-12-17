@@ -9,7 +9,7 @@ class NavigationBar extends React.Component {
 
     render() {
         return (
-            <Navbar className="bg-blue" expand="lg">
+            <Navbar className="bg-blue" variant="dark" expand="lg">
                 <Link className="navbar-brand" to="/">
                     CS10: The Beauty and Joy of Computing
                 </Link>
