@@ -50,7 +50,7 @@ function getNavbarLinks() {
     let links = [];
     navbar_config.forEach(navlink => links.push(getLink(navlink)))
     return (
-        <ul className="navbar-nav ms-auto">
+        <ul className="navbar-nav mr-auto">
             {links}
         </ul>
     )
