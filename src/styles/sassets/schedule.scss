@@ -1,6 +1,7 @@
 @mixin shadow-card {
     box-shadow: 0 0px 5px 0px #dfdfdf;
     border-radius: 3px;
+    margin-bottom: 20px;
 }
 
 .content-item {

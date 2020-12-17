@@ -17,7 +17,7 @@ let content_label_colors = general_config["content-label-colors"];
 function WeekContent() {
     let currentWeek = 7;
     return (
-        <div className="week-content col-5">
+        <div className="week-content col-4">
             <h5>
                 Week {currentWeek}
             </h5>

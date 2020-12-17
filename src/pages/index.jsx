@@ -29,13 +29,14 @@ class Home extends React.Component {
         </Helmet>
         <div>
             <NavigationBar />
-            <div className="container-fluid content-body">
+            <div className="container-fluid">
               <h1>
                 Dashboard
               </h1>
               { renderQuickLinks() }
-              <div className="content-section">
+              <div className="content-body">
                 {WeekContent()}
+                {<CourseCalendar />}
               </div>
             </div>
         </div>
