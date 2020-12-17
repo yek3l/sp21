@@ -11,10 +11,36 @@ import { isBrowser } from "react-device-detect";
 
 export default class Calendar extends React.Component {
     render() {
+      let apiKey = "AIzaSyAPCQsLN6kzHXHxk2yFZFg-qk3y7ESqg9I"
+      let eventSources = [
+        { 
+            googleCalendarId: 'berkeley.edu_k2g60q1sehd2u0ujd257jqm7h0@group.calendar.google.com',
+            className : 'oh-calendar',
+            color: "#8445C2"
+        },
+        { 
+            googleCalendarId: 'berkeley.edu_1g3duo9lb53vu09orjictriud4@group.calendar.google.com',
+            className : 'disc-calendar',
+            color : "#FFBB00"
+        },
+        { 
+            googleCalendarId: 'berkeley.edu_d358eocqj23pak3atie23vk35o@group.calendar.google.com',
+            className : 'lab-calendar',
+            color: "#66894D"
+        },
+        { 
+            googleCalendarId: 'berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk@group.calendar.google.com',
+            className : 'lect-calendar',
+            color: "#4085E3"
+        }
+    ]
+
       if (isBrowser) {
         return (
           <div className="calendar-container">
             <FullCalendar
+                googleCalendarApiKey={apiKey}
+                eventSources={eventSources}
                 plugins={[ 
                   timeGridPlugin,
                   googleCalendarPlugin,
@@ -29,6 +55,8 @@ export default class Calendar extends React.Component {
       return (
         <div className="calendar-container">
           <FullCalendar
+              googleCalendarApiKey={apiKey}
+              eventSources={eventSources}
               contentHeight="auto"
               plugins={[ 
                 timeGridPlugin,
