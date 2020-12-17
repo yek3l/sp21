@@ -7,6 +7,7 @@ import disc_data from "../../course-data/curriculum/discussion-data.json";
 import special_events from "../../course-data/curriculum/special-events.json";
 import general_config from "../../course-data/general-config.json";
 import "../../styles/sassets/schedule.scss";
+import { isBrowser } from "react-device-detect";
 
 /*
     Contains the weekly schedule component + logic
@@ -16,8 +17,20 @@ let content_label_colors = general_config["content-label-colors"];
 
 function WeekContent() {
     let currentWeek = 7;
+    if (isBrowser) {
+        return (
+            <div className="week-content col-4">
+                <h5>
+                    Week {currentWeek}
+                </h5>
+                { WeekLectureContent(currentWeek) }
+                { WeekLabContent(currentWeek) }
+                { WeekDiscContent(currentWeek) }
+            </div>
+        ); 
+    } 
     return (
-        <div className="week-content col-4">
+        <div className="week-content col">
             <h5>
                 Week {currentWeek}
             </h5>
@@ -25,7 +38,7 @@ function WeekContent() {
             { WeekLabContent(currentWeek) }
             { WeekDiscContent(currentWeek) }
         </div>
-    );  
+    ); 
 }
 
 // Week Section Component

@@ -1,12 +1,24 @@
 @import "../main.scss";
+@import "./breakpoints";
 
 .quick-link-bar {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    // justify-content: space-between;
     align-content: flex-start;
     overflow-wrap: normal;
+
+    @include smartphone-portrait {
+        overflow: scroll;
+        flex-wrap: nowrap;
+    }
+}
+
+.quick-link-bar::-webkit-scrollbar {
+    @include smartphone-portrait {
+        width: 0px;
+        background: transparent;
+    }
 }
 
 .quick-link-anchor {

@@ -1,3 +1,5 @@
+@import "./breakpoints";
+
 @mixin shadow-card {
     box-shadow: 0 0px 5px 0px #dfdfdf;
     border-radius: 3px;
@@ -11,12 +13,16 @@
     margin-top: 10px;
     max-height: 24px;
 
+    @include smartphone-portrait {
+        max-width: 300px;
+    }
+
     .content-header {
         width: 80%;
         display: flex;
         flex-direction: row;
         .label {
-            max-width: 30%;
+            min-width: 30%;
             text-align: center;
             border-radius: 3px;
             font-size: 12px;
@@ -37,7 +43,7 @@
     }
 
     .links {
-        width: 20%;
+        min-width: 20%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -75,13 +81,10 @@ span {
         flex-wrap: wrap;
     }
 
-}
+    @include smartphone-portrait {
+        max-width: 375px;
+    }
 
-.tool-tip {
-    visibility: hidden;
-    color: white !important;
-    background: #0d6efd !important;
-    padding: 5px !important;
 }
 
 .calendar-container {

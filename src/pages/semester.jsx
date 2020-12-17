@@ -2,7 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 
-class LecturesPage extends React.Component {
+class SemesterPage extends React.Component {
 
     render() {
         return (
@@ -15,7 +15,7 @@ class LecturesPage extends React.Component {
                 <NavigationBar />
                 <div className="container-fluid">
                     <h1>
-                        Lectures
+                        Semester Calendar
                     </h1>
                 </div>
             </div>
@@ -23,4 +23,4 @@ class LecturesPage extends React.Component {
     }
 }
 
-export default LecturesPage;
+export default SemesterPage;

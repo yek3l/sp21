@@ -18,7 +18,8 @@ class Home extends React.Component {
     return (
       <div>
         <Helmet>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+          <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
           <link
             rel="stylesheet"

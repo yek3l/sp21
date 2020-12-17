@@ -1,15 +1,7 @@
 [
     {
-        "label" : "Lectures",
-        "path" : "/lectures"
-    },
-    {
-        "label" : "Labs",
-        "path" : "/labs"
-    },
-    {
-        "label" : "Discussion",
-        "path" : "/discussion"
+        "label" : "Semester Calendar",
+        "path" : "/semester"
     },
     {
         "label" : "Syllabus",
