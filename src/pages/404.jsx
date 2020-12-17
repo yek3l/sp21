@@ -2,7 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 
-class DiscussionPage extends React.Component {
+class ErrorPage404 extends React.Component {
 
     render() {
         return (
@@ -15,7 +15,7 @@ class DiscussionPage extends React.Component {
                 <NavigationBar />
                 <div className="container-fluid">
                     <h1>
-                        Discussion
+                        What do you do when the 404 page is missing too?
                     </h1>
                 </div>
             </div>
@@ -23,4 +23,4 @@ class DiscussionPage extends React.Component {
     }
 }
 
-export default DiscussionPage;
+export default ErrorPage404;

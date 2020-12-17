@@ -46,12 +46,11 @@
     }
 
     @include smartphone-portrait {
-        max-width: 90%;
         .content-header {
             width: 70%;
         }
         .links {
-            min-width: 30%;
+            width: 30%;
         }
     }
 }
@@ -97,6 +96,8 @@ span {
 
 }
 
+.fc-scroller {height:100% !important;}
+
 .calendar-container {
     @include shadow-card;
     padding: 30px;
@@ -106,7 +107,6 @@ span {
     overflow: auto;
     
     @include smartphone-portrait {
-        height: fit-content;
         flex: 0 0 98.6%;
         max-width: 98.6%;
     }

@@ -57,7 +57,7 @@ export default class Calendar extends React.Component {
           <FullCalendar
               googleCalendarApiKey={apiKey}
               eventSources={eventSources}
-              contentHeight="600px"
+              contentHeight="auto"
               plugins={[ 
                 timeGridPlugin,
                 googleCalendarPlugin,
