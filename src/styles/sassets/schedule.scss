@@ -104,9 +104,9 @@ span {
     flex: 0 0 65%;
     max-width: 65%;
     overflow: auto;
-    height: 600px;
     
     @include smartphone-portrait {
+        height: fit-content;
         flex: 0 0 98.6%;
         max-width: 98.6%;
     }
