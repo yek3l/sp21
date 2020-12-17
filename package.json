@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "mobile-dev" : "gatsby develop -H 0.0.0.0 -p 8000",
+    "mobile-dev": "gatsby develop -H 0.0.0.0 -p 8000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -31,7 +31,8 @@
     "react-bootstrap": "^1.4.0",
     "react-device-detect": "^1.14.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "xhr2": "^0.2.0"
   },
   "devDependencies": {
     "gh-pages": "^3.1.0",
