@@ -30,7 +30,7 @@ function WeekContent() {
         ); 
     } 
     return (
-        <div className="week-content col">
+        <div className="week-content col-12">
             <h5>
                 Week {currentWeek}
             </h5>
