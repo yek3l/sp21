@@ -4,14 +4,15 @@ import {
     SpecialContentItem, 
     getCurrentWeek, 
     getContentNumbers, 
-    Link
+    Link,
+    ContentModal
 } from "./schedule.jsx";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
 import special_events from "../../course-data/curriculum/special-events.json";
-import general_config from "../../course-data/general-config.json";
+import ui_colors from "../../course-data/ui-config/ui-colors.config.json";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../../styles/sassets/schedule.scss";
 
@@ -19,7 +20,7 @@ import "../../styles/sassets/schedule.scss";
     Contains the weekly schedule component + logic
 */
 
-let content_label_colors = general_config["content-label-colors"];
+let content_label_colors = ui_colors["weekly-schedule"];
 
 function WeekContent() {
     let currentWeek = 7;
@@ -100,7 +101,6 @@ function getContentItems(currentWeek, contentKey) {
         contentCount: the count of the particular content (e.g. lecture 1)
 */
 function lectureDataToContentItem(lectureData, contentCount) {
-    console.log(lectureData);
     let color = content_label_colors["lectures"];
     let icon_1 = new Link("live session recording", lectureData["live_session_recording"], "videocam");
     let icon_2 = new Link("live session slides", lectureData["live_session_slides"], "slideshow");

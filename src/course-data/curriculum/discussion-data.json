@@ -8,8 +8,7 @@
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1wvffS8_rGTbQUTevNXzgXQrM_0c6WoZk?usp=sharing",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/folders/1wvffS8_rGTbQUTevNXzgXQrM_0c6WoZk?usp=sharing"
             }
         ]
     },
@@ -22,28 +21,23 @@
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1YbFvkAqRSwBoI_qmt0g7NBNWHAjxJXHs?usp=sharing",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/folders/1YbFvkAqRSwBoI_qmt0g7NBNWHAjxJXHs?usp=sharing"
             },
             {
                 "title" : "notes (Maxson)",
-                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing",
-                "icon" : "library_books"
+                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing"
             },
             {
                 "title" : "purplemath notes",
-                "link" : "https://www.purplemath.com/modules/numbbase.htm",
-                "icon" : "library_books"
+                "link" : "https://www.purplemath.com/modules/numbbase.htm"
             },
             {
                 "title" : "khan academy",
-                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc"
             },
             {
                 "title" : "boolean video",
-                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU"
             }
         ]
     },
@@ -56,23 +50,19 @@
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1HiGMiVBrEEVGn0BLqAlUVfQhD4YvxhL_?usp=sharing",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/folders/1HiGMiVBrEEVGn0BLqAlUVfQhD4YvxhL_?usp=sharing"
             },
             {
                 "title" : "Extra Quest Review Worksheet",
-                "link" : "https://drive.google.com/file/d/1stkus1OkUu7-VY_tzrwlwUtWp6rvTA06/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1stkus1OkUu7-VY_tzrwlwUtWp6rvTA06/view?usp=sharing"
             },
             {
                 "title" : "Extra Quest Review Solutions",
-                "link" : "https://drive.google.com/file/d/1WcZrAM8DdTsZNtXar1KHNNhj-zSGXha2/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1WcZrAM8DdTsZNtXar1KHNNhj-zSGXha2/view?usp=sharing"
             },
             {
                 "title" : "[sp18] HOF slides (Matthew)",
-                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677",
-                "icon" : "slideshow"
+                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677"
             }
         ]
     },
@@ -85,23 +75,19 @@
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1iX94fBmHSxHz32gYc6Tm3AAk2Tjo4jDA?usp=sharing",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/folders/1iX94fBmHSxHz32gYc6Tm3AAk2Tjo4jDA?usp=sharing"
             },
             {
                 "title" : "Snap! Mutability Demo",
-                "link" : "https://snap.berkeley.edu/snapsource/snap.html?fbclid=IwAR3aSYKZE8bnpV-gr5xixfziWZgCH3LKmHCeV6seNANYMZ8y1FOQf6XYCVM#present:Username=cs10staff&ProjectName=Mutability%20Discussion",
-                "icon" : "computer"
+                "link" : "https://snap.berkeley.edu/snapsource/snap.html?fbclid=IwAR3aSYKZE8bnpV-gr5xixfziWZgCH3LKmHCeV6seNANYMZ8y1FOQf6XYCVM#present:Username=cs10staff&ProjectName=Mutability%20Discussion"
             },
             {
                 "title" : "Extra HOFs Worksheet",
-                "link" : "https://drive.google.com/file/d/1oS542BrZkKX6et9F-pxbqDF6Wk_EEkfF/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1oS542BrZkKX6et9F-pxbqDF6Wk_EEkfF/view?usp=sharing"
             },
             {
                 "title" : "Extra HOFs Worksheet Solutions",
-                "link" : "https://drive.google.com/file/d/19t-tvV6ylvlBEOYaQgprYvX8oPz4-92t/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/19t-tvV6ylvlBEOYaQgprYvX8oPz4-92t/view?usp=sharing"
             }
         ]
     },
@@ -114,28 +100,23 @@
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/12EEsk8BMy_8EOJ8KprS4kBrGhJF-B1R6?usp=sharing",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/folders/12EEsk8BMy_8EOJ8KprS4kBrGhJF-B1R6?usp=sharing"
             },
             {
                 "title" : "Binary search video",
-                "link" : "https://www.youtube.com/watch?v=T98PIp4omUA",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=T98PIp4omUA"
             },
             {
                 "title" : "Extra Complexity Worksheet",
-                "link" : "https://drive.google.com/file/d/1qohL-JXByojCnu1sbGWNgHYtDqFwoUdn/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1qohL-JXByojCnu1sbGWNgHYtDqFwoUdn/view?usp=sharing"
             },
             {
                 "title" : "Extra Complexity Worksheet Solutions",
-                "link" : "https://drive.google.com/file/d/1kalSkAH_180qu68X2Og3qsSYUC38DEj7/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1kalSkAH_180qu68X2Og3qsSYUC38DEj7/view?usp=sharing"
             },
             {
                 "title" : "Maddie's Notes",
-                "link" : "https://drive.google.com/file/d/1fgCQ3nYBm_Iyg_5ms4jwtFLpOAFJssVs/view?usp=sharing",
-                "icon" : "library_books"
+                "link" : "https://drive.google.com/file/d/1fgCQ3nYBm_Iyg_5ms4jwtFLpOAFJssVs/view?usp=sharing"
             }
         ]
     },
@@ -148,23 +129,19 @@
         "resources" : [
             {
                 "title" : "Recursion write up (Murtz)",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf",
-                "icon" : "library_books"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf"
             },
             {
                 "title" : "Recursion Crib Sheet",
-                "link" : "https://cs10.org/fa20/resources-snap.html",
-                "icon" : "library_books"
+                "link" : "https://cs10.org/fa20/resources-snap.html"
             }, 
             {
                 "title" : "Extra Recursion Problems",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/is0qrz2l9ra25h/jn5lxcdrzbco/Recursion_Practice_Problems.pdf",
-                "icon" : "assignment"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/is0qrz2l9ra25h/jn5lxcdrzbco/Recursion_Practice_Problems.pdf"
             },
             {
                 "title" : "Fractal Tutorial Video (Lara)",
-                "link" : "https://www.youtube.com/watch?v=_grjGdT6eqg&feature=youtu.be",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=_grjGdT6eqg&feature=youtu.be"
             }
         ]
     },
@@ -177,13 +154,11 @@
         "resources" : [
             {
                 "title" : "Count Change Guide (Murtz)",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf",
-                "icon" : "library_books"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf"
             },
             {
                 "title" : "SP20 Combined Discussion Recording (with music)",
-                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be"
             }
         ]
     },
@@ -196,13 +171,11 @@
         "resources" : [
             {
                 "title" : "Extra Practice Fractals",
-                "link" : "https://snap.berkeley.edu/snap/snap.html#present:Username=patriciayu7&ProjectName=Fractal%20Practice",
-                "icon" : "code"
+                "link" : "https://snap.berkeley.edu/snap/snap.html#present:Username=patriciayu7&ProjectName=Fractal%20Practice"
             },
             {
                 "title" : "FA19 Midterm Video Walkthrough",
-                "link" : "https://drive.google.com/drive/u/1/folders/11Hd2UWrPbhsOHNx03iVdIsVlwVgYbp7D",
-                "icon" : "video_library"
+                "link" : "https://drive.google.com/drive/u/1/folders/11Hd2UWrPbhsOHNx03iVdIsVlwVgYbp7D"
             }
         ]
     },
@@ -215,38 +188,31 @@
         "resources" : [
             {
                 "title" : "Kahoot!",
-                "link" : "https://create.kahoot.it/share/discussion-9-intro-to-python/9086a47f-7b3b-4f0f-985a-1112f06fcc9e",
-                "icon" : "videogame_asset"
+                "link" : "https://create.kahoot.it/share/discussion-9-intro-to-python/9086a47f-7b3b-4f0f-985a-1112f06fcc9e"
             },
             {
                 "title" : "Python Cheat Sheet",
-                "link" : "https://docs.google.com/document/d/119yepX72fEf6c4Dd8ZT6bl22pZa0ZMCionJE86Ktw8Y/edit?usp=sharing",
-                "icon" : "library_books"
+                "link" : "https://docs.google.com/document/d/119yepX72fEf6c4Dd8ZT6bl22pZa0ZMCionJE86Ktw8Y/edit?usp=sharing"
             },
             {
                 "title" : "61A Code (Python Editor + Debugger)",
-                "link" : "https://code.cs61a.org/",
-                "icon" : "computer"
+                "link" : "https://code.cs61a.org/"
             },
             {
                 "title" : "61A Textbook 1",
-                "link" : "http://composingprograms.com/",
-                "icon" : "library_books"
+                "link" : "http://composingprograms.com/"
             },
             {
                 "title" : "61A Textbook 2",
-                "link" : "https://sequoiatree.github.io/",
-                "icon" : "library_books"
+                "link" : "https://sequoiatree.github.io/"
             },
             {
                 "title" : "Extra Python Worksheet",
-                "link" : "https://drive.google.com/file/d/1ADJTyAS3cAj-c5Of_UR-yzbYEIX8_7KP/view",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1ADJTyAS3cAj-c5Of_UR-yzbYEIX8_7KP/view"
             },
             {
                 "title" : "Extra Python Worksheet Solutions",
-                "link" : "https://drive.google.com/file/d/1O3fF0z6R2n24SUBS7tch5dwGk1yZR2bI/view",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1O3fF0z6R2n24SUBS7tch5dwGk1yZR2bI/view"
             }
         ]
     },
@@ -259,13 +225,11 @@
         "resources" : [
             {
                 "title" : "Extra Dictionary Problems",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnuxcab8i8/questions.py",
-                "icon" : "code"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnuxcab8i8/questions.py"
             },
             {
                 "title" : "Extra Dictionary Problem Solutions",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnvdkjodfx/solutions.py",
-                "icon" : "code"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/jkznd4vgw2k2c8/hzd1kyj0qc02c7/jojnvdkjodfx/solutions.py"
             }
         ]
     },
@@ -278,8 +242,7 @@
         "resources" : [
             {
                 "title" : "Resources on Piazza",
-                "link" : "https://piazza.com/class/ke94crp1bn9ce?cid=453",
-                "icon" : "slideshow"
+                "link" : "https://piazza.com/class/ke94crp1bn9ce?cid=453"
             }
         ]
     },
@@ -292,18 +255,15 @@
         "resources" : [
             {
                 "title" : "Programiz OOP Write Up",
-                "link" : "https://www.programiz.com/python-programming/object-oriented-programming",
-                "icon" : "description"
+                "link" : "https://www.programiz.com/python-programming/object-oriented-programming"
             },
             {
                 "title" : "SwarOOP Summary",
-                "link" : "https://python.swaroopch.com/oop.html",
-                "icon" : "description"
+                "link" : "https://python.swaroopch.com/oop.html"
             },
             {
                 "title" : "What is the use of self in Python?: Edureka!",
-                "link" : "https://www.edureka.co/blog/self-in-python/",
-                "icon" : "library_books"
+                "link" : "https://www.edureka.co/blog/self-in-python/"
             }
         ]
     },
@@ -316,13 +276,11 @@
         "resources" : [
             {
                 "title" : "Python Lambda Guide",
-                "link" : "https://www.w3schools.com/python/python_lambda.asp",
-                "icon" : "library_books"
+                "link" : "https://www.w3schools.com/python/python_lambda.asp"
             },
             {
                 "title" : "Variations on Climbing Stairs",
-                "link" : "https://www.youtube.com/watch?v=5o-kdjv7FD0",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=5o-kdjv7FD0"
             }
         ]
     },
@@ -335,23 +293,19 @@
         "resources" : [
             {
                 "title" : "FA19 Final Walkthrough Videos",
-                "link" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKIWZyMaq39zP4hHxOorqKq",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKIWZyMaq39zP4hHxOorqKq"
             },
             {
                 "title" : "TA/AI+ Q&A Panel",
-                "link" : "https://www.youtube.com/watch?v=fEWqfMbjam0",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=fEWqfMbjam0"
             },
             {
                 "title" : "Extra Final Review Worksheet",
-                "link" : "https://drive.google.com/file/d/1u3dsAuF03t-oc3qdm48qtwIc_6VVJOEH/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1u3dsAuF03t-oc3qdm48qtwIc_6VVJOEH/view?usp=sharing"
             },
             {
                 "title" : "Extra Final Review Solutions",
-                "link" : "https://drive.google.com/file/d/1m2TlMMlFgNOQCz1wAf7UScLpNbDZ5Djv/view?usp=sharing",
-                "icon" : "assignment"
+                "link" : "https://drive.google.com/file/d/1m2TlMMlFgNOQCz1wAf7UScLpNbDZ5Djv/view?usp=sharing"
             }
         ]
     },
@@ -364,23 +318,19 @@
         "resources" : [
             {
                 "title" : "[sp20] slides (Patricia)",
-                "link" : "https://docs.google.com/presentation/d/1T_EjIffS61f3LqlRasxvsZ-lIcbcgwdzNTAKSCkutyM/edit?usp=sharing",
-                "icon" : "description"
+                "link" : "https://docs.google.com/presentation/d/1T_EjIffS61f3LqlRasxvsZ-lIcbcgwdzNTAKSCkutyM/edit?usp=sharing"
             },
             {
                 "title" : "notes (Maxson)",
-                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing",
-                "icon" : "library_books"
+                "link" : "https://docs.google.com/document/d/1CjYw1VaNiauDXgrWN-Y7jy2lcipBt09G05-N5y7bYdM/edit?usp=sharing"
             },
             {
                 "title" : "purplemath notes",
-                "link" : "https://www.purplemath.com/modules/numbbase.htm",
-                "icon" : "notes"
+                "link" : "https://www.purplemath.com/modules/numbbase.htm"
             },
             {
                 "title" : "khan academy",
-                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=Fpm-E5v6ddc"
             }
         ]
     },
@@ -393,8 +343,7 @@
         "resources" : [
             {
                 "title" : "boolean video",
-                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU",
-                "icon" : "video_library"
+                "link" : "https://www.youtube.com/watch?v=9wcp7vIgNUU"
             }
         ]
     },
@@ -407,8 +356,7 @@
         "resources" : [
             {
                 "title" : "write up (Murtz)",
-                "link" : "https://drive.google.com/file/d/1l8ncgA_Rejau6BiRGeRK-7FfkEbR_V-5/view?usp=sharing",
-                "icon" : "library_books"
+                "link" : "https://drive.google.com/file/d/1l8ncgA_Rejau6BiRGeRK-7FfkEbR_V-5/view?usp=sharing"
             }
         ]
     },
@@ -421,8 +369,7 @@
         "resources" : [
             {
                 "title" : "[sp18] slides (Matthew)",
-                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677",
-                "icon" : "description"
+                "link" : "https://docs.google.com/presentation/d/16aScNc7csxEe7YE-JhZ6AhmHFo9w9Xt4S3z2rYVe6rI/edit#slide=id.g32bc2a9aa9_0_677"
             }
         ]
     },
@@ -443,13 +390,11 @@
         "resources" : [
             {
                 "title" : "[fa19] walkthrough",
-                "link" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be",
-                "icon" : "videocam"
+                "link" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be"
             },
             {
                 "title" : "write up (Murtz)",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf",
-                "icon" : "description"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e2d0ua9bw/Recursion_Guideconverted.pdf"
             }
         ]
     },
@@ -462,13 +407,11 @@
         "resources" : [
             {
                 "title" : "[sp20] walkthrough",
-                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be",
-                "icon" : "videocam"
+                "link" : "https://www.youtube.com/watch?v=nEV_73Enq64&feature=youtu.be"
             },
             {
                 "title" : "count change (Murtz)",
-                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf",
-                "icon" : "library_books"
+                "link" : "https://d1b10bmlvqabco.cloudfront.net/attach/k5cww7u4ca46ve/j6lrx76auoq3dk/k86e1upjvn9y/Cracking_Count_Change_Revisedconverted.pdf"
             }
         ]
     },
@@ -481,13 +424,11 @@
         "resources" : [
             {
                 "title" : "practice",
-                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1u7XmpweXL-WX3o6CxiZU3AGy8vBmPAyR/view?usp=sharing",
-                "icon" : "create"
+                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1u7XmpweXL-WX3o6CxiZU3AGy8vBmPAyR/view?usp=sharing"
             },
             {
                 "title" : "solutions",
-                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1uNCh0xJoDwS3WUJs3i0xOgoX3sh5KykI/view?usp=sharing",
-                "icon" : "done_all"
+                "link" : "https://drive.google.com/a/berkeley.edu/file/d/1uNCh0xJoDwS3WUJs3i0xOgoX3sh5KykI/view?usp=sharing"
             }
         ]
     },
@@ -501,8 +442,7 @@
         "resources" : [
             {
                 "title" : "Python runtime reference",
-                "link" : "https://wiki.python.org/moin/TimeComplexity",
-                "icon" : "create"
+                "link" : "https://wiki.python.org/moin/TimeComplexity"
             }
         ]
     },
@@ -516,13 +456,11 @@
         "resources" : [
             {
                 "title" : "MIT Write Up",
-                "link" : "http://web.mit.edu/6.005/www/fa14/classes/17-concurrency/#:~:text=Concurrency%20means%20multiple%20computations%20are,cores%20on%20a%20single%20chip)",
-                "icon" : "description"
+                "link" : "http://web.mit.edu/6.005/www/fa14/classes/17-concurrency/#:~:text=Concurrency%20means%20multiple%20computations%20are,cores%20on%20a%20single%20chip)"
             },
             {
                 "title" : "Scratch Concurrency",
-                "link" : "https://en.scratch-wiki.info/wiki/Concurrency#:~:text=Concurrency%20is%20an%20idea%20in,runs%20in%20its%20own%20thread.",
-                "icon" : "library_books"
+                "link" : "https://en.scratch-wiki.info/wiki/Concurrency#:~:text=Concurrency%20is%20an%20idea%20in,runs%20in%20its%20own%20thread."
             }
         ]
     },
@@ -545,18 +483,15 @@
         "resources" : [
             {
                 "title" : "Programiz Write Up",
-                "link" : "https://www.programiz.com/python-programming/object-oriented-programming",
-                "icon" : "description"
+                "link" : "https://www.programiz.com/python-programming/object-oriented-programming"
             },
             {
                 "title" : "Swaroop Summary",
-                "link" : "https://python.swaroopch.com/oop.html",
-                "icon" : "description"
+                "link" : "https://python.swaroopch.com/oop.html"
             },
             {
                 "title" : "The Self in Python: Edureka!",
-                "link" : "https://www.edureka.co/blog/self-in-python/#:~:text=The%20self%20is%20used%20to,attributes%20with%20the%20given%20arguments.&text=In%20Python%2C%20we%20have%20methods,automatically%2C%20but%20not%20received%20automatically.",
-                "icon" : "library_books"
+                "link" : "https://www.edureka.co/blog/self-in-python/#:~:text=The%20self%20is%20used%20to,attributes%20with%20the%20given%20arguments.&text=In%20Python%2C%20we%20have%20methods,automatically%2C%20but%20not%20received%20automatically."
             }
         ]
     }

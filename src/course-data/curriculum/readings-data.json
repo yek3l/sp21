@@ -1,0 +1,100 @@
+{
+    "code-stars" : {
+        "title" : "Code Stars",
+        "readings" : [
+            {
+                "title" : "Code Stars Video",
+                "link" : "https://www.youtube.com/watch?v=dU1xS07N-FA"
+            }
+        ]
+    },
+    "intro-to-abstraction" : {
+        "title" : "Introduction to Abstraction",
+        "readings" : [
+            {
+                "title" : "Introduction To Abstraction",
+                "link" : "http://cs10.org/fa17/assign.html?//docs.google.com/document/d/1PZJ_LYYWRYu12cTbBKF9IyY4BqEG-BibgisBoQn9BpY/pub"
+            }
+        ]
+    },
+    "algorithms" : {
+        "title" : "Algorithms",
+        "readings" : [
+            {
+                "title" : "What is an Algorithm?",
+                "link" : "https://bcourses.berkeley.edu/courses/1493756/files/folder/Readings?preview=77963947"
+            },
+            {
+                "title" : "How Algorithms Shape Our World",
+                "link" : "https://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world",
+            },
+            {
+                "title" : "Algorithms Are Great and All, But They Can Also Ruin Lives",
+                "link" : "https://www.wired.com/2014/11/algorithms-great-can-also-ruin-lives/"
+            }
+        ]
+    },
+    "algo-complexity" : {
+        "title" : "Algorithmic Complexity",
+        "readings" : [
+            {
+                "title" : "Algorithmic Complexity and Big-O Notation",
+                "link" : "http://cs10.org/sp19/assign.html?https://docs.google.com/document/d/e/2PACX-1vQJl6UacXmlB6cLkxNAcI21Er80tNy716BIOIU19NrJXp7qrNSkOX3GPG3RtYyPu1gTEklOq8xlPBlb/pub"
+            }
+        ]
+    },
+    "blown-to-bits" : {
+        "title" : "Blown To Bits Chapter 1",
+        "readings" : [
+            {
+                "title" : "Blown to Bits Chapter 1",
+                "link" : "http://cs10.org/sp19/resources/readings/btb/chapter1.pdf"
+            }
+        ]
+    },
+    "connected-but-alone" : {
+        "title" : "Connected, but alone?",
+        "readings" : [
+            {
+                "title" : "Connected, but alone?",
+                "link" : "https://www.youtube.com/watch?v=t7Xr3AsBEK4"
+            }
+        ]
+    },
+    "why-python-is-lit" : {
+        "title" : "Why Python is a Great First Language",
+        "readings" : [
+            {
+                "title" : "Why Python is a Great First Language",
+                "link" : "https://blog.trinket.io/why-python/"
+            }
+        ]
+    },
+    "alphastar" : {
+        "title" : "AlphaStar",
+        "readings" : [
+            {
+                "title" : "AlphaStar",
+                "link" : "https://blog.trinket.io/why-python/"
+            }
+        ]
+    },
+    "data-science" : {
+        "title" : "What is Data Science?",
+        "readings" : [
+            {
+                "title" : "What is Data Science?",
+                "link" : "https://www.thinkful.com/blog/what-is-data-science/"
+            }
+        ]
+    },
+    "women-in-coding" : {
+        "title" : "The Secret History of Women in Coding",
+        "readings" : [
+            {
+                "title" : "The Secret History of Women in Coding",
+                "link" : "https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html"
+            }
+        ]
+    }
+}

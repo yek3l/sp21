@@ -80,7 +80,9 @@ export function getContentNumbers(contentKey) {
     let content_mapping = {
         "lectures" : lecture_data,
         "labs" : lab_data,
-        "discussion" : disc_data
+        "discussion" : disc_data,
+        "readings" : "",
+        "projects" : ""
     }
 
     let source_content = content_mapping[contentKey];

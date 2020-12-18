@@ -1,6 +1,10 @@
 {
     "lectures" : {
-        "links" : {
+        "displayedLinks" : [
+            "live_session_recording",
+            "live_session_slides"
+        ],
+        "core-links" : {
             "webcast" : {
                 "icon" : "videocam",
                 "label" : "webcast"
@@ -22,10 +26,15 @@
                 "label" : "webcast slides"
             }
         },
-        "static-content" : {}
+        "extra-links" : [],
+        "static-content" : []
     },
     "labs" : {
-        "links" : {
+        "displayedLinks" : [
+            "link",
+            "checkoff"
+        ],
+        "core-links" : {
             "link" : {
                 "icon" : "computer",
                 "label" : "webpage"
@@ -35,23 +44,41 @@
                 "label" : "checkoff"
             }
         },
+        "extra-links" : [],
         "static-content" : [
             "checkOffQuestions"
         ]
     },
     "discussion" : {
-        "links" : {
-            "link" : {
-                "icon" : "computer",
-                "label" : "webpage"
+        "displayedLinks" : [
+            "worksheet",
+            "solutions"
+        ],
+        "core-links" : {
+            "worksheet" : {
+                "icon" : "create",
+                "label" : "worksheet"
             },
-            "checkoff" : {
-                "icon" : "check_box",
-                "label" : "checkoff"
+            "solutions" : {
+                "icon" : "done_all",
+                "label" : "solutions"
+            },
+            "slides" : {
+                "icon" : "slideshow",
+                "label" : "slides"
+            },
+            "recording" : {
+                "icon" : "videocam",
+                "label" : "recording"
             }
         },
+        "extra-links" : [
+            {
+                "key" : "resources",
+                "label" : "Extra Resources"
+            }
+        ],
         "static-content" : [
-            "checkOffQuestions"
         ]
     }
 }

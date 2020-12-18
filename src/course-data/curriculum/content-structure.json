@@ -11,7 +11,11 @@
         ],
         "homework" : [
             "mastermind1"
-        ]
+        ],
+        "project" : [
+            "survey"
+        ],
+        "readings" : []
     },
 
     "2" : {
@@ -25,7 +29,11 @@
         ],
         "discussion" : [
             "numberRepresentation"
-        ]
+        ],
+        "project" : [
+            "wordmatch"
+        ],
+        "readings" : ["code-stars"]
     },
 
     "3" : {
@@ -38,7 +46,11 @@
         ],
         "discussion" : [
             "scoping"
-        ]
+        ],
+        "project" : [
+            "mastermind"
+        ],
+        "readings" : ["intro-to-abstraction"]
     },
 
     "4" : {
@@ -51,6 +63,12 @@
             "algorithms"
         ],
         "discussion" : [
+            "algorithms"
+        ],
+        "project" : [
+            "mastermind"
+        ],
+        "readings" : [
             "algorithms"
         ]
     },
@@ -66,6 +84,12 @@
         ],
         "discussion" : [
             "algorithmicComplexity"
+        ],
+        "project" : [
+            "2048"
+        ],
+        "readings" : [
+            "algo-complexity"
         ]
     },
 
@@ -80,6 +104,12 @@
         ],
         "discussion" : [
             "recursion1"
+        ],
+        "project" : [
+            "2048"
+        ],
+        "readings" : [
+            "blown-to-bits"
         ]
     },
 
@@ -94,6 +124,12 @@
         ],
         "discussion" : [
             "recursion2"
+        ],
+        "project" : [
+            "explore"
+        ],
+        "readings" : [
+            "connected-but-alone"
         ]
     },
 
@@ -108,7 +144,11 @@
         ],
         "discussion" : [
             "midtermReview"
-        ]
+        ],
+        "project" : [
+            "explore"
+        ],
+        "readings" : []
     },
 
     "9" : {
@@ -122,6 +162,12 @@
         ],
         "discussion" : [
             "python1"
+        ],
+        "project" : [
+            "pytris"
+        ],
+        "readings" : [
+            "why-python-is-lit"
         ]
     },
 
@@ -136,6 +182,12 @@
         ],
         "discussion" : [
             "python2"
+        ],
+        "project" : [
+            "pytris"
+        ],
+        "readings" : [
+            "alphastar"
         ]
     },
 
@@ -150,6 +202,12 @@
         ],
         "discussion" : [
             "socialImplications1"
+        ],
+        "project" : [
+            "pytris"
+        ],
+        "readings" : [
+            "data-science"
         ]
     },
 
@@ -163,6 +221,12 @@
         ],
         "discussion" : [
             "python3"
+        ],
+        "project" : [
+            "final"
+        ],
+        "readings" : [
+            "women-in-coding"
         ]
     },
 
@@ -177,7 +241,11 @@
         ],
         "discussion" : [
             "conceptOverview"
-        ]
+        ],
+        "project" : [
+            "final"
+        ],
+        "readings" : []
     },
 
     "14" : {
@@ -189,7 +257,11 @@
         ],
         "discussion" : [
             "none"
-        ]
+        ],
+        "project" : [
+            "final"
+        ],
+        "readings" : []
     },
 
     "15" : {
@@ -203,6 +275,8 @@
         ],
         "discussion" : [
             "finalReview"
-        ]
+        ],
+        "project" : [],
+        "readings" : []
     }
 }
