@@ -3,7 +3,7 @@ import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import "../../styles/sassets/schedule.scss";
 import content_structure from "../../course-data/curriculum/content-structure.json";
-import general_config from "../../course-data/general-config.json";
+import general_config from "../../course-data/general.config.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
