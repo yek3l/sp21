@@ -1,5 +1,11 @@
 import React from "react";
-import { ContentItem, SpecialContentItem, getCurrentWeek, getContentNumbers } from "./schedule.jsx";
+import { 
+    ContentItem, 
+    SpecialContentItem, 
+    getCurrentWeek, 
+    getContentNumbers, 
+    Link
+} from "./schedule.jsx";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
@@ -29,17 +35,6 @@ function WeekContent() {
     ); 
 }
 
-// Week Section Component
-function WeekContentSection(header, contentItems) {
-    return (
-        <div className="week-content-section">
-            <div className="content-items">
-                {contentItems}
-            </div>
-        </div>
-    );
-}
-
 function WeekLectureContent(currentWeek) {
     let contentItems = getContentItems(currentWeek, "lectures")
     return WeekContentSection("Lecture", contentItems);
@@ -54,8 +49,6 @@ function WeekDiscContent(currentWeek) {
     let contentItems = getContentItems(currentWeek, "discussion")
     return WeekContentSection("Discussion", contentItems);
 }
-
-
 
 // Data -> Content Items
 
@@ -107,37 +100,37 @@ function getContentItems(currentWeek, contentKey) {
         contentCount: the count of the particular content (e.g. lecture 1)
 */
 function lectureDataToContentItem(lectureData, contentCount) {
+    console.log(lectureData);
     let color = content_label_colors["lectures"];
     let icon_1 = new Link("live session recording", lectureData["live_session_recording"], "videocam");
     let icon_2 = new Link("live session slides", lectureData["live_session_slides"], "slideshow");
-    let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(lectureData["title"], "Lecture " + contentCount, [icon_1, icon_2, icon_3], color);
+    return ContentItem(lectureData["title"], "Lecture " + contentCount, [icon_1, icon_2], color, []);
 }
 
 function labDataToContentItem(labData, contentCount) {
     let color = content_label_colors["labs"];
     let icon_1 = new Link("lab page", labData["link"], "computer");
     let icon_2 = new Link("checkoff form", labData["checkoff"], "check_box");
-    let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(labData["title"], "Lab " + contentCount, [icon_1, icon_2, icon_3], color);
+    return ContentItem(labData["title"], "Lab " + contentCount, [icon_1, icon_2], color, []);
 }
 
 function discDataToContentItem(discData, contentCount) {
     let color = content_label_colors["discussion"];
     let icon_1 = new Link("worksheet", discData["worksheet"], "create");
     let icon_2 = new Link("solutions", discData["solutions"], "done_all");
-    let icon_3 = new Link("more resources", "https://cs10.org", "exit_to_app");
-    return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2, icon_3], color);
+    return ContentItem(discData["title"], "Discussion " + contentCount, [icon_1, icon_2], color, []);
 }
 
-class Link {
-
-    constructor(title, dest, icon) {
-        this.title = title;
-        this.dest = dest;
-        this.icon = icon;
-    }
-
+// Week Section Component
+function WeekContentSection(header, contentItems) {
+    return (
+        <div className="week-content-section">
+            <div className="content-items">
+                {contentItems}
+            </div>
+        </div>
+    );
 }
+
 
 export default WeekContent;

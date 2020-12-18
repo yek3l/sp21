@@ -1,0 +1,17 @@
+.content-modal-header {
+    display: flex;
+    flex-direction: column;
+
+    h4 {
+        font-size: 14px;
+    }
+}
+
+.content-modal-button {
+    color: #007bff;
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    width: 24px;
+    padding: 0 !important;
+}

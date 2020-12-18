@@ -1,0 +1,57 @@
+{
+    "lectures" : {
+        "links" : {
+            "webcast" : {
+                "icon" : "videocam",
+                "label" : "webcast"
+            },
+            "webcast_slides" : {
+                "icon" : "slideshow",
+                "label" : "webcast slides"
+            },
+            "live_session_recording" : {
+                "icon" : "video_call",
+                "label" : "live session recording"
+            },
+            "live_session_slides" : {
+                "icon" : "slideshow",
+                "label" : "live session slides"
+            },
+            "resources" : {
+                "icon" : "folder_shared",
+                "label" : "webcast slides"
+            }
+        },
+        "static-content" : {}
+    },
+    "labs" : {
+        "links" : {
+            "link" : {
+                "icon" : "computer",
+                "label" : "webpage"
+            },
+            "checkoff" : {
+                "icon" : "check_box",
+                "label" : "checkoff"
+            }
+        },
+        "static-content" : [
+            "checkOffQuestions"
+        ]
+    },
+    "discussion" : {
+        "links" : {
+            "link" : {
+                "icon" : "computer",
+                "label" : "webpage"
+            },
+            "checkoff" : {
+                "icon" : "check_box",
+                "label" : "checkoff"
+            }
+        },
+        "static-content" : [
+            "checkOffQuestions"
+        ]
+    }
+}

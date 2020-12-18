@@ -7,22 +7,22 @@ import general_config from "../../course-data/general-config.json";
 import lecture_data from "../../course-data/curriculum/lecture-data.json";
 import lab_data from "../../course-data/curriculum/lab-data.json";
 import disc_data from "../../course-data/curriculum/discussion-data.json";
+import { ContentModal } from "./content-modal"
 
-export function ContentItem(header, subheader, links, subheaderbg) {
+
+export function ContentItem(header, subheader, displayedlinks, 
+    subheaderbg, links, contentType) {
     /*
         Note: only the first 2 links will be displayed.
     */
 
-    let content_links = [];
-    // TODO: Make popover
-    links.slice(0, 3).forEach(
-        link => content_links.push(ContentItemLink(link))
-    )
+    let contentLinks = [];
+    displayedlinks.forEach(link => contentLinks.push(ContentItemLink(link)))
 
     return (
-        <div class="content-item">
-            <div class="content-header">
-                <div class="label" style={{backgroundColor : subheaderbg}}>
+        <div className="content-item">
+            <div className="content-header">
+                <div className="label" style={{backgroundColor : subheaderbg}}>
                     {subheader}
                 </div>
                 <OverlayTrigger key="header" placement="top"
@@ -31,13 +31,19 @@ export function ContentItem(header, subheader, links, subheaderbg) {
                             {header}
                         </Tooltip>
                     }>
-                    <div class="title">
+                    <div className="title">
                         {header}
                     </div>
                 </OverlayTrigger>
             </div>
-            <div class="links">
-                {content_links}
+            <div className="links">
+                {contentLinks}
+                <ContentModal 
+                    header={header} 
+                    subheader={subheader} 
+                    links={links} 
+                    contentType={contentType}
+                />
             </div>
         </div>
     )
@@ -50,9 +56,9 @@ export function SpecialContentItem(header) {
 
 
     return (    
-        <div class="content-item">
-            <div class="content-header">
-                <div class="label" style={{backgroundColor : "#7eb2ff"}}>
+        <div className="content-item">
+            <div className="content-header">
+                <div className="label" style={{backgroundColor : "#7eb2ff"}}>
                     No New Content
                 </div>
                 <OverlayTrigger key="header" placement="top"
@@ -61,7 +67,7 @@ export function SpecialContentItem(header) {
                             {header}
                         </Tooltip>
                     }>
-                    <div class="title">
+                    <div className="title">
                         {header}
                     </div>
                 </OverlayTrigger>
@@ -142,4 +148,14 @@ export function getCurrentWeek() {
     let divisor = 1000 * 60 * 60 * 24
     let difference = (current_sunday - start_sunday) / divisor
     return Math.min(Math.floor(difference / 7), 15);
+}
+
+export class Link {
+
+    constructor(title, dest, icon) {
+        this.title = title;
+        this.dest = dest;
+        this.icon = icon;
+    }
+
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby";
 import "../styles/main.scss";
 import "../styles/sassets/navigation-bar.scss";
-import navbar_config from "../course-data/navbar-config.json";
+import navbar_config from "../course-data/ui-config/navbar-config.json";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 
 class NavigationBar extends React.Component {
