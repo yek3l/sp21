@@ -78,7 +78,34 @@
                 "label" : "Extra Resources"
             }
         ],
-        "static-content" : [
-        ]
+        "static-content" : []
+    },
+    "readings" : {
+        "displayedLinks" : [],
+        "core-links" : {},
+        "extra-links" : [
+            "readings"
+        ],
+        "static-content" : []
+    },
+    "projects" : {
+        "displayedLinks" : [
+            "spec",
+            "submit"
+        ],
+        "core-links" : {
+            "spec" : {
+                "icon" : "assignment",
+                "label" : "spec"
+            },
+            "submit" : {
+                "icon" : "publish",
+                "label" : "submit"
+            }
+        },
+        "extra-links" : [
+            "resources"
+        ],
+        "static-content" : []
     }
 }
