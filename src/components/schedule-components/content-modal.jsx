@@ -1,11 +1,18 @@
 import React from 'react';
-import { QuickLink } from "../quick-links";
 import { Modal } from "react-bootstrap";
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import "../../styles/sassets/content-modal.scss";
 
 export class ContentModal extends React.Component {
+
+    /*
+        Displays additional info for content-items
+        Props include:
+            - Header
+            - Sub-header
+            - modalContent
+    */
 
     constructor(props) {
         super(props);
@@ -29,10 +36,6 @@ export class ContentModal extends React.Component {
     }
 
     render() {
-        let quickLinks = [];
-        this.props.links.forEach(link => { 
-            quickLinks.push(QuickLink(link.icon, link.title, link.dest))
-        })
         return (
             <>  
                 <button onClick={this.show} className="content-modal-button">
@@ -47,6 +50,7 @@ export class ContentModal extends React.Component {
                                 </span>
                     </ OverlayTrigger>
                 </button>
+
                 <Modal show={this.state.show} onHide={this.hide} centered>
                     <Modal.Header className="content-modal-header">
                         <h4>
@@ -57,28 +61,10 @@ export class ContentModal extends React.Component {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        {quickLinks}
+                        {this.props.modalContent}
                     </Modal.Body>
                 </Modal>
             </>
         )
-    }
-}
-
-function LectureContentTemplate(data) {
-    let liveSessionLink = getQuickLink(data, "live_session_recording", "live session recording", "video_call");
-    return (
-        <>
-            <div class="modal-links">
-                {liveSessionLink}
-            </div>
-        </>
-    )
-}
-
-function getQuickLink(data, key, label, icon) {
-    let link = data[key];
-    if (link !== undefined && link !== null) {
-        return QuickLink(icon, label, link)
     }
 }
