@@ -63,8 +63,10 @@ export function createWeekContent(currentWeek) {
                 if (contentData === undefined) {
                     continue;
                 }
+                contentLinks.push(<div className="divider" />);
                 contentLinks.push(SpecialContentItem(contentData))
             } else {
+                contentLinks.push(<div className="divider" />);
                 contentLinks.push(
                     createContentItem(contentType, contentKey, contentData, layoutConfig)
                 )

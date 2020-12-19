@@ -40,7 +40,7 @@ class SemesterPage extends React.Component {
                     <h1>
                         Semester Calendar
                     </h1>
-                    <div class="semester-calendar-body container-fluid">
+                    <div class="semester-calendar-body">
                         {allWeekContent}
                     </div>
                 </div>
