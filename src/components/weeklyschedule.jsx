@@ -52,6 +52,9 @@ export function createWeekContent(currentWeek) {
     for (let i = 0; i < contentTypeKeys.length; i++) {
         let contentType = contentTypeKeys[i];
         let contentKeys = weekContent[contentType];
+        if (contentKeys.length === 0) {
+            continue;
+        }
         let layoutConfig = content_item_config[contentType];
         let contentSource = getContentSource(contentType);
 
