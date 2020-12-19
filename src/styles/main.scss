@@ -19,3 +19,7 @@ body {
 .content-body {
   padding-bottom: 40px;
 }
+
+.tooltip {
+  z-index: 1000 !important;
+}
