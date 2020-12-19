@@ -23,8 +23,8 @@ export function QuickLink(icon, label, link) {
 
 export function QuickLinkDisabled(icon, label) {
     return (
-        <a className="quick-link-disabled" target="_blank" rel="noreferrer">
-            <div className="quick-link">
+        <a className="quick-link-anchor" target="_blank" rel="noreferrer">
+            <div className="quick-link disabled">
                 <span className="material-icons">
                     {icon}
                 </span>

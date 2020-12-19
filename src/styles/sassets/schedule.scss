@@ -12,9 +12,10 @@
     justify-content: space-between;
     margin-top: 10px;
     max-height: 24px;
+    max-width: 100%;
 
     .content-header {
-        width: 80%;
+        width: 70%;
         display: flex;
         flex-direction: row;
         .label {
@@ -46,7 +47,7 @@
     }
 
     @include smartphone-portrait {
-        max-width: 100%;
+        max-width: 95%;
         .content-header {
             width: 70%;
         }
@@ -109,5 +110,23 @@ span {
         flex: 0 0 98.6%;
         max-width: 98.6%;
         height: fit-content;
+    }
+}
+
+.modal-section {
+    margin-top: 20px;
+
+    .extra-links {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .static-content {
+        font-size: 16px;
+    
+        li {
+            margin-top: 5px;
+        }
     }
 }

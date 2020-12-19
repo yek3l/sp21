@@ -30,7 +30,20 @@
     text-decoration: none;
 }
 
+.disabled {
+    color: #7eb2ff;
+    cursor: default;
+    
+    div { span {
+        max-height: 20px;
+        padding-top: 4px;
+        color: white;
+    }}
+}
 
+.disabled:hover {
+    box-shadow: none !important;
+}
 
 .quick-link {
     display: inline-flex;

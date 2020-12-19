@@ -12,6 +12,7 @@ export class ContentModal extends React.Component {
             - Header
             - Sub-header
             - modalContent
+            - contentColor
     */
 
     constructor(props) {
@@ -51,14 +52,14 @@ export class ContentModal extends React.Component {
                     </ OverlayTrigger>
                 </button>
 
-                <Modal show={this.state.show} onHide={this.hide} centered>
+                <Modal show={this.state.show} onHide={this.hide} size="lg" centered>
                     <Modal.Header className="content-modal-header">
-                        <h4>
-                            {this.props.subheader}
-                        </h4>
                         <Modal.Title>
                             {this.props.header}
                         </Modal.Title>
+                        <div className="label" style={{backgroundColor : this.props.contentColor}}>
+                            {this.props.subheader}
+                        </div>
                     </Modal.Header>
                     <Modal.Body>
                         {this.props.modalContent}

@@ -9,11 +9,9 @@
         "discussion" : [
             "welcome"
         ],
-        "homework" : [
-            "mastermind1"
-        ],
-        "project" : [
-            "survey"
+        "projects" : [
+            "survey",
+            "mastermind"
         ],
         "readings" : []
     },
@@ -30,7 +28,7 @@
         "discussion" : [
             "numberRepresentation"
         ],
-        "project" : [
+        "projects" : [
             "wordmatch"
         ],
         "readings" : ["code-stars"]
@@ -47,7 +45,7 @@
         "discussion" : [
             "scoping"
         ],
-        "project" : [
+        "projects" : [
             "mastermind"
         ],
         "readings" : ["intro-to-abstraction"]
@@ -65,7 +63,7 @@
         "discussion" : [
             "algorithms"
         ],
-        "project" : [
+        "projects" : [
             "mastermind"
         ],
         "readings" : [
@@ -85,7 +83,7 @@
         "discussion" : [
             "algorithmicComplexity"
         ],
-        "project" : [
+        "projects" : [
             "2048"
         ],
         "readings" : [
@@ -105,7 +103,7 @@
         "discussion" : [
             "recursion1"
         ],
-        "project" : [
+        "projects" : [
             "2048"
         ],
         "readings" : [
@@ -125,7 +123,7 @@
         "discussion" : [
             "recursion2"
         ],
-        "project" : [
+        "projects" : [
             "explore"
         ],
         "readings" : [
@@ -145,7 +143,7 @@
         "discussion" : [
             "midtermReview"
         ],
-        "project" : [
+        "projects" : [
             "explore"
         ],
         "readings" : []
@@ -163,7 +161,7 @@
         "discussion" : [
             "python1"
         ],
-        "project" : [
+        "projects" : [
             "pytris"
         ],
         "readings" : [
@@ -183,7 +181,7 @@
         "discussion" : [
             "python2"
         ],
-        "project" : [
+        "projects" : [
             "pytris"
         ],
         "readings" : [
@@ -203,7 +201,7 @@
         "discussion" : [
             "socialImplications1"
         ],
-        "project" : [
+        "projects" : [
             "pytris"
         ],
         "readings" : [
@@ -222,7 +220,7 @@
         "discussion" : [
             "python3"
         ],
-        "project" : [
+        "projects" : [
             "final"
         ],
         "readings" : [
@@ -242,7 +240,7 @@
         "discussion" : [
             "conceptOverview"
         ],
-        "project" : [
+        "projects" : [
             "final"
         ],
         "readings" : []
@@ -258,7 +256,7 @@
         "discussion" : [
             "none"
         ],
-        "project" : [
+        "projects" : [
             "final"
         ],
         "readings" : []
@@ -276,7 +274,7 @@
         "discussion" : [
             "finalReview"
         ],
-        "project" : [],
+        "projects" : [],
         "readings" : []
     }
 }

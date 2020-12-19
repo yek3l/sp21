@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavigationBar from "../components/navigation.jsx";
 import { renderQuickLinks } from "../components/quick-links.jsx";
 import { Helmet } from 'react-helmet';
-import WeekContent from "../components/schedule-components/weeklyschedule.jsx";
+import currentWeekContent from "../components/weeklyschedule.jsx";
 import CourseCalendar from "../components/schedule-components/calendar.jsx";
 global.XMLHttpRequest = require('xhr2');
 
@@ -37,8 +37,8 @@ class Home extends React.Component {
               </h1>
               { renderQuickLinks() }
               <div className="content-body">
-                {WeekContent()}
-                {<CourseCalendar />}
+                { currentWeekContent() }
+                { <CourseCalendar /> }
               </div>
             </div>
         </div>

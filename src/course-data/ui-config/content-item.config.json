@@ -1,7 +1,7 @@
 {
     "lectures" : {
         "label" : "Lecture",
-        "displayedLinks" : [
+        "displayed-links" : [
             "live_session_recording",
             "live_session_slides"
         ],
@@ -32,7 +32,7 @@
     },
     "labs" : {
         "label" : "Lab",
-        "displayedLinks" : [
+        "displayed-links" : [
             "link",
             "checkoff"
         ],
@@ -57,7 +57,7 @@
     },
     "discussion" : {
         "label" : "Discussion",
-        "displayedLinks" : [
+        "displayed-links" : [
             "worksheet",
             "solutions"
         ],
@@ -89,7 +89,7 @@
     },
     "readings" : {
         "label" : "Reading",
-        "displayedLinks" : [],
+        "displayed-links" : [],
         "core-links" : {},
         "extra-links" : [
             {
@@ -101,7 +101,7 @@
     },
     "projects" : {
         "label" : "Project",
-        "displayedLinks" : [
+        "displayed-links" : [
             "spec",
             "submit"
         ],

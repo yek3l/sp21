@@ -1,12 +1,14 @@
 import React from 'react';
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
+import "../../styles/sassets/schedule.scss";
 
 
 export function ContentItem(
     header,
     subheader,
     contentColor,
+    contentLinks,
     modal
 ) {
     return (
@@ -34,30 +36,25 @@ export function ContentItem(
     )
 }
 
-function ContentItemLink(link) {
-    /*
-        Link should be an object containing the following:
-            - title
-            - dest
-            - icon
-    */
-   if (link.dest === null || link.dest === undefined) {
+export function ContentItemLink(title, dest, icon) {
+
+   if (dest === null || dest === undefined) {
         return (
             <span className="material-icons disabled">
-                {link.icon}
+                {icon}
             </span>
         );
    }
    return (
-        <a className="icon-link" href={link.dest} target="_blank" rel="noreferrer">
+        <a className="icon-link" href={dest} target="_blank" rel="noreferrer">
             <OverlayTrigger key="header" placement="top"
                 overlay={
-                    <Tooltip id={"tooltip-" + link.title}>
-                        {link.title}
+                    <Tooltip id={"tooltip-" + title}>
+                        {title}
                     </Tooltip>
                 }>
                         <span className="material-icons">
-                            {link.icon}
+                            {icon}
                         </span>
             </ OverlayTrigger>
         </a>
@@ -72,7 +69,7 @@ export function SpecialContentItem(header) {
         <div className="content-item">
             <div className="content-header">
                 <div className="label" style={{backgroundColor : "#7eb2ff"}}>
-                    No New Content
+                    No Content
                 </div>
                 <OverlayTrigger key="header" placement="top"
                     overlay={
