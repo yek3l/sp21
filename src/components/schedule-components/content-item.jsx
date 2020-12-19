@@ -40,7 +40,7 @@ export function ContentItemLink(title, dest, icon) {
 
    if (dest === null || dest === undefined) {
         return (
-            <span className="material-icons disabled">
+            <span className="material-icons icon-link disabled">
                 {icon}
             </span>
         );

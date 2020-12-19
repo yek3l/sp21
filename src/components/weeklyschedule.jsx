@@ -163,10 +163,12 @@ function createExtraLinks(contentData, extraLinksData) {
         let label = extraLinkData["label"];
         let datakey = extraLinkData["key"];
         let links = contentData[datakey];
-    
-        extraLinkSections.push(
-            createExtraLinksSection(links, label)
-        )
+
+        if (links.length !== 0) {
+            extraLinkSections.push(
+                createExtraLinksSection(links, label)
+            )
+        }
     }
     return extraLinkSections
     
@@ -200,15 +202,17 @@ function createStaticContent(contentData, staticContentsData) {
         let staticContentData = staticContentsData[i];
         let key = staticContentData.key
         let text = contentData[key];
-        let format = staticContentData.format
-        staticContent.push(
-            <div className="modal-section static-content">
-                <h4>
-                    {staticContentData.label}
-                </h4>
-                {createStaticContentSection(text, format)}
-            </div>
-        )
+        if (text.length !== 0) {
+            let format = staticContentData.format
+            staticContent.push(
+                <div className="modal-section static-content">
+                    <h4>
+                        {staticContentData.label}
+                    </h4>
+                    {createStaticContentSection(text, format)}
+                </div>
+            )
+        }
     }
     return(
         <div>
