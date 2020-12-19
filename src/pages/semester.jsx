@@ -3,7 +3,7 @@ import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 import { createWeekContent } from "../components/weeklyschedule.jsx";
 import "../styles/main.scss"
-import "../styles/sassets/dashboard.scss"
+import "../styles/sassets/semester-calendar.scss"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 class SemesterPage extends React.Component {
@@ -40,7 +40,9 @@ class SemesterPage extends React.Component {
                     <h1>
                         Semester Calendar
                     </h1>
-                    {allWeekContent}
+                    <div class="semester-calendar-body">
+                        {allWeekContent}
+                    </div>
                 </div>
             </div>
         );
