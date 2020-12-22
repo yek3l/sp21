@@ -1,0 +1,603 @@
+#######################################################
+###################### WEEK 1 #########################
+#######################################################
+
+- number: 1
+  readings: null
+  dates:
+    - day: Monday
+      date: 6/24
+    - day: Tuesday
+      date: 6/25
+    - day: Wednesday
+      date: 6/26
+    - day: Thursday
+      date: 6/27
+  lecture:
+    - title: Welcome to CS10!
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1U5S4YPenMjpUWmV9q2IoV_JdkmGsvflpzOCtXakpZhM/edit?usp=sharing
+    - title: Number Systems
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1_QtIsRLcDFztWme5HgcotRcqdx5e8AZ3j8Cbqr7ljHM/edit?usp=sharing
+    - title: Building Blocks
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1tm4QiBFNJb1qi_IgFprnwKyKCmGK2zubcrVVoKXMGSo/edit?usp=sharing
+    - title: Lists, Loops, and Higher Order Functions
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1cioL1B0gCSXt5gf7kV3R59U05DaA2IpSNXb9bAMdXN8/edit?usp=sharing
+  lab: 
+    - title: 1. Welcome to Snap!
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/1-introduction.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 2. Build Your Own Blocks
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/2-loops-variables.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 3. Conditionals and Variables
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/3-conditionals.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 4. Functions
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/4-abstraction-testing.topic&course=cs10_su19.html&novideo&noreading&noassignment
+  disc:
+    - title: Welcome to CS10!
+    - title: Number Systems, Boolean Logic
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/02/Disc2.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/02/Disc2Sol.pdf
+  notes:
+    - title: HW0 due 6/27
+      links: 
+        - title: link
+          link: https://bcourses.berkeley.edu/courses/1482757/quizzes/2291661
+    - title: Course Policies Quiz due 6/27
+      links:
+        - title: link
+          link: https://bcourses.berkeley.edu/courses/1482757/quizzes/2291756
+    - title: HW1 due 7/2
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vS4ipH0g8NW_ib56Du9UwD3GEPKKbyLeQX_cXEqlKNH9nePivXx91sHcpMo6DNYwLsb8Y6N7OvATAnU/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/216696
+
+#######################################################
+###################### WEEK 2 #########################
+#######################################################
+
+- number: 2
+  readings:
+    required: 
+      - title: How Algorithms Affect Our Way of Life
+        link: https://www.deseretnews.com/article/865675141/How-algorithms-affect-our-way-of-life.html
+    optional: 
+      - title: How Algorithms Shape Our World
+        link: https://www.ted.com/talks/kevin_slavin_how_algorithms_shape_our_world
+  dates:
+    - day: Monday
+      date: 7/1
+    - day: Tuesday
+      date: 7/2
+    - day: Wednesday
+      date: 7/3
+    - day: Thursday
+      date: 7/4
+  lecture:
+    - title: Mutability and Scoping
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1ph_vIUC_bX9ythMt7LWCa3mOBrRwpruhiAgqazg2VGs/edit?usp=sharing
+    - title: Algorithmic Complexity
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1gP6YyFMGtzDLbAloRwhuE9Po_5tmHwrK8K7LTT95XlA/edit?usp=sharing
+    - title: Testing and Coding Practices
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1hdyY_I1UkaiT9rtnIuWvHrmH3JyjgVhz3n8d52k_ZAQ/edit?usp=sharing
+    - null
+  lab: 
+    - title: 5. Lists
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 6. Algorithms
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/areas/algorithms.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 7. Algorithmic Complexity
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/areas/algorithm-complexity-update.topic&course=cs10_sp19.html&novideo&noreading&noassignment
+    - null
+  disc:
+    - title: Domain and Range, Higher Order Functions
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/03/Disc3.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/03/Disc3Sol.pdf
+    - title: Mutability and Scoping
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/04/Disc4.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/04/Disc4Sol.pdf
+  notes:
+    - title: HW1 due 7/2
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vS4ipH0g8NW_ib56Du9UwD3GEPKKbyLeQX_cXEqlKNH9nePivXx91sHcpMo6DNYwLsb8Y6N7OvATAnU/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/216696
+    - title: Reading Response 1 due 7/4
+      links:
+        - title: link
+          link: https://piazza.com/class/jx5cco56i6m42r?cid=19
+    - title: HW2 due 7/9
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vRJAkAVm4uuqwk79Sma0aaceylGk5_DgXG2Gro2J8c6qdLvVyI7-WwwVSunfY4flBjPp3y0Jk08g4Jc/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/218154
+
+#######################################################
+###################### WEEK 3 #########################
+#######################################################
+
+- number: 3
+  readings:
+    required:
+      - title: E-Waste Republic
+        link: https://interactive.aljazeera.com/aje/2015/ewaste/index.html
+      - title: Yes, AI has a Carbon Footprint
+        link: https://www.vice.com/en_us/article/bj95qm/training-one-ai-model-produces-as-much-emissions-as-a-cross-country-flight-study-finds
+    optional:
+      - title: China&#58; The Electronic Wastebasket of the World 
+        link: https://www.cnn.com/2013/05/30/world/asia/china-electronic-waste-e-waste/index.html
+      - title: UN Report&#58; Time to Seize Opportunity, Tackle Challenge of E-Waste
+        link: https://www.unenvironment.org/news-and-stories/press-release/un-report-time-seize-opportunity-tackle-challenge-e-waste
+  dates:
+    - day: Monday
+      date: 7/8
+    - day: Tuesday
+      date: 7/9
+    - day: Wednesday
+      date: 7/10
+    - day: Thursday
+      date: 7/11
+  lecture:
+    - title: Quest 
+      links:
+        - title: exam
+          link: http://cs10.org/su19/exams/quest/2019Su/exam.pdf 
+        - title: solutions  
+          link: http://cs10.org/su19/exams/quest/2019Su/answers.pdf 
+    - title: Computing and the Environment
+      guest-lecturer: Maxson Yang
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1MpOH4eag-cuTY5-sqaITHsVK4Cd9LqKkph6qsAmBzbk/edit#slide=id.g5024688bce_0_65
+    - title: Concurrency
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1i9C_VNhOmDc06QA_kRPYywAg39-I6kI8kLAeTyzfPMk/edit?usp=sharing
+    - title: Recursion 1
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1TETGWCwnbEN0gLQgYO47MzfIa1zCGVuFPfQ4320IabA/edit?usp=sharing
+  lab: 
+    - title: HW2 Work Session
+    - title: 8. Testing + HW3
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/2048-testing/2048.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 9. Boards + Tic Tac Toe
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/lists/tic-tac-toe.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: HW3 Work Session
+  disc:
+    - title: Algorithmic Complexity
+      links: 
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/05/Disc5.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/05/Disc5Sol.pdf
+    - title: Social Implications Session
+  notes:
+    - title: HW2 due 7/9
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vRJAkAVm4uuqwk79Sma0aaceylGk5_DgXG2Gro2J8c6qdLvVyI7-WwwVSunfY4flBjPp3y0Jk08g4Jc/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/218154
+    - title: Reading Response 2 due 7/11
+      links:
+        - title: link
+          link: https://piazza.com/class/jx5cco56i6m42r?cid=34
+    - title: Quest Self-Grade due 7/11
+      links:
+        - title: quest solutions 
+          link: http://cs10.org/su19/discussion/05/Disc5Sol.pdf
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/218450
+    - title: HW3 due 7/16
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vQlbK0gkZsCIQ-HGEFNhrIEID0NitLWik5aBtkiHETva61ZodSuvG9oroFcwwAqDk4T9GjV3pYYIQpj/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219229
+    - title: Midterm Project Proposal due 7/16
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vT9l5Hc1WZ_xNo0lyWEVgrdRZm4ejBBSwOTHEhGd02D2cL_skKsMsr2Krn6bpmCm5huKsF_z_CyYIc_/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219861
+
+#######################################################
+###################### WEEK 4 #########################
+#######################################################
+
+- number: 4
+  readings:
+    required:
+      - title: The Big Other
+        link: http://cs10.org/su19/readings/TheBigOther.pdf
+  dates:
+    - day: Monday
+      date: 7/15
+    - day: Tuesday
+      date: 7/16
+    - day: Wednesday
+      date: 7/17
+    - day: Thursday
+      date: 7/18
+  lecture:
+    - title: Recursion 2
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1LkffGgScKumZx7jEhzbbDteW5_5jpqn-TawwBPxUBDk/edit?usp=sharing 
+    - title: Tree Recursion
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1Z1QUy9ufTtcsrTaMmvBDHMad4BNFmD3-HYOns-B7pl4/edit?usp=sharing
+    - title: Social Media and Virtual Communities
+      guest-lecturer: Edwin Lin
+      links:
+        - title: slides 
+          link: https://drive.google.com/file/d/1vpckikX3OBxc2qadAavScgqEiLbV_hi5/view?usp=sharing
+    - title: Computational Game Theory 
+      guest-lecturer: Bryant Bettencourt
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1-kaasczDUwM4hbbfp2sGGGtt1Pkosgznbvk0QZGPT7o/edit?usp=sharing
+  lab: 
+    - title: 10. Trees and Fractals Using Recursion
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursion-trees-fractals.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 11. Recursive Reporters
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursive-reporters-part1.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: Midterm Project Work Session
+    - title: 12. HOFs with Recursion
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/hofs/hofs-with-recursion.topic&course=cs10_sp17.html&novideo&noreading&noassignment
+  disc:
+    - title: Introduction to Recursion
+      links:
+        - title: worksheet 
+          link: http://cs10.org/su19/discussion/07/Disc7.pdf
+        - title: solutions 
+          link: http://cs10.org/su19/discussion/07/Disc7Sol.pdf
+    - title: More Recursion
+      links:
+        - title: worksheet 
+          link: http://cs10.org/su19/discussion/08/Disc8.pdf
+        - title: solutions 
+          link: http://cs10.org/su19/discussion/08/Disc8Sol.pdf
+  notes:
+    - title: HW3 due 7/16
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vQlbK0gkZsCIQ-HGEFNhrIEID0NitLWik5aBtkiHETva61ZodSuvG9oroFcwwAqDk4T9GjV3pYYIQpj/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219229
+    - title: Midterm Project Proposal due 7/16
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vT9l5Hc1WZ_xNo0lyWEVgrdRZm4ejBBSwOTHEhGd02D2cL_skKsMsr2Krn6bpmCm5huKsF_z_CyYIc_/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219861
+    - title: Reading Response 3 due 7/18
+      links:
+        - title: link 
+          link: https://piazza.com/class/jx5cco56i6m42r?cid=53
+    - title: Midterm Project due 7/26
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vT9l5Hc1WZ_xNo0lyWEVgrdRZm4ejBBSwOTHEhGd02D2cL_skKsMsr2Krn6bpmCm5huKsF_z_CyYIc_/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219908
+
+#######################################################
+###################### WEEK 5 #########################
+#######################################################
+
+- number: 5
+  readings: null
+  dates:
+    - day: Monday
+      date: 7/22
+    - day: Tuesday
+      date: 7/23
+    - day: Wednesday
+      date: 7/24
+    - day: Thursday
+      date: 7/25
+  lecture:
+    - title: Midterm Exam
+      links:
+        - title: In-Lab Exam 
+          link: http://cs10.org/su19/exams/in-lab-midterm/2019Su/exam.pdf
+        - title: In-Lab Exam Solutions 
+          link: https://cloud.snap.berkeley.edu/snapsource/snap.html#present:Username=emansishah&ProjectName=In-Lab%20Midterm%20Su19%20Solutions
+        - title: Paper Exam
+          link: http://cs10.org/su19/exams/midterm/2019Su/exam.pdf
+        - title: Paper Exam Solutions 
+          link: http://cs10.org/su19/exams/midterm/2019Su/answers.pdf
+    - title: Introduction to Python
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1O259TAZwX4Sn-BPeU-hX1-fYlVpaM32IBD2PVkvSjlQ/edit?usp=sharing
+    - title: Python Data Structures
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1QhDOI4XTVd8xdHkiI2Brvcot5bQ0tbZcUVlyfHtOo5I/edit?usp=sharing
+    - title: Cyberpolitics
+      guest-lecturer: Jobel Vecino
+      links:
+        - title: slides
+          link: https://drive.google.com/file/d/1qUAb8QFyC8oJufgb2wIaEn3VhCSLzJwQ/view?usp=sharing
+  lab: 
+    - title: In-Lab Midterm Exam
+    - title: Midterm Project Work Session
+    - title: 13. Welcome to Python!
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-welcome.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: Midterm Project Work Session
+  disc:
+    - title: Midterm Review
+      links:
+        - title: Andrew worksheet
+          link: http://cs10.org/su19/discussion/09/Andrew_Worksheet.pdf
+        - title: Andrew solutions
+          link: http://cs10.org/su19/discussion/09/Andrew_Solutions.pdf
+        - title: Maxson worksheet
+          link: http://cs10.org/su19/discussion/09/Maxson_Worksheet.pdf
+        - title: Maxson solutions
+          link: http://cs10.org/su19/discussion/09/Maxson_Worksheet_Solutions.pdf
+    - title: Introduction to Python
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/10/Disc10.pdf
+        - title: solutions 
+          link: http://cs10.org/su19/discussion/10/Disc10Sol.pdf
+  notes:
+    - title: Midterm Project due 7/26
+      links:
+        - title: spec 
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vT9l5Hc1WZ_xNo0lyWEVgrdRZm4ejBBSwOTHEhGd02D2cL_skKsMsr2Krn6bpmCm5huKsF_z_CyYIc_/pub
+        - title: submit 
+          link: https://www.gradescope.com/courses/52299/assignments/219908
+    - title: Final Project Proposal due 7/29
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vTtvulnBT1UyxRScYeIl8qAbLV3uQK_Y2M9Gwmk0zb4v-y0_qSBrHmx9Y3eGP13AMoowE-LhKaVakRN/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/222672
+
+#######################################################
+###################### WEEK 6 #########################
+#######################################################
+
+- number: 6
+  readings:
+    required:
+      - title: Connected, but alone?
+        link: https://www.youtube.com/watch?v=t7Xr3AsBEK4
+    optional:
+      - title: How an Entire Nation Became a Test Lab for Cyberwar
+        link: https://www.wired.com/story/russian-hackers-attack-ukraine/
+  dates:
+    - day: Monday
+      date: 7/29
+    - day: Tuesday
+      date: 7/30
+    - day: Wednesday
+      date: 7/31
+    - day: Thursday
+      date: 8/1
+  lecture:
+    - title: Procedures as Data
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1dCcO25aK95xcpNCdSL9Tb8UcfhbgPCg9od0_GcUNkjQ/edit?usp=sharing
+    - title: Object-Oriented Programming 1
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1-jBsFkirGLGCCF92qDEVA_sEYpyR7VZtTCkEVJvVlcs/edit?usp=sharing
+    - title: Object-Oriented Programming 2
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1tL7iS6lElVFvhMvKDXM-ZESJOUHUb_DRSvtEGVWX7mU/edit?usp=sharing
+        - title: demo 1
+          link: http://cs10.org/su19/demos/animals.py 
+        - title: demo 2
+          link: http://cs10.org/su19/demos/vehicles.py
+    - title: APIs and Design
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1tqt93ul4kCwPyQyURsL8Leok0nI728nxHLsb4xthUec/edit?usp=sharing
+        - title: Yelp demo 
+          link: http://cs10.org/su19/demos/yelp_demo.py
+        - title: Turtle game 
+          link: http://cs10.org/su19/demos/turtle_game.py
+  lab: 
+    - title: 14. Data Structures in Python
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-data-struct.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 15. Procedures as Data in Python
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/hofs-practice.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: 16. Text Processing in Python
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-text-processing.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: Final Project Work Session
+  disc:
+    - title: Python Data Structures
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/11/Disc11.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/11/Disc11Sol.pdf
+    - title: Procedures as Data
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/12/Disc12.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/12/Disc12Sol.pdf
+  notes:
+    - title: Final Project Proposal due 7/29
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vTtvulnBT1UyxRScYeIl8qAbLV3uQK_Y2M9Gwmk0zb4v-y0_qSBrHmx9Y3eGP13AMoowE-LhKaVakRN/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/222672
+    - title: Reading Response 4 due 8/1
+      links:
+        - title: link
+          link: https://piazza.com/class/jx5cco56i6m42r?cid=82
+    - title: Final Project Milestone due 8/4
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vTtvulnBT1UyxRScYeIl8qAbLV3uQK_Y2M9Gwmk0zb4v-y0_qSBrHmx9Y3eGP13AMoowE-LhKaVakRN/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/222673
+    - title: Final Project due 8/9
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vTtvulnBT1UyxRScYeIl8qAbLV3uQK_Y2M9Gwmk0zb4v-y0_qSBrHmx9Y3eGP13AMoowE-LhKaVakRN/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/222674
+
+#######################################################
+###################### WEEK 7 #########################
+#######################################################
+
+- number: 7
+  readings:
+    required:
+      - title: The Secret History of Women in Coding
+        link: https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html
+      - title: Why Diversity Matters In Tech
+        link: https://www.forbes.com/sites/mnewlands/2016/08/29/why-diversity-matters-in-tech/#4fbde1248614
+    optional:
+      - title: The Design of Everyday Things (Chapter 1)
+        link: http://www.nixdell.com/classes/HCI-and-Design-Spring-2017/The-Design-of-Everyday-Things-Revised-and-Expanded-Edition.pdf
+  dates:
+    - day: Monday
+      date: 8/5
+    - day: Tuesday
+      date: 8/6
+    - day: Wednesday
+      date: 8/7
+    - day: Thursday
+      date: 8/8
+  lecture:
+    - title: Human-Computer Interaction 
+      guest-lecturer: Andrew Head
+      links:
+        - title: slides 
+          link: https://drive.google.com/file/d/1s69lF8oeNuUbSVVFsM9sZJr_IIirwT_U/view?usp=sharing
+    - title: Diversity in Computing
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1LXsAOM9BrkJJ3zUPmdmF_3Y4ACb6DTS48SNKI9xaP7M/edit?usp=sharing
+    - title: Data Science
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/18G8qCP3gaeOfzDHQ-zH9JjQhF8N7SKgs7BvdvtL-UGQ/edit?usp=sharing
+    - title: Artificial Intelligence
+      guest-lecturer: Kaylee Burns
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1kNfG9E7PHZEfFGCKxPdsR1N96piyRIhBMMx5wzsPym8/edit?usp=sharing
+  lab: 
+    - title: 17. Object-Oriented Programming
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-oop.topic&course=cs10_su18.html&novideo&noreading&noassignment
+    - title: Final Project Work Session
+    - title: Final Project Work Session
+    - title: 18. Data Science
+      link: https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/data-lab.topic&course=cs10_su19.html&novideo&noreading&noassignment
+  disc:
+    - title: Object-Oriented Programming
+      links:
+        - title: worksheet
+          link: http://cs10.org/su19/discussion/13/Disc13.pdf
+        - title: solutions 
+          link: http://cs10.org/su19/discussion/13/Disc13Sol.pdf
+    - title: Social Implications of Computing 
+  notes:
+    - title: Reading Response 5 due 8/9
+      links:
+        - title: link
+          link: https://piazza.com/class/jx5cco56i6m42r?cid=95
+    - title: Final Project due 8/9
+      links:
+        - title: spec
+          link: http://cs10.org/su19/assign.html?https://docs.google.com/document/d/e/2PACX-1vTtvulnBT1UyxRScYeIl8qAbLV3uQK_Y2M9Gwmk0zb4v-y0_qSBrHmx9Y3eGP13AMoowE-LhKaVakRN/pub
+        - title: submit
+          link: https://www.gradescope.com/courses/52299/assignments/222674
+
+#######################################################
+###################### WEEK 8 #########################
+#######################################################
+
+- number: 8
+  readings: null
+  dates:
+    - day: Monday
+      date: 8/12
+    - day: Tuesday
+      date: 8/13
+    - day: Wednesday
+      date: 8/14
+    - day: Thursday
+      date: 8/15
+  lecture:
+    - title: Algorithmic Bias
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1lxPXOvbRaLv2NP-1TY74Zz8Oiu9JHERfcHw69a6S9Ik/edit?usp=sharing
+    - title: Alumni Panel
+      links:
+        - title: slides 
+          link: https://docs.google.com/presentation/d/1GHR6ijf9p2ZrMjPnidR1S87Dt_eyIhCrnjgqqIX9UhU/edit?usp=sharing
+    - title: Farewell and Conclusion
+      links:
+        - title: slides
+          link: https://docs.google.com/presentation/d/1JiudVsxXNiyWmX7h6TWaJnVVxxy9N8et0ptUStaVF0Y/edit?usp=sharing
+    - title: Final Exam 4-7PM in 390 Hearst Memorial Mining Building
+      links:
+        - title: exam 
+          link: https://docs.google.com/document/d/1wAQOxnMOtyLIq0h6gDTzVxNp7mdE8-h-T6r2MUOPPo4/edit?usp=sharing
+  lab: 
+    - title: Final Exam Work Session
+    - title: Social Implications Session
+      link: https://beautyjoy.github.io/bjc-r/llab/html/topic.html?topic=berkeley_bjc%2Fpython%2Fmoral-machine.topic&course=cs10_su19.html&novideo&noreading&noassignment
+    - title: In-Lab Final Exam
+    - title: Final Exam Work Session
+  disc:
+    - title: Data Science
+      links:
+        - title: notebook
+          link: http://cs10.org/su19/discussion/15/discussion_files.zip
+        - title: solutions
+          link: http://cs10.org/su19/discussion/15/solutions.zip
+    - title: Conclusion, Final Review
+      links:
+        - title: worksheet 
+          link: http://cs10.org/su19/discussion/16/Disc16.pdf
+        - title: solutions
+          link: http://cs10.org/su19/discussion/16/Disc16Sol.pdf
+  notes: 
+    - title: Extra Credit BJC Artwork due at the Final 
+      links:
+        - title: sheet
+          link: https://cs10.org/su19/misc/artwork.pdf
