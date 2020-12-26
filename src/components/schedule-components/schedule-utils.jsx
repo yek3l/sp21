@@ -3,30 +3,20 @@ import "../../styles/sassets/schedule.scss";
 // Course Data Import
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import general_config from "../../course-data/general.config.json";
-import lecture_data from "../../course-data/curriculum/lectures-data.json";
-import lab_data from "../../course-data/curriculum/labs-data.json";
-import disc_data from "../../course-data/curriculum/discussion-data.json";
-import proj_data from "../../course-data/curriculum/projects-data.json";
-import readings_data from "../../course-data/curriculum/readings-data.json";
 
-export function getContentSource(contentTypeKey) {
-    return {
-        "lectures" : lecture_data,
-        "labs" : lab_data,
-        "discussion" : disc_data,
-        "projects" : proj_data,
-        "readings" : readings_data
-    }[contentTypeKey]
+export function getContentSource(contentTypeKey, dict) {
+    console.log(dict["labs"])
+    return dict[contentTypeKey];
 }
 
-export function getContentNumbers(contentType) {
+export function getContentNumbers(contentType, dict) {
     
     let weeks = Object.keys(content_structure).length;
     let content_numbering = {}
     var count = 1;
     for (let week = 1; week <= weeks; week++) {
         let week_content = content_structure[week][contentType]
-        let source_content = getContentSource(contentType)
+        let source_content = getContentSource(contentType, dict)
         for (let i = 0; i < week_content.length; i++) {
             let content = week_content[i];
             let exists = source_content[content]

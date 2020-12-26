@@ -31,20 +31,22 @@ import "../styles/sassets/schedule.scss";
 
 let content_label_colors = ui_colors["weekly-schedule"];
 
-function currentWeekContent() {
-    let currentWeek = getCurrentWeek();
-    let weekContent = createWeekContent(currentWeek)
-    return (
-        <div className="week-content">
-            <h5>
-                Week {currentWeek}
-            </h5>
-            {weekContent}
-        </div>
-    ); 
+function currentWeekContent(course_data) {
+    if (Object.keys(course_data).length !== 0) {
+        let currentWeek = getCurrentWeek();
+        let weekContent = createWeekContent(currentWeek, course_data)
+        return (
+            <div className="week-content">
+                <h5>
+                    Week {currentWeek}
+                </h5>
+                {weekContent}
+            </div>
+        );
+    } 
 }
 
-export function createWeekContent(currentWeek) {
+export function createWeekContent(currentWeek, course_data) {
     let weekContent = content_structure[currentWeek];
     let contentTypeKeys = Object.keys(weekContent);
     let contentLinks = [];
@@ -56,10 +58,16 @@ export function createWeekContent(currentWeek) {
             continue;
         }
         let layoutConfig = content_item_config[contentType];
-        let contentSource = getContentSource(contentType);
+
+        console.log("contentType")
+        console.log(contentType);
+        console.log("-----");
+
+        let contentSource = getContentSource(contentType, course_data);
 
         for (let o = 0; o < contentKeys.length; o++) {
             let contentKey = contentKeys[o]
+            console.log(contentSource);
             let contentData = contentSource[contentKey];
             if (contentData === undefined) {
                 contentData = special_events[contentKey];
@@ -71,7 +79,7 @@ export function createWeekContent(currentWeek) {
             } else {
                 contentLinks.push(<div className="divider" />);
                 contentLinks.push(
-                    createContentItem(contentType, contentKey, contentData, layoutConfig)
+                    createContentItem(contentType, contentKey, contentData, layoutConfig, course_data)
                 )
             }
         }
@@ -80,10 +88,10 @@ export function createWeekContent(currentWeek) {
 }
 
 // Content Item methods and helpers.
-function createContentItem(contentType, contentKey, contentData, layoutConfig) {
+function createContentItem(contentType, contentKey, contentData, layoutConfig, course_data) {
     // Set up
     let label = layoutConfig["label"]
-    let contentNumber = getContentNumbers(contentType)[contentKey];
+    let contentNumber = getContentNumbers(contentType, course_data)[contentKey];
 
     let header = contentData["title"];
     let subheader = label + " " + contentNumber
