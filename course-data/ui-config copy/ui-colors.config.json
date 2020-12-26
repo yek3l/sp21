@@ -1,0 +1,9 @@
+{
+    "weekly-schedule" : {
+        "lectures" : "#0074FD",
+        "discussion" : "#FF4B4B",
+        "labs" : "#F3B200",
+        "projects" : "#38CA05",
+        "readings" : "#8445C2"
+    }
+}
