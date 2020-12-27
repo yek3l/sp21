@@ -56,7 +56,6 @@ class Home extends React.Component {
     if (this.finishedLoadingData()) {
       return (
         <div>
-            <NavigationBar />
             <div className="container-fluid">
               <h1>
                 Dashboard
@@ -91,6 +90,7 @@ class Home extends React.Component {
             crossorigin="anonymous"
           />
         </Helmet>
+        <NavigationBar />
         { this.loadHomeScreen() }
       </div>
     )

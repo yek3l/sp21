@@ -47,6 +47,7 @@ function currentWeekContent(course_data) {
 }
 
 export function createWeekContent(currentWeek, course_data) {
+    console.log(course_data);
     let weekContent = content_structure[currentWeek];
     let contentTypeKeys = Object.keys(weekContent);
     let contentLinks = [];
@@ -58,16 +59,10 @@ export function createWeekContent(currentWeek, course_data) {
             continue;
         }
         let layoutConfig = content_item_config[contentType];
-
-        console.log("contentType")
-        console.log(contentType);
-        console.log("-----");
-
         let contentSource = getContentSource(contentType, course_data);
 
         for (let o = 0; o < contentKeys.length; o++) {
             let contentKey = contentKeys[o]
-            console.log(contentSource);
             let contentData = contentSource[contentKey];
             if (contentData === undefined) {
                 contentData = special_events[contentKey];

@@ -4,9 +4,12 @@ import "../../styles/sassets/schedule.scss";
 import content_structure from "../../course-data/curriculum/content-structure.json";
 import general_config from "../../course-data/general.config.json";
 
+
 export function getContentSource(contentTypeKey, dict) {
-    console.log(dict["labs"])
-    return dict[contentTypeKey];
+    if (dict) {
+        return dict[contentTypeKey];
+    }
+    return {};
 }
 
 export function getContentNumbers(contentType, dict) {
