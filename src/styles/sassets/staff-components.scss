@@ -1,0 +1,26 @@
+.card {
+    .card-text {
+
+        .header {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    
+        .role, .subheader {
+            font-size: 12px;
+        }
+    }
+
+    .staff-card-iconbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+        margin-top: 5px;
+
+        .material-icons {
+            margin-left: 10px;
+            cursor: pointer;
+        }
+    }
+}

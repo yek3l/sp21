@@ -1,0 +1,22 @@
+name: your name here
+year: your grade level here
+major: your major here
+pronouns: your pronouns here
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - Prompt 1 response here.
+
+  # How much programming have you done? Which Languages?
+  - Prompt 2 response here.
+
+  # What are your Hobbies?
+  - Prompt 3 response here.
+
+  # What are some of your talents and skills?
+  - Prompt 4 response here.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - Prompt 5 response here.
+
+  # What commitments will be consuming your cycles this semester?
+  - Prompt 6 response here.

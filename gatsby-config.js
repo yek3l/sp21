@@ -13,7 +13,7 @@ module.exports = {
       options: {
           implementation: require('sass')
       },
-    }
+    },
   ],
   pathPrefix: "/cs10-react"
 }
