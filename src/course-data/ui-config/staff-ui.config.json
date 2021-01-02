@@ -73,6 +73,14 @@
     ],
 
     "card-config" : {
-        "subheader" : "pronouns"
+        "subheader" : "pronouns",
+        "questions" : [
+            "Where did you grow up? What was your path to Cal?",
+            "How much programming have you done? What languages?",
+            "What are your hobbies?",
+            "What are some of your talents and skills?",
+            "Have you done anything remarkable? Has anything memorable happened to you?",
+            "What commitments will be consuming your cycles this semester?"
+        ]
     }
 }

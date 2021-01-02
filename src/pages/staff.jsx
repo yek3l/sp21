@@ -3,6 +3,7 @@ import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 import { StaffCard, RoleSection } from "../components/staff-components/staff-elements.jsx";
 import staff_roles from "../course-data/ui-config/staff-ui.config.json";
+import "../styles/sassets/staff-page.scss";
 
 class StaffPage extends React.Component {
 
@@ -13,7 +14,6 @@ class StaffPage extends React.Component {
 
     staffMembers() {
         let staff = staff_roles.map(role => role["people"]).flat()
-        console.log(staff);
     }
 
     renderStaffRoles() {
@@ -34,10 +34,16 @@ class StaffPage extends React.Component {
                     <h1>
                         Staff
                     </h1>
-                    <StaffCard staffKey="yolanda" role="Head TA"></StaffCard>
+                    <div className="staff-section">
+                        <StaffCard staffKey="yolanda" role="Head TA" />
+                        <StaffCard staffKey="shannon" role="Head TA" />
+                    </div>
+                    {/* 
+                    Here lies the button of great science. The real MVP 2020-2021.
                     <button>
                         Boop me for GREAT SCIENCE!
-                    </button>
+                    </button> 
+                    */}
                 </div>
             </div>
         );

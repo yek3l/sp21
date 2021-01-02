@@ -1,4 +1,7 @@
+  # NOTE: You can leave anything blank by typing `~`.
+
 name: your name here
+email: your email here
 year: your grade level here
 major: your major here
 pronouns: your pronouns here
@@ -20,3 +23,4 @@ responses:
 
   # What commitments will be consuming your cycles this semester?
   - Prompt 6 response here.
+  
