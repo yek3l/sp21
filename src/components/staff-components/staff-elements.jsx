@@ -63,12 +63,11 @@ export class StaffCard extends React.Component {
             showModal : (!modalState)
         })
     }
-
-    mailTo() {
-
-    }
     
     render() {
+        if (this.state.name === undefined) {
+            return null;
+        }
         return (
             <Card style={{ width: '15rem' }}>
                 <Card.Img src={this.state.imgPath}/>
@@ -91,9 +90,11 @@ export class StaffCard extends React.Component {
                                     {this.state.email}
                                 </Tooltip>
                             }>
-                            <span className="material-icons">
-                                email
-                            </span>
+                            <a href={`mailto:${this.state.email}`}>
+                                <span className="material-icons">
+                                    email
+                                </span>
+                            </a>
                         </OverlayTrigger>
                         <BioModal 
                             toggleModal={this.toggleModal} 
@@ -167,6 +168,9 @@ function BioModal({
 }
 
 function renderBioResponses(responses) {
+    if (!responses) {
+        return;
+    }
     let responseSections = [];
 
     let questions = card_config["questions"];
@@ -197,15 +201,8 @@ function bioResponseSection(header, response) {
     )
 }
 
-export function RoleSection(label, people) {
+export function getStaffCard(role, key) {
     return (
-        <div className="role-section">
-            <div className="role-label">
-                {label}
-            </div>
-            <div className="staff-cards">
-                {people}
-            </div>
-        </div>
+        <StaffCard staffKey={key} role={role} />
     )
 }

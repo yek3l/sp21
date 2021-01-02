@@ -1,23 +1,24 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
-import { StaffCard, RoleSection } from "../components/staff-components/staff-elements.jsx";
-import staff_roles from "../course-data/ui-config/staff-ui.config.json";
+import { StaffCard, getStaffCard } from "../components/staff-components/staff-elements.jsx";
+import staff_ui_config from "../course-data/ui-config/staff-ui.config.json";
 import "../styles/sassets/staff-page.scss";
 
 class StaffPage extends React.Component {
 
     constructor(props) {
         super(props);
-        this.staffMembers = this.staffMembers.bind(this);
     }
 
-    staffMembers() {
-        let staff = staff_roles.map(role => role["people"]).flat()
-    }
-
-    renderStaffRoles() {
-        let roles = staff_roles.map(role => RoleSection(role["label"], []))
+    renderStaff() {
+        let roles = staff_ui_config["roles"];
+        let cards = roles.map(role => {
+            let label = role["label"];
+            let people = role["people"]
+            return people.map(key => getStaffCard(label, key))
+        })
+        return cards.flat();
     }
 
     render() {
@@ -35,8 +36,9 @@ class StaffPage extends React.Component {
                         Staff
                     </h1>
                     <div className="staff-section">
-                        <StaffCard staffKey="yolanda" role="Head TA" />
-                        <StaffCard staffKey="shannon" role="Head TA" />
+                        {/* <StaffCard staffKey="yolanda" role="Head TA" />
+                        <StaffCard staffKey="shannon" role="Head TA" /> */}
+                        { this.renderStaff() }
                     </div>
                     {/* 
                     Here lies the button of great science. The real MVP 2020-2021.
