@@ -1,6 +1,7 @@
 import content_structure from "./curriculum/content-structure.json";
 import content_item_config from "./ui-config/content-item.config.json";
 import { withPrefix } from "gatsby";
+const fetch = require('node-fetch');
 const yaml = require('js-yaml')
 
 export function getContentTypes() {

@@ -25,6 +25,9 @@ export class StaffCard extends React.Component {
             responses: [],
         }
         this.toggleModal = this.toggleModal.bind(this);
+    }
+
+    componentDidMount() {
         this.getBioData()
     }
 

@@ -36,8 +36,6 @@ class StaffPage extends React.Component {
                         Staff
                     </h1>
                     <div className="staff-section">
-                        {/* <StaffCard staffKey="yolanda" role="Head TA" />
-                        <StaffCard staffKey="shannon" role="Head TA" /> */}
                         { this.renderStaff() }
                     </div>
                     {/* 
