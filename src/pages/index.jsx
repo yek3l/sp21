@@ -3,7 +3,6 @@ import React from "react";
 // Styles
 import "../styles/main.scss"
 import "../styles/sassets/dashboard.scss"
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Components
 import NavigationBar from "../components/navigation.jsx";

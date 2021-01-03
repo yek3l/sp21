@@ -5,7 +5,6 @@ import { createWeekContent } from "../components/weeklyschedule.jsx";
 import { getContentTypes, getContentSource } from "../course-data/course-data-util";
 import "../styles/main.scss"
 import "../styles/sassets/semester-calendar.scss"
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 class SemesterPage extends React.Component {
 

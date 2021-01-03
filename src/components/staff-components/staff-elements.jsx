@@ -85,9 +85,8 @@ export class StaffCard extends React.Component {
                         <div className="subheader">
                             {this.state.subheader}
                         </div>
-                    </Card.Text>
-                    <div className="staff-card-iconbar">
-                        <OverlayTrigger key="header" placement="top"
+                        <div className="staff-card-iconbar">
+                        <OverlayTrigger placement="top"
                             overlay={
                                 <Tooltip id={"tooltip-" + this.state.email}>
                                     {this.state.email}
@@ -112,6 +111,7 @@ export class StaffCard extends React.Component {
                             responses={this.state.responses}
                         />
                     </div>
+                    </Card.Text>
                 </Card.Body>
             </Card>
         )

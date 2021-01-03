@@ -1,15 +1,12 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
-import { StaffCard, getStaffCard } from "../components/staff-components/staff-elements.jsx";
+import { getStaffCard } from "../components/staff-components/staff-elements.jsx";
 import staff_ui_config from "../course-data/ui-config/staff-ui.config.json";
 import "../styles/sassets/staff-page.scss";
+import "../styles/sassets/staff-components.scss";
 
 class StaffPage extends React.Component {
-
-    constructor(props) {
-        super(props);
-    }
 
     renderStaff() {
         let roles = staff_ui_config["roles"];

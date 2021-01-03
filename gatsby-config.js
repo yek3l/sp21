@@ -14,6 +14,10 @@ module.exports = {
           implementation: require('sass')
       },
     },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {}
+    }
   ],
   pathPrefix: "/cs10-react"
 }
