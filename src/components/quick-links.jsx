@@ -21,6 +21,21 @@ export function QuickLink(icon, label, link) {
     );
 }
 
+export function QuickLinkInternal(icon, label, link) {
+    return (
+        <a id={link} className="quick-link-anchor">
+            <div className="quick-link">
+                <span className="material-icons">
+                    {icon}
+                </span>
+                <div className="quick-link-label">
+                    {label}
+                </div>
+            </div>
+        </a>
+    )
+}
+
 export function QuickLinkDisabled(icon, label) {
     return (
         <a className="quick-link-anchor" target="_blank" rel="noreferrer">

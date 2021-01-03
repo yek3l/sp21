@@ -86,31 +86,31 @@ export class StaffCard extends React.Component {
                             {this.state.subheader}
                         </div>
                         <div className="staff-card-iconbar">
-                        <OverlayTrigger placement="top"
-                            overlay={
-                                <Tooltip id={"tooltip-" + this.state.email}>
-                                    {this.state.email}
-                                </Tooltip>
-                            }>
-                            <a href={`mailto:${this.state.email}`}>
-                                <span className="material-icons">
-                                    email
-                                </span>
-                            </a>
-                        </OverlayTrigger>
-                        <BioModal 
-                            toggleModal={this.toggleModal} 
-                            showModal={this.state.showModal}
-                            name={this.state.name}
-                            email={this.state.email}
-                            role={this.props.role}
-                            year={this.state.year}
-                            major={this.state.major}
-                            subheader={this.state.subheader}
-                            imgPath={this.state.imgPath}
-                            responses={this.state.responses}
-                        />
-                    </div>
+                            <OverlayTrigger placement="top"
+                                overlay={
+                                    <Tooltip id={"tooltip-" + this.state.email}>
+                                        {this.state.email}
+                                    </Tooltip>
+                                }>
+                                <a href={`mailto:${this.state.email}`}>
+                                    <span className="material-icons">
+                                        email
+                                    </span>
+                                </a>
+                            </OverlayTrigger>
+                            <BioModal 
+                                toggleModal={this.toggleModal} 
+                                showModal={this.state.showModal}
+                                name={this.state.name}
+                                email={this.state.email}
+                                role={this.props.role}
+                                year={this.state.year}
+                                major={this.state.major}
+                                subheader={this.state.subheader}
+                                imgPath={this.state.imgPath}
+                                responses={this.state.responses}
+                            />
+                        </div>
                     </Card.Text>
                 </Card.Body>
             </Card>
