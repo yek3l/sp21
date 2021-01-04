@@ -23,7 +23,7 @@ export function QuickLink(icon, label, link) {
 
 export function QuickLinkInternal(icon, label, link) {
     return (
-        <a id={link} className="quick-link-anchor">
+        <a href={link} className="quick-link-anchor">
             <div className="quick-link">
                 <span className="material-icons">
                     {icon}

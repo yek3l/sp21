@@ -1,6 +1,8 @@
 .syllabus-component {
     display: flex;
     flex-direction: row;
+    height: 81vh;
+    overflow: hidden;
 }
 
 .syllabus-nav {
@@ -11,11 +13,18 @@
 .syllabus-body {
     padding-left: 100px;
     padding-right: 100px;
+    overflow-y: scroll;
+}
+
+#breakdown-chart {
+    position: relative;
+    height: 420px !important;
+    width: 100% !important;
 }
 
 .syllabus-topic {
 
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 
     .body {
         font-size: 14px;

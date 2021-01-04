@@ -3,6 +3,7 @@ import NavigationBar from "../components/navigation.jsx"
 import "../styles/sassets/syllabus.scss";
 import { Helmet } from 'react-helmet';
 import { QuickLinkInternal } from "../components/quick-links.jsx";
+import { Doughnut } from "react-chartjs-2";
 
 class SyllabusPage extends React.Component {
 
@@ -29,6 +30,11 @@ class SyllabusPage extends React.Component {
         );
     }
 }
+
+/*
+    Main rendered components here.
+    Handles the actual logic of what should be displayed and how.
+*/
 
 function SyllabusSections() {
     let sections = [
@@ -80,11 +86,18 @@ function SyllabusBody() {
             {CourseOverview()}
             {Sections()}
             {Staff()}
+            {Grading()}
             {Technology()}
             {AcademicIntegrity()}
         </div>
     )
 }
+
+/*
+    Individual Components of the Syllabus are located here.
+    Edit these if you only want to change the content.
+    All sections should subclass Syllabus Section and have a unique id.
+*/
 
 function CourseOverview() {
     return (
@@ -353,13 +366,56 @@ function Technology() {
     )
 }
 
-function AcademicIntegrity() {
+function Grading() {
+
+    let breakdownData = {
+        labels: ["Exams", "Projects", "Labs", "Reading Responses", "Attendance"],
+        datasets: [{
+            data: [200, 225, 30, 20, 25],
+            backgroundColor: ["#0074FD", "#38CA05", "#F3B200", "#8445C2", "#FF4B4B"]
+        }]
+    }
+
+    let chartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        aspectRatio: 1
+    }
+
     return (
-        <div id="integrity" className="syllabus-topic">
+        <div id="grading" className="syllabus-topic">
             <div className="syllabus-section">
                 <div className="header">
-                    Academic Integrity
+                    Grading Scheme
                 </div>
+                <div className="body">
+                    The course will be graded out of <strong>500 points</strong>, and there is no curve.
+                    The grading breakdown and bins can be found below.
+                </div>
+            </div>
+            <div className="syllabus-section">
+                <div className="header">
+                    Grading Breakdown
+                </div>
+                <div classname="body">
+                    <Doughnut 
+                        id="breakdown-chart"
+                        data={breakdownData} 
+                        options={chartOptions}
+                    />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+function AcademicIntegrity() {
+    return (
+        <div className="syllabus-topic">
+            <h2 id="integrity">
+                Academic Integrity
+            </h2>
+            <div className="syllabus-section">
                 <div className="body">
                     Cooperation has a limit and in CS10 that limit is copying lines of code or using ideas that 
                     are not your own code. Projects should be completed and turned in individually unless the 
