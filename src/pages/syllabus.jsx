@@ -2,6 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import "../styles/sassets/syllabus.scss";
 import { Helmet } from 'react-helmet';
+import { ListGroup } from 'react-bootstrap';
 import { QuickLinkInternal } from "../components/quick-links.jsx";
 import { Doughnut } from "react-chartjs-2";
 
@@ -368,20 +369,6 @@ function Technology() {
 
 function Grading() {
 
-    let breakdownData = {
-        labels: ["Exams", "Projects", "Labs", "Reading Responses", "Attendance"],
-        datasets: [{
-            data: [200, 225, 30, 20, 25],
-            backgroundColor: ["#0074FD", "#38CA05", "#F3B200", "#8445C2", "#FF4B4B"]
-        }]
-    }
-
-    let chartOptions = {
-        responsive: true,
-        maintainAspectRatio: false,
-        aspectRatio: 1
-    }
-
     return (
         <div id="grading" className="syllabus-topic">
             <div className="syllabus-section">
@@ -398,14 +385,122 @@ function Grading() {
                     Grading Breakdown
                 </div>
                 <div classname="body">
-                    <Doughnut 
-                        id="breakdown-chart"
-                        data={breakdownData} 
-                        options={chartOptions}
-                    />
+                    {GradingBreakdownChart()}
+                </div>
+            </div>
+            <div className="syllabus-section">
+                <div className="header">
+                    Grading Ranges
+                </div>
+                <div className="body">
+                    We will award the following grades based on the following point ranges:
+                    <div className="syllabus-subsection">
+                        <div className="body">
+                            {GradingBins()}
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+    )
+}
+
+function GradingBreakdownChart() {
+    let breakdownData = {
+        labels: ["Exams", "Projects", "Labs", "Reading Responses", "Attendance"],
+        datasets: [{
+            data: [200, 225, 30, 20, 25],
+            backgroundColor: ["#0074FD", "#38CA05", "#F3B200", "#8445C2", "#FF4B4B"]
+        }]
+    }
+
+    let chartOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        aspectRatio: 1
+    }
+
+    return (
+        <Doughnut 
+            id="breakdown-chart"
+            data={breakdownData} 
+            options={chartOptions}
+        />
+    )
+}
+
+function GradingBins() {
+
+    const bins = [
+        {
+            grade: "A+",
+            range: [485, 500]
+        },
+        {
+            grade: "A",
+            range: [460, 484]
+        },
+        {
+            grade: "A-",
+            range: [450, 459]
+        },
+        {
+            grade: "B+",
+            range: [440, 449]
+        },
+        {
+            grade: "B",
+            range: [420, 439]
+        },
+        {
+            grade: "B-",
+            range: [400, 419]
+        },
+        {
+            grade: "C+",
+            range: [375, 399]
+        },
+        {
+            grade: "C",
+            range: [360, 374]
+        },
+        {
+            grade: "C-",
+            range: [350, 359]
+        },
+        {
+            grade: "D",
+            range: [300, 349]
+        },
+        {
+            grade: "F",
+            range: [0, 200]
+        },
+    ]
+    
+    return (
+        <div id="grading-bins">
+            <ListGroup variant="flush">
+                {bins.map(binData => GradingBinItem(binData))}
+            </ListGroup>
+        </div>
+    )
+}
+
+function GradingBinItem(binData) {
+    const grade = binData["grade"];
+    const [lower, upper] = binData["range"];
+    return (
+        <ListGroup.Item>
+            <div className="grading-bin">
+                <h3>
+                    {grade}
+                </h3>
+                <div className="grade-range">
+                    {`${lower} - ${upper}`}
+                </div>
+            </div>
+        </ListGroup.Item>
     )
 }
 

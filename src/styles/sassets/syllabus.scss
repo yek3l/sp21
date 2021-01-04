@@ -10,6 +10,12 @@
     flex-direction: column;
 }
 
+@mixin shadow-card {
+    box-shadow: 0 0px 5px 0px #dfdfdf;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
 .syllabus-body {
     padding-left: 100px;
     padding-right: 100px;
@@ -20,6 +26,24 @@
     position: relative;
     height: 420px !important;
     width: 100% !important;
+}
+
+#grading-bins {
+    @include shadow-card();
+    width: 350px;
+    margin: auto;
+}
+
+.grading-bin {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grade-range {
+    font-size: 18px;
+    color: #0d6efd;
 }
 
 .syllabus-topic {
