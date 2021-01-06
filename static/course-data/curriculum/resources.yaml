@@ -1,0 +1,50 @@
+# Structure of Resources
+# - Key: (doubles as a label)
+#   - Topic/Category: (serves as header + section)
+#     - name: the displayed label for the resource
+#       link: the url to the resource
+#       type: "external", "video", or "doc"
+#         * external links open a new tab and look different
+#         * video are linked from youtube and can be displayed internally.
+#           also allows for linked files + annotations.
+#         * docs are published google suite resources that are displayed internally.
+
+- Snap!:
+  - Cribsheets:
+    - name: For Loops
+      link: "https://docs.google.com/document/d/e/2PACX-1vQYoK-JYX_voUwliAbcn1oyvvgZSurn2C1E72Y8Qf9HeFTr2fFBbgPxpnYTMaR0Rkn82F8-Fq7QxzK6/pub?embedded=true"
+      type: doc
+      
+    - name: Recursion I
+      link: "https://docs.google.com/presentation/d/e/2PACX-1vRAdAN2SdBpFfP0ov4Ws5fvFC-ENKvEE9PJRHATBZTSqK1ya6FbjXVQ5ya0iahaohX40YgCWOvn7nXx/embed?start=false&loop=false&delayms=60000"
+      type: doc
+
+  - Guides:
+    - name: Debugging in Snap!
+      link: https://www.youtube.com/embed/nAgsZ_fVcw0
+      type: video
+      extra-links:
+        - label: Snap! file used in demo
+          link: "https://snap.berkeley.edu/snapsource/snap.html#present:Username=yashen&ProjectName=Yolandas%20debugging%20demo"
+          icon: folder
+      annotations:
+        - time: "0:37"
+          comment: expecting ... but got ...
+        - time: "2:27"
+          comment: variable not in scope
+        - time: "4:32"
+          comment: reporter didn't report
+        - time: "7:46"
+          comment: command block reporting (doesn't error but don't do this)
+        - time: "9:42"
+          comment: infinite loop (also doesn't show error); visible steppingand say/show variable to track variables.
+        - time: "16:05"
+          comment: search bar, keyboard typing, right-click -> relabel, changing commands -> reporter
+        
+    - name: Writing Comments
+      link: "https://docs.google.com/document/d/e/2PACX-1vRqCD_Vmn0tYhoOrcju_9b3mrmjLYuJt2VJDMYpUDpTxFIfvY4AFWWQh0Hwl3Yj7kduSe0gYV5UvLdT/pub?embedded=true"
+      type: doc
+  
+- Python
+- Exams
+- Misc

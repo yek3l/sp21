@@ -1,8 +1,24 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
+import "../styles/sassets/resources.scss"
 
 class ResourcesPage extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            offset : false,
+            depth : 0
+        }
+        this.toggleOffset = this.toggleOffset.bind(this);
+    }
+
+    toggleOffset() {
+        this.setState({
+            offset : (!this.state.offset)
+        })
+    }
 
     render() {
         return (
@@ -17,10 +33,38 @@ class ResourcesPage extends React.Component {
                     <h1>
                         Resources
                     </h1>
+                    <div className="test-container">
+                        <ResourceOverview />
+                        <div className="horizontal-scroll-view">
+                            <h2>
+                                Hello
+                            </h2>
+                        </div>
+                    </div>
+                    <button onClick={this.toggleOffset}>
+                        Offset Test
+                    </button>
                 </div>
             </div>
         );
     }
+}
+
+class ResourceOverview extends React.Component {
+    /*
+        The initial view for the resources page. Allows for access to all available content.
+    */
+
+    render() {
+        return (
+            <div id="resource-overview" className="horizontal-scroll-view">
+                <h2>
+                    All Available Resources here.
+                </h2>
+            </div>
+        )
+    }
+
 }
 
 export default ResourcesPage;
