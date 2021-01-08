@@ -1,0 +1,100 @@
+# Structure of Resources
+# - Key: (only used internally)
+#   - Topic/Category: (serves as header + section)
+#     - name: the displayed label for the resource
+#       link: the url to the resource
+#       type: "external", "video", or "doc"
+#         * external links open a new tab and look different
+#         * video are linked from youtube and can be displayed internally.
+#           also allows for linked files + annotations.
+#         * docs are published google suite resources that are displayed internally.
+
+- id: snap
+  name: Snap!
+  sections:
+    - header: Crib Sheets
+      resources:
+      - name: For Loops
+        link: "https://docs.google.com/document/d/e/2PACX-1vQYoK-JYX_voUwliAbcn1oyvvgZSurn2C1E72Y8Qf9HeFTr2fFBbgPxpnYTMaR0Rkn82F8-Fq7QxzK6/pub?embedded=true"
+        type: doc
+        
+      - name: Recursion I
+        link: "https://docs.google.com/presentation/d/e/2PACX-1vRAdAN2SdBpFfP0ov4Ws5fvFC-ENKvEE9PJRHATBZTSqK1ya6FbjXVQ5ya0iahaohX40YgCWOvn7nXx/embed?start=false&loop=false&delayms=60000"
+        type: textbook
+
+    - header: Guides
+      resources:
+      - name: Debugging in Snap!
+        link: https://www.youtube.com/embed/nAgsZ_fVcw0
+        type: video
+        extra-links:
+          - label: Snap! file used in demo
+            link: "https://snap.berkeley.edu/snapsource/snap.html#present:Username=yashen&ProjectName=Yolandas%20debugging%20demo"
+            icon: folder
+        annotations:
+          - time: "0:37"
+            comment: expecting ... but got ...
+          - time: "2:27"
+            comment: variable not in scope
+          - time: "4:32"
+            comment: reporter didn't report
+          - time: "7:46"
+            comment: command block reporting (doesn't error but don't do this)
+          - time: "9:42"
+            comment: infinite loop (also doesn't show error); visible steppingand say/show variable to track variables.
+          - time: "16:05"
+            comment: search bar, keyboard typing, right-click -> relabel, changing commands -> reporter
+          
+      - name: Writing Comments
+        link: "https://docs.google.com/document/d/e/2PACX-1vSrtiqOPprVJ327uvCj9aRGXJYGP9hjOMJyz_vSxK237PNnTCYumvE24QYcbmA_Xy8voUPOqHzXtZOO/pub?embedded=true"
+        type: doc
+  
+- id: python
+  name: Python
+  sections:
+    - header: Syntax
+      resources:
+      - name: CS10 Python Syntax Guide
+        link: "https://docs.google.com/document/d/e/2PACX-1vRA8ii69AYGwPelpvmAlG5lIy4IkQVrZcHOloGwXGGszs_Bm2jAG9Mx4Y2g56kJU0tw0-eq4Gip-tEn/pub?embedded=true"
+        type: doc
+
+      - name: Python Documentation
+        link: "https://docs.python.org/3/tutorial/index.html"
+        type: external
+
+      - name: Mark's Intro to Python
+        link: "http://markmiyashita.com/cs61a/basics/getting_started_with_python/"
+        type: external
+
+    - header: Debugging
+      resources:
+      - name: CS10 Python Debugging Guide
+        link: "https://docs.google.com/document/d/e/2PACX-1vRqCD_Vmn0tYhoOrcju_9b3mrmjLYuJt2VJDMYpUDpTxFIfvY4AFWWQh0Hwl3Yj7kduSe0gYV5UvLdT/pub?embedded=true"
+        type: doc
+    
+      - name: Dani's Scoping Guide
+        link: "https://docs.google.com/document/d/1U-J-sTELYsX7Sy_zAJhvTr31nwd6Ip5cZsDLMHMSiZk/edit"
+        type: external
+
+      - name: CS61A Debugging Guide
+        link: https://cs61a.org/articles/debugging.html
+        type: external
+
+      - name: CS61A Terminal Guide
+        link: https://inst.eecs.berkeley.edu/~cs61a/sp19/articles/unix.html
+        type: external
+       
+- id: exams+projects
+  name: Exams and Projects
+  sections:
+    - header: Project 2
+      resources:
+      - name: Out of Place Walkthrough by Murtz
+        link: "https://www.youtube.com/playlist?list=PLVTwPOvE0LgaTklE0KzLL8gmsVN0PmdcH"
+        type: external
+      
+    - header: Project 3
+      resources:
+      - name: Project 3 walkthroughs by Dani, Ze, and Maddie
+        link: https://www.youtube.com/playlist?list=PL34ReHGfKCa93yNL1WZacxM3nG8zJndfQ
+        type: external
