@@ -1,0 +1,34 @@
+.resource-body-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 50px;
+    padding-left: 50px;
+    overflow-y: auto;
+}
+
+.internal-resource-view {
+    height: auto;
+    margin-left: 50px;
+    padding-left: 50px;
+    transition: width 250ms linear;
+    z-index: 100;
+}
+
+.resource-component {
+    display: flex;
+    flex-direction: row;
+    height: 81vh;
+    width: 100%;
+    overflow: hidden;
+    transition: width 250ms linear;
+}
+
+.horizontal-scroll-view {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}

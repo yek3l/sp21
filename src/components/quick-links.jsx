@@ -21,6 +21,21 @@ export function QuickLink(icon, label, link) {
     );
 }
 
+export function QuickLinkButton(icon, label, action) {
+    return (
+        <a onClick={action} className="quick-link-anchor">
+            <div className="quick-link">
+                <span className="material-icons">
+                    {icon}
+                </span>
+                <div className="quick-link-label">
+                    {label}
+                </div>
+            </div>
+        </a>
+    )
+}
+
 export function QuickLinkInternal(icon, label, link) {
     return (
         <a href={link} className="quick-link-anchor">

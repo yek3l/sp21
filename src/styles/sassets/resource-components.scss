@@ -1,0 +1,125 @@
+.resources-nav {
+    display: flex;
+    flex-direction: column;
+}
+// Main Content Components
+
+.resource-category {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    min-width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+    .sections {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.resource-section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+    .cells {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        a {
+            text-decoration: none;
+        }
+    }
+    margin-bottom: 20px;
+}
+
+.resource-cell {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: baseline;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: center;
+    overflow: wrap;
+    padding: 10px;
+
+    width: 175px;
+    height: 175px;
+
+    .material-icons {
+        font-size: 48px;
+    }
+
+    transition-duration: 200ms;
+}
+
+.resource-cell:hover {
+    box-shadow: 0 2px 6px 0px #bebebe;
+    text-decoration: none;
+}
+
+.resource-cell-content {
+    margin: auto;
+    text-overflow: ellipsis;
+}
+
+// Google Docs Display
+
+.google-docs-display {
+    margin-top: -2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+    h2 {
+        font-size: 24px
+    }
+
+    .top-bar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        padding: 0 10px;
+
+        .quick-link-anchor {
+            margin-right: 0;
+        }
+    }
+
+    .doc-view {
+        width: 100%;
+        
+        iframe {
+            margin: auto;
+        }
+    }
+}
+
+.textbook-display {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100%;
+    width: auto;
+    margin: 0 auto;
+    
+    iframe {
+        margin: auto;
+    }
+}
+
+.docs-view {
+    flex-grow: 1; 
+    border: none; 
+    margin: 0; 
+    padding: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
