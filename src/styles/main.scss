@@ -8,30 +8,31 @@ $primary-color: #333;
 
 // Breakpoints
 
-// Mobile Portrait
-@mixin min-width-480 {
-  @media only screen and (min-width: 480px) {
-      @content;
-  }
-}
+$screen-ml: 480px;
+$screen-tp: 768px;
+$screen-tl: 992px;
+$screen-laptop: 1200px;
 
-// Mobile Landscape
-@mixin min-width-768 {
-  @media only screen and (min-width: 768px) {
+@mixin mobile-landscape {
+  @media (min-width: #{$screen-ml}) {
     @content;
   }
 }
 
-// Tablet Portrait
-@mixin min-width-992 {
-  @media only screen and (min-width: 992px) {
+@mixin tablet-portrait {
+  @media (min-width: #{$screen-tp}) {
     @content;
   }
 }
 
-// Laptops and larger
-@mixin min-width-1200 {
-  @media only screen and (min-width: 1200px) {
+@mixin tablet-landscape {
+  @media (min-width: #{$screen-tl}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: #{$screen-laptop}) {
     @content;
   }
 }

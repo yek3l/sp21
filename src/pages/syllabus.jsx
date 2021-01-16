@@ -74,9 +74,7 @@ function SyllabusSections() {
     let links = sections.map(section => QuickLinkInternal(section.icon, section.label, section.link))
     return (
         <div className="syllabus-nav">
-            <div className="links">
-                {links}
-            </div>
+            {links}
         </div>
     )
 }

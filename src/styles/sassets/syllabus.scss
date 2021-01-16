@@ -1,13 +1,25 @@
+@import "../main.scss";
+
 .syllabus-component {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 81vh;
     overflow: hidden;
+
+    @include tablet-landscape {
+        flex-direction: row;
+    }
 }
 
 .syllabus-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    min-height: 61px;
+    overflow-x: scroll;
+
+    @include tablet-landscape {
+        flex-direction: column;
+    }
 }
 
 @mixin shadow-card {
@@ -17,8 +29,16 @@
 }
 
 .syllabus-body {
-    padding-left: 100px;
-    padding-right: 100px;
+    
+    padding-left: 15px;
+    padding-right: 15px;
+
+    @include tablet-landscape {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
     overflow-y: scroll;
 }
 
