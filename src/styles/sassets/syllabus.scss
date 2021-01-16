@@ -1,9 +1,15 @@
 @import "../main.scss";
 
+.container-fluid {
+    @include tablet-landscape {
+        padding-right: 0px !important;
+    }
+}
+
 .syllabus-component {
     display: flex;
     flex-direction: column;
-    height: 81vh;
+    height: 79vh;
     overflow: hidden;
 
     @include tablet-landscape {
@@ -19,6 +25,7 @@
 
     @include tablet-landscape {
         flex-direction: column;
+        overflow: visible;
     }
 }
 
