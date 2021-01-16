@@ -139,9 +139,9 @@ class ResourceOverview extends React.Component {
             return ResourceCell(resource.link, null, "http", resource.name)
         }
         if (resource.type === "doc") {
-            return ResourceCell(resource.link, 
+            return ResourceCellInternal("#", 
                 () => {
-                    // this.transitionToDocView(resource.name, resource.link, resource.type)
+                    this.transitionToDocView(resource.name, resource.link, resource.type)
                 },
                 "article",
                 resource.name

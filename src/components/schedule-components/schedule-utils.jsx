@@ -1,8 +1,8 @@
 import "../../styles/sassets/schedule.scss";
 
 // Course Data Import
-import content_structure from "../../course-data/curriculum/content-structure.json";
-import general_config from "../../course-data/general.config.json";
+import content_structure from "../../../static/course-data/curriculum/content-structure.yaml";
+import general_config from "../../../static/course-data/general.config.yaml";
 
 
 export function getContentSource(contentTypeKey, dict) {
@@ -44,12 +44,13 @@ function getSundayOfDate(date) {
 export function getCurrentWeek() {
     let today = new Date();
     let current_sunday = getSundayOfDate(today);
-    let start_sunday = getSundayOfDate(general_config["semester-start-date"])
+    let start_sunday = getSundayOfDate(general_config["semester-start-date"]);
+    let max_weeks_available = Object.keys(content_structure).length;
 
     // date differences are returned in milliseconds. Divisor converts to days
-    let divisor = 1000 * 60 * 60 * 24
-    let difference = (current_sunday - start_sunday) / divisor
-    return Math.min(Math.floor(difference / 7), 15);
+    let divisor = 1000 * 60 * 60 * 24;
+    let difference = (current_sunday - start_sunday) / divisor;
+    return Math.min(Math.floor(difference / 7), max_weeks_available);
 }
 
 export class Link {

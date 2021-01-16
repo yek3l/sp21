@@ -79,6 +79,6 @@ This should automatically build the website, and deploy it to github pages. Gene
 
 Congrats! The website is now officially deployed to Github Pages!
 
-### Next Steps:
+### Next Steps
 
 Now you'll probably need to configure the website. Check out this section in the docs to get going with that.

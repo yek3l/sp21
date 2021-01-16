@@ -2,7 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 import { createWeekContent } from "../components/weeklyschedule.jsx";
-import { getContentTypes, getContentSource } from "../course-data/course-data-util";
+import { getContentTypes, getContentSource } from "../components/course-data-util";
 import "../styles/main.scss"
 import "../styles/sassets/semester-calendar.scss"
 

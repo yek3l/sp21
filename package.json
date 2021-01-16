@@ -28,7 +28,7 @@
     "bootstrap": "^4.5.3",
     "file-system": "^1.2.2",
     "fs": "^0.0.1-security",
-    "gatsby": "^2.26.1",
+    "gatsby": "^2.13.57",
     "gatsby-plugin-react-helmet": "^3.6.0",
     "gatsby-plugin-sass": "^2.7.0",
     "gatsby-plugin-styled-components": "^3.7.0",

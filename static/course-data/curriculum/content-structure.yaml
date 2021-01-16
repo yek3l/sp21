@@ -1,0 +1,205 @@
+# While curriculum has a logical ordering to it. Weeks are explcitly named to
+# improve readability.
+
+1: 
+  lectures:
+    - welcome + abstraction
+  labs:
+    - intro
+  discussion:
+    - welcome
+  projects:
+    - survey
+  readings: []
+
+2:
+  lectures:
+    - functions
+    - numbers + abstraction
+  labs:
+    - byob
+  discussion:
+    - numberRepresentation
+  projects:
+    - wordmatch
+  readings:
+    - "code-stars"
+
+3:
+  lectures:
+    - list + scoping
+  labs:
+    - abstraction
+    - lists
+  discussion:
+    - scoping
+  projects:
+    - mastermind
+  readings:
+    - "intro-to-abstraction"
+
+4:
+  lectures:
+    - social implications one
+    - algorithms
+  labs:
+    - work session
+    - algorithms
+  discussion:
+    - algorithms
+  projects:
+    - mastermind
+  readings:
+    - algorithms
+
+5:
+  lectures:
+    - complexity
+    - testing + proj3
+  labs:
+    - complexity
+    - testing
+  discussion:
+    - algorithmicComplexity
+  projects:
+    - 2048
+  readings:
+    - "algo-complexity"
+
+6:
+  lectures:
+    - recursion one
+    - social implications two
+  labs:
+    - boards
+    - work session
+  discussion:
+    - recursion1
+  projects:
+    - 2048
+  readings:
+    - "blown-to-bits"
+7:
+  lectures:
+    - recursion two
+    - recursion three
+  labs:
+    - fractals
+    - recursiveReporters
+  discussion:
+    - recursion2
+  projects:
+    - explore
+  readings:
+    - "connected-but-alone"
+
+8:
+  lectures:
+    - procedures
+    - paradigms
+  labs:
+    - functionsAsData
+    - catchup lab
+  discussion:
+    - midtermReview
+  projects:
+    - explore
+  readings: []
+
+9:
+  lectures:
+    - python one
+    - python two
+  labs:
+    - pythonIntro
+    - dataStructures
+  discussion:
+    - python1
+  projects:
+    - pytris
+  readings:
+    - "why-python-is-lit" # Note this should be changed
+
+10:
+  lectures:
+    - python four
+    - python three
+  labs:
+    - oop
+    - work session
+  discussion:
+    - python2
+  projects:
+    - pytris
+  readings:
+    - alphastar
+
+11:
+  lectures:
+    - elections
+    - social implications three
+  labs:
+    - election
+    - textProcessing
+  discussion:
+    - socialImplications1
+  projects:
+    - pytris
+  readings:
+    - "data-science"
+  
+12:
+  lectures:
+    - python five
+  labs:
+    - dataScience
+    - libraries
+  discussion:
+    - python3
+  projects:
+    - final
+  readings:
+    - "women-in-coding"
+
+13:
+  lectures:
+    - concurrency
+    - hci
+  labs:
+    - concurrency
+    - work session
+  discussion:
+    - conceptOverview
+  projects:
+    - final
+  readings: []
+
+14:
+  lectures:
+    - ai
+  labs:
+    - work session
+  discussion:
+    - none
+  projects:
+    - final
+  readings: []
+
+15:
+  lectures:
+    - alumni
+    - farewell
+  labs:
+    - work session
+    - work session
+  discussion:
+    - finalReview'
+  projects: []
+  readings: []
+
+16:
+  lectures: []
+  labs: []
+  discussion: []
+  projects: []
+  readings: []

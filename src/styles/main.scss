@@ -1,14 +1,38 @@
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 @import "./sassets/breakpoints";
 
+
+// Colors and Typography
 $font-stack: Helvetica, sans-serif;
 $primary-color: #333;
 
-body {
-  font: 100% $font-stack;
-  color: $primary-color;
-  @include smartphone-portrait {
-    height: 200vh;
+// Breakpoints
+
+// Mobile Portrait
+@mixin min-width-480 {
+  @media only screen and (min-width: 480px) {
+      @content;
+  }
+}
+
+// Mobile Landscape
+@mixin min-width-768 {
+  @media only screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+// Tablet Portrait
+@mixin min-width-992 {
+  @media only screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// Laptops and larger
+@mixin min-width-1200 {
+  @media only screen and (min-width: 1200px) {
+    @content;
   }
 }
 

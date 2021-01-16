@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Modal } from "react-bootstrap";
-import { getStaffBio } from "../../course-data/course-data-util.jsx"
+import { getStaffBio } from "../course-data-util.jsx"
 import { withPrefix } from "gatsby";
-import staff_ui_config from "../../course-data/ui-config/staff-ui.config.json"
+import staff_ui_config from "../../ui-config/staff-ui.config.yaml"
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import "../../styles/sassets/staff-components.scss";

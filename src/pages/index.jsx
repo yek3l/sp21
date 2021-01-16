@@ -10,7 +10,7 @@ import { renderQuickLinks } from "../components/quick-links.jsx";
 import { Helmet } from 'react-helmet';
 import currentWeekContent from "../components/weeklyschedule.jsx";
 import CourseCalendar from "../components/schedule-components/calendar.jsx";
-import { getContentTypes, getContentSource } from "../course-data/course-data-util";
+import { getContentTypes, getContentSource } from "../components/course-data-util";
 global.XMLHttpRequest = require('xhr2');
 
 class Home extends React.Component {

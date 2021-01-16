@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/sassets/quick-links.scss"
-import quick_link_config from "../course-data/ui-config/quick-links.config.json"
+import quick_link_config from "../ui-config/quick-links.config.yaml"
 
 /*
     All relevant components for the Quick-links on the dashboard.

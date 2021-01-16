@@ -16,10 +16,10 @@ import {
 } from "./schedule-components/content-item.jsx"
 
 // Course Data Import
-import content_structure from "../course-data/curriculum/content-structure.json";
-import special_events from "../course-data/curriculum/special-events.json";
-import ui_colors from "../course-data/ui-config/ui-colors.config.json";
-import content_item_config from "../course-data/ui-config/content-item.config.json";
+import content_structure from "../../static/course-data/curriculum/content-structure.yaml";
+import special_events from "../../static/course-data/curriculum/special-events.json";
+import ui_colors from "../ui-config/ui-colors.config.yaml";
+import content_item_config from "../ui-config/content-item.config.yaml";
 
 // Styling
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -47,7 +47,6 @@ function currentWeekContent(course_data) {
 }
 
 export function createWeekContent(currentWeek, course_data) {
-    console.log(course_data);
     let weekContent = content_structure[currentWeek];
     let contentTypeKeys = Object.keys(weekContent);
     let contentLinks = [];
@@ -123,6 +122,7 @@ function createContentModal(header, subheader, contentColor, layoutConfig, conte
 }
 
 function createContentModalBody(layoutConfig, contentData) {
+    console.log(layoutConfig);
     let quickLinks = createQuickLinks(contentData, layoutConfig["core-links"]);
     let extraLinks = createExtraLinks(contentData, layoutConfig["extra-links"])
     let staticContent = createStaticContent(contentData, layoutConfig["static-contents"]);

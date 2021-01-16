@@ -2,7 +2,7 @@ import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import { Helmet } from 'react-helmet';
 import { getStaffCard } from "../components/staff-components/staff-elements.jsx";
-import staff_ui_config from "../course-data/ui-config/staff-ui.config.json";
+import staff_ui_config from "../ui-config/staff-ui.config.yaml";
 import "../styles/sassets/staff-page.scss";
 import "../styles/sassets/staff-components.scss";
 
@@ -36,10 +36,10 @@ class StaffPage extends React.Component {
                         { this.renderStaff() }
                     </div>
                     {/* 
-                    Here lies the button of great science. The real MVP 2020-2021.
-                    <button>
-                        Boop me for GREAT SCIENCE!
-                    </button> 
+                        Here lies the button of great science. The real MVP 2020-2021.
+                        <button>
+                            Boop me for GREAT SCIENCE!
+                        </button> 
                     */}
                 </div>
             </div>
