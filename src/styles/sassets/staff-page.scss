@@ -1,5 +1,12 @@
+@import "../main.scss";
+
 .staff-section {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-content: center;
     flex-wrap: wrap;
+
+    @include tablet-landscape {
+        flex-direction: row;
+    }
 }

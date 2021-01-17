@@ -60,5 +60,4 @@ export class Link {
         this.dest = dest;
         this.icon = icon;
     }
-
 }
