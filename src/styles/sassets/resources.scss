@@ -1,9 +1,15 @@
+@import "../main.scss";
+
 .resource-body-container {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-left: 50px;
-    padding-left: 50px;
+
+
+    @include tablet-landscape {
+        margin-left: 50px;
+        padding-left: 50px;
+    }
     overflow-y: auto;
 }
 
@@ -17,7 +23,12 @@
 
 .resource-component {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+
+    @include tablet-landscape {
+        flex-direction: row;
+    }
+
     height: 81vh;
     width: 100%;
     overflow: hidden;
