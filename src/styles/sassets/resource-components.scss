@@ -1,6 +1,14 @@
+@import "../main.scss";
+
 .resources-nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    overflow-x: scroll;
+    min-height: 61px;
+
+    @include tablet-landscape {
+        display: column;
+    }
 }
 // Main Content Components
 
@@ -39,7 +47,7 @@
     border: 1px solid #dadada;
     border-radius: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: baseline;
     margin-right: 20px;
     margin-top: 20px;
@@ -47,11 +55,22 @@
     overflow: wrap;
     padding: 10px;
 
-    width: 175px;
-    height: 175px;
+    width: 100px;
+    height: 100px;
+
+    @include tablet-portrait {
+        display: column;
+        width: 100px;
+        height: 100px;
+    }
+    
 
     .material-icons {
-        font-size: 48px;
+        font-size: 36px;
+
+        @include mobile-landscape {
+            font-size: 24px;
+        }
     }
 
     transition-duration: 200ms;
