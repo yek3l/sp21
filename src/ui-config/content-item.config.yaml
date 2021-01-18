@@ -11,10 +11,10 @@ lectures:
       label: Google Drive
     webcast:
       icon: videocam
-      label: webcast
+      label: video
     webcast_slides:
       icon: slideshow
-      label: webcast slides
+      label: slides
     live_session_recording:
       icon: video_call
       label: live session recording
@@ -23,7 +23,7 @@ lectures:
       label: live session slides
     resources:
       icon: folder_shared
-      label: webcast slides
+      label: resources
   extra-links: []
   static-contents: []
     

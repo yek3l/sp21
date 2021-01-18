@@ -73,4 +73,26 @@ grading:
   - Stuff
 
 staff:
-  - Stuff
+  - label: Head Teaching Assistants
+    body: Yolanda Shen and Shannon Hearn will run the course at a high level and are the points of contact for questions when 
+          you do not know who to reach out to. For any high-level course questions, reach out to either before Dan.
+
+  - label: Teaching Assistants
+    body: All TAs will be heading a specific aspect of the course-- Bryant Bettencourt (Lab/Lab Development), Andrew Burke (Discussion),
+          Lam Pham (Exams), Dani Swords (Check-Ins), Kellyann Ye (Content), Shannon Hearn (Academic Interns) Yolanda Shen (Course 
+          Development).
+
+  - label: Lab Teaching Assistants
+    body: Bryant Bettencourt, Shannon Hearn, and Lam Pham. Please reach out to your individual assigned TA for lab-specific questions.
+
+  - label: Discussion Teaching Assistants
+    body: Andrew Burke, Dani Swords, and Yolanda Shen. Please reach out to your individual assigned TA for discussion-specific questions.
+  
+  - label: Readers
+    body: Readers will be in charge of grading for the semester. The readers for the course are Samhita Sen, Taroob Zia, and Sarah Varghese. 
+          Please reach out to the Head Reader, Kellyann Ye, for any grading-related questions.
+
+  - label: Tutors
+    body: Tutors will primarily be running the check-in groups and holding office hours. The tutors for the course are Nicholas Lai, Vaibhav 
+          Mohata, and Gowri Somayajula. Please reach out to the tutors if you have any concerns about your ability to keep pace with the 
+          course, and they will connect you to the right person or resource needed to assist you.

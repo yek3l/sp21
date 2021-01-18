@@ -109,7 +109,7 @@ function CourseOverview() {
                     Welcome!
                 </div>
                 <div className="body">
-                    In Fall 2020, CS10 is planning to try a new teaching plan to better support students and 
+                    In Spring 2021, CS10 is expanding upon last fall's teaching plan to better support students and 
                     encourage participation during this unusual online offering of the course. Special thank 
                     you to John DeNero and the CS61A team for writing the original document which this was based on.
                 </div>
@@ -184,8 +184,8 @@ function Sections() {
                     <div className="body">
                         Lecture content has been pre-recorded with high production value. 
                         There will be questions to answer via Gradescope after every lecture, 
-                        for which you will earn credit. On Mondays at 10 AM, there will be a <strong>live </strong> 
-                        weekly summary lecture--all content will be the same as in the recordings, 
+                        for which you will earn credit. On Mondays at 11 AM, there will be a <strong>live </strong> 
+                        weekly summary lecture on Zoom with Dan. All content will be the same as in the recordings, 
                         but in less depth. You are required to watch the recording and encouraged (but not required) 
                         to attend the live sessions. If Monday is a holiday, the live session will be Wednesday. 
                         The live session wil also be recorded.
@@ -196,11 +196,10 @@ function Sections() {
                         Lab
                     </div> 
                     <div className="body">
-                        Similar to discussion, we will have five labs scheduled through the day to be 
+                        Location: Discord. We will have three labs scheduled through the day to be 
                         sensitive to differences in time zones. Lab attendance is encouraged and will 
-                        be counted towards extra credit, but is not mandatory. Labs will be conducted 
-                        through Discord. Checkoffs either happen in lab or via a Google Form submission. 
-                        Note that you are graded on completion.
+                        be counted towards extra credit, but is not mandatory.Checkoffs either happen 
+                        in lab or via a Google Form submission. Note that you are graded on completion.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -208,10 +207,9 @@ function Sections() {
                         Discussion
                     </div> 
                     <div className="body">
-                        Discussion content will be pre-recorded. However, we will also have five live discussion 
-                        sections, scheduled throughout the day to be sensitive to differences in time zones. 
-                        Discussion attendance is encouraged and will be counted towards extra credit, but is not 
-                        mandatory. Live discussions will be held via Zoom.
+                        Location: Zoom. Discussion content will be pre-recorded. However, we will also have three live discussion 
+                        sections. Discussion attendance is encouraged and will be counted towards extra credit, but is not 
+                        mandatory.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -238,13 +236,11 @@ function Staff() {
             <div className="syllabus-section">
                 <div className="syllabus-subsection">
                     <div className="header">
-                        Head Teaching Assistant
+                        Head Teaching Assistants
                     </div>
                     <div className="body">
-                        <strong>Head TA Murtaza Ali</strong> will run the course at a high level and is the point of 
-                        contact for questions when you do not know who to reach out to. For any high-level 
-                        course questions, reach out to Murtaza before Dan. He will also teach a discussion 
-                        section.
+                        <strong>Yolanda Shen and Shannon Hearn</strong> will run the course at a high level and are the points of contact for questions when 
+                            you do not know who to reach out to. For any high-level course questions, reach out to either before Dan.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -252,22 +248,25 @@ function Staff() {
                         Lead Teaching Assistants
                     </div>
                     <div className="body">
-                        <strong>Lead Administrative TA Isaac Merritt, Lead Lab TA Kathleen Gao, Lead Exam TA Max Yao, 
-                            and Lead Discussion TA Patricia Yu</strong> have course-wide administrative duties. Each 
-                            Lead TA will also teach a section.
+                        All TAs will be heading a specific aspect of the course-- <strong>Bryant Bettencourt (Lab/Lab Development), Andrew Burke (Discussion),
+                        Lam Pham (Exams), Dani Swords (Check-Ins), Kellyann Ye (Content), Shannon Hearn (Academic Interns) Yolanda Shen (Course 
+                        Development). </strong>
                     </div>
                 </div>
                 <div className="syllabus-subsection">
                     <div className="header">
-                        Teaching Assistants
+                        Lab Teaching Assistants
                     </div>
                     <div className="body">
-                        Teaching assistants will focus their efforts on teaching a particular component of the course, 
-                        either lab or discussion. Some TAs may also spearhead different areas of course development. 
-                        <strong>
-                            Lab TAs: Bryant Bettencourt, Lam Pham, and Shannon Hearn. Discussion TAs: Yolanda Shen, Andrew 
-                            Burke, and Dani Swords.
-                        </strong>
+                        Bryant Bettencourt, Shannon Hearn, and Lam Pham. Please reach out to your individual assigned TA for lab-specific questions.
+                    </div>
+                </div>
+                <div className="syllabus-subsection">
+                    <div className="header">
+                        Discussion Teaching Assistants
+                    </div>
+                    <div className="body">
+                        Andrew Burke, Dani Swords, and Yolanda Shen. Please reach out to your individual assigned TA for discussion-specific questions.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -276,8 +275,7 @@ function Staff() {
                     </div>
                     <div className="body">
                         Readers will be in charge of grading for the semester. The readers for the course are <strong>Samhita Sen, 
-                        Aayush Shah, Taroob Zia, and Sarah Varghese</strong>. Please reach out to the <strong>Head Reader, Kellyann Ye</strong>, for 
-                        any grading-related questions.
+                        Taroob Zia, and Sarah Varghese</strong>. 
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -285,10 +283,10 @@ function Staff() {
                         Tutors
                     </div>
                     <div className="body">
-                        Tutors will primarily be running the check-in groups mentioned above. The tutors for the course are  
-                        <strong> Nicholas Lai and Gowri Somayajula</strong>. Please reach out to the tutors if you have any concerns about your 
-                        ability to keep pace with the course, and they will connect you to the right person or resource needed 
-                        to assist you.
+                        Tutors will primarily be running the check-in groups and holding office hours. The tutors for the course are  
+                        <strong> Nicholas Lai, Gowri Somayajula, and Vaibhav Mohata</strong>. Please reach out to the tutors if you 
+                        have any concerns about your ability to keep pace with the course, and they will connect you to the right 
+                        person or resource needed to assist you.
                     </div>
                 </div>
             </div>
@@ -308,7 +306,7 @@ function Technology() {
                         Zoom
                     </div>
                     <div className="body">
-                        The primary medium for all synchronous portions of the course.
+                        The primary medium for all synchronous portions of the course, such as discussion and Dan's live sessions.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
@@ -340,7 +338,7 @@ function Technology() {
                         PrairieLearn
                     </div>
                     <div className="body">
-                        This is where exams will be taken.
+                        This is where lecture questions will be located. It is also where exams will be taken.
                     </div>
                 </div>
                 <div className="syllabus-subsection">

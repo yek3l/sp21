@@ -233,19 +233,7 @@
             }
         ]
     },
-    "socialImplications1" : {
-        "title" : "Social Implications Topics (Election)",
-        "worksheet" : null,
-        "solutions" : null,
-        "slides" : null,
-        "recording" : null,
-        "resources" : [
-            {
-                "title" : "Resources on Piazza",
-                "link" : "https://piazza.com/class/ke94crp1bn9ce?cid=453"
-            }
-        ]
-    },
+
     "python3" : {
         "title" : "OOP in Python",
         "worksheet" : "https://drive.google.com/file/d/1GfWYYdYjsbX6SviS25LvMDhaJnbn_0GZ/view?usp=sharing",
@@ -267,7 +255,7 @@
             }
         ]
     },
-    "conceptOverview" : {
+    "python4" : {
         "title" : "Python HOFs, Lambdas, and Tree Recursion",
         "worksheet" : "https://drive.google.com/file/d/1JlHgkuNdXYamh1WMcICoHizsaC1T1ZoM/view?usp=sharing",
         "solutions" : "https://drive.google.com/file/d/17J4THFQHW-T4Att0f-xzjLOuiLixsZMg/view?usp=sharing",
@@ -284,8 +272,33 @@
             }
         ]
     },
-    "finalReview" : {
-        "title" : "Final Exam Review and Farewell",
+    "finalReview1" : {
+        "title" : "Final Exam Review 1",
+        "worksheet" : "https://drive.google.com/file/d/1pmqp3k8lFV15KcNxrw7Y8eRb9T4ztK6T/view?usp=sharing",
+        "solutions" : "https://drive.google.com/file/d/1LHUABtmuJ4cK9muTqVDhA_kzO4cxUM4C/view?usp=sharing",
+        "slides" : "https://docs.google.com/presentation/d/1qsA0HIOmVsaLF_MyviKr1oHAf_5BvU-C-SwJkNKjK5Q/edit?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLOa4ZLirTDu-1FCP_dEit0",
+        "resources" : [
+            {
+                "title" : "FA19 Final Walkthrough Videos",
+                "link" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKIWZyMaq39zP4hHxOorqKq"
+            },
+            {
+                "title" : "TA/AI+ Q&A Panel",
+                "link" : "https://www.youtube.com/watch?v=fEWqfMbjam0"
+            },
+            {
+                "title" : "Extra Final Review Worksheet",
+                "link" : "https://drive.google.com/file/d/1u3dsAuF03t-oc3qdm48qtwIc_6VVJOEH/view?usp=sharing"
+            },
+            {
+                "title" : "Extra Final Review Solutions",
+                "link" : "https://drive.google.com/file/d/1m2TlMMlFgNOQCz1wAf7UScLpNbDZ5Djv/view?usp=sharing"
+            }
+        ]
+    },
+    "finalReview2" : {
+        "title" : "Final Exam Review 2 and Farewell",
         "worksheet" : "https://drive.google.com/file/d/1pmqp3k8lFV15KcNxrw7Y8eRb9T4ztK6T/view?usp=sharing",
         "solutions" : "https://drive.google.com/file/d/1LHUABtmuJ4cK9muTqVDhA_kzO4cxUM4C/view?usp=sharing",
         "slides" : "https://docs.google.com/presentation/d/1qsA0HIOmVsaLF_MyviKr1oHAf_5BvU-C-SwJkNKjK5Q/edit?usp=sharing",

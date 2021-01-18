@@ -18,6 +18,7 @@
     - numbers + abstraction
   labs:
     - byob
+    - conditionals
   discussion:
     - numberRepresentation
   projects:
@@ -28,6 +29,7 @@
 3:
   lectures:
     - list + scoping
+    - social implications one
   labs:
     - abstraction
     - lists
@@ -40,11 +42,11 @@
 
 4:
   lectures:
-    - social implications one
     - algorithms
+    - complexity
   labs:
-    - work session
     - algorithms
+    - complexity
   discussion:
     - algorithms
   projects:
@@ -54,10 +56,9 @@
 
 5:
   lectures:
-    - complexity
     - testing + proj3
   labs:
-    - complexity
+    - no section
     - testing
   discussion:
     - algorithmicComplexity
@@ -69,10 +70,10 @@
 6:
   lectures:
     - recursion one
-    - social implications two
+    - recursion two
   labs:
     - boards
-    - work session
+    - fractals
   discussion:
     - recursion1
   projects:
@@ -81,11 +82,11 @@
     - "blown-to-bits"
 7:
   lectures:
-    - recursion two
+    - social implications two
     - recursion three
   labs:
-    - fractals
     - recursiveReporters
+    - catchup lab
   discussion:
     - recursion2
   projects:
@@ -122,11 +123,20 @@
 
 10:
   lectures:
-    - python four
+    - no lecture
+  labs:
+    - no section
+  discussion: []
+  projects: []
+  readings: []
+
+11:
+  lectures:
     - python three
+    - python four
   labs:
     - oop
-    - work session
+    - textProcessing
   discussion:
     - python2
   projects:
@@ -134,22 +144,9 @@
   readings:
     - alphastar
 
-11:
-  lectures:
-    - elections
-    - social implications three
-  labs:
-    - election
-    - textProcessing
-  discussion:
-    - socialImplications1
-  projects:
-    - pytris
-  readings:
-    - "data-science"
-  
 12:
   lectures:
+    - social implications three
     - python five
   labs:
     - dataScience
@@ -157,10 +154,10 @@
   discussion:
     - python3
   projects:
-    - final
+    - pytris
   readings:
-    - "women-in-coding"
-
+    - "data-science"
+  
 13:
   lectures:
     - concurrency
@@ -169,18 +166,20 @@
     - concurrency
     - work session
   discussion:
-    - conceptOverview
+    - python4
   projects:
     - final
-  readings: []
+  readings:
+    - "women-in-coding"
 
 14:
   lectures:
+    - limits
     - ai
   labs:
     - work session
   discussion:
-    - none
+    - finalReview1
   projects:
     - final
   readings: []
@@ -193,8 +192,9 @@
     - work session
     - work session
   discussion:
-    - finalReview'
-  projects: []
+    - finalReview2
+  projects:
+    - final
   readings: []
 
 16:
