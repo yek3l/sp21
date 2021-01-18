@@ -47,6 +47,7 @@ function currentWeekContent(course_data) {
 }
 
 export function createWeekContent(currentWeek, course_data) {
+    console.log(currentWeek, course_data);
     let weekContent = content_structure[currentWeek];
     let contentTypeKeys = Object.keys(weekContent);
     let contentLinks = [];
