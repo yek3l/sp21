@@ -1,35 +1,27 @@
-name: Yolizzle Shizzle
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Yolanda Shen
 email: yashen@berkeley.edu
 year: Junior
-major: Viguple major in like, everything.
-pronouns: I am not assuming anything
+major: MCB/Data Science
+pronouns: she/her
 responses:
   # Where did you grow up? What was your path to Cal?
-  - Towards the end of senior year, I discovered a hidden water slide that
-    seemed to traverse space and time itself. After enjoying my summer break
-    and making preparations, I went into the slide and found myself in
-    Strawberry Creek consequently. As I exited the water slide, it collapsed
-    behind me, something I took as a sign for me to stay here at Cal.
+  - I'm from San Ramon, California, which is a 40 min drive southeast of Berkeley. I was initially going to commit to UW, but decided to come to Cal in hope of better opportunities and more favorable weather. I am thankful to have gotten both!
 
   # How much programming have you done? Which Languages?
-  - Although I first experienced coding through CS10, I discovered yet another
-    anomaly that allowed me to dive through the fabric of space and time. This time however,
-    I communed with the coding gods themselves, only returning to this mortal plane
-    after accumulating lifetimes worth of programming experience. It was only after
-    this that I felt I was sufficiently ready for 61A (jk).
+  - After never coding before CS10, I've since learned Snap, Python, Java, SQL, Scheme, HTML/CSS and minimal amounts of JavaScript.
 
   # What are your Hobbies?
-  - Spontaneously exploring the multiverse. Teaching CS10. Mining the crafts.
+  - I enjoy drawing, playing the guitar, watching gaming streams, and drinking matcha. When I'm not doing those, you'll often find me reconstructing my Spotify playlists or watching the sunset. 
 
   # What are some of your talents and skills?
-  - Yes.
+  - Being able to finish the monthly puzzle loop at https://www.puzzle-loop.com/.
 
   # Have you done anything remarkable? Has anything memorable happened to you?
-  - It is not clear to me if my life has offered me any such experience yet...
-    Although I've been told that diving through space and time would count.
+  - Over the summer, I convinced (read: bribed) CS10 students to fill out a feedback survey by promising to do a “To All The Boys I’ve Loved Before”-inspired challenge where you send Google forms to all your past crushes with questions like “did you know I liked you?”, “did you like me back?”, and “how awkward is this?”. Perhaps there will be a similar opportunity this semester…
 
   # What commitments will be consuming your cycles this semester?
-  - I would hope that I have no commitments that consume cycles. Bike theft is a serious
-    crime in Berkeley and should be dealt with in the most decisive of manners.
-
-    
+  - Aside from teaching, I'll be taking Stat 135, ISF 100c, IEOR 173, and MCB 110. I’ll also be involved in CS10 course/textbook development and doing research. Outside of school, I'll be running a lot, as well as finding as many ways to annoy my younger brother as possible. Stop by OH/Drop me a message on Discord to say hello anytime! I'd always love to chat.
+  

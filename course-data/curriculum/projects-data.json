@@ -2,30 +2,30 @@
     "survey" : {
         "title" : "Project 0",
         "spec" : null,
-        "submit" : "https://www.gradescope.com/courses/164713/assignments/634898/",
+        "submit" : "https://www.gradescope.com/courses/224752/assignments/927229/",
         "resources" : []
     },
     "wordmatch" : {
         "title" : "Wordmatch Intro",
-        "spec" : "https://docs.google.com/document/d/1xQrKFA_fj46Lcn6S0M2O6KoEQw5Pgyoz6Vc0Vhgbnko/edit",
-        "submit" : "https://www.gradescope.com/courses/164713/assignments/634898/",
+        "spec" : null,
+        "submit" : null,
         "resources" : []
     },
     "mastermind" : {
         "title" : "Mastermind",
-        "spec" : "https://docs.google.com/document/d/179AI89JRPJWZxUG_OGgsxcJlvyFprbCPLdQbLPdq4YU/edit",
+        "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "2048" : {
         "title" : "2048",
-        "spec" : "https://docs.google.com/document/d/1B6DyTuPDgM3uSATEbscUx-D_FsVfUGC5ibJ3VVh0NE0/edit",
+        "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "explore" : {
         "title" : "Explore Post",
-        "spec" : "https://docs.google.com/document/d/1f1ZJeg38cMlJf2koDlUUly8tK8od1NKmL6mCNCXZX18/edit",
+        "spec" : null,
         "submit" : null,
         "resources" : [
             {
@@ -36,13 +36,13 @@
     },
     "pytris" : {
         "title" : "Pytris",
-        "spec" : "https://docs.google.com/document/d/e/2PACX-1vQFbMNNJ31pI6kjoWrGqt32-e9CvRmQiJbHcNgxTqkl8rjWMpT6PWh8ATV_oDPXe19fv51yH3VPpFjm/pub",
+        "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "final" : {
         "title" : "Final Project",
-        "spec" : "https://docs.google.com/document/d/1tnIzap5QifyYNiFT9VqG04O-cqAFXf6NW8iPl3bvXSY/edit",
+        "spec" : null,
         "submit" : null,
         "resources" : []
     }

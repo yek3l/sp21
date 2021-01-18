@@ -1,6 +1,8 @@
+# Ignore for now.
+
 overview:
   - header: Welcome!
-    body: In Fall 2020, CS10 is planning to try a new teaching plan to better support students and 
+    body: In Spring 2021, CS10 is expanding upon last fall's teaching plan to better support students and 
           encourage participation during this unusual online offering of the course. Special thank 
           you to John DeNero and the CS61A team for writing the original document which this was based on.
 
@@ -36,12 +38,61 @@ overview:
 
 sections:
   - label: Lecture
-    occurences:
-      - Monday
+    synchronous: no
+    platform: PrairieLearn
+    body: Lecture content has been pre-recorded with high production value. There will be questions to answer via PrairieLearn
+          after every lecture, for which you will earn credit. On Mondays at 11 AM, there will be a live weekly summary lecture
+          --all content will be the same as in the recordings, but in less depth. You are required to watch the recording and 
+          encouraged (but not required) to attend the live sessions. If Monday is a holiday, the live session will be Wednesday. 
+          The live session wil also be recorded.
+  
+  - label: Lab
+    synchronous: yes
+    platform: Discord
+    body: We will have three labs scheduled through the day to be sensitive to differences in time zones. Lab occurs twice a week.
+          Lab attendance is encouraged and will be counted towards extra credit, but is not mandatory. Checkoffs either happen 
+          in lab or via a Google Form submission. Note that you are graded on completion.
+  
+  - label: Discussion
+    synchronous: yes
+    platform: Zoom
+    body: Discussion content will be pre-recorded. However, we will also have three live discussion sections, scheduled throughout 
+          the day. Discussion attendance is encouraged and will be counted towards extra credit, but is not mandatory. Discussion 
+          are typically worksheet based, but turning in the worksheet is not required.
+
+  - label: Check-ins
+    synchronous: yes
+    platform: Zoom
+    body: Once a week, mandatory fifteen-minute synchronous group check-ins will be scheduled throughout the day to be sensitive 
+          to differences in time zones. Students will earn credit for attending.
 
 assignments:
   - Stuff
+
 grading:
   - Stuff
+
 staff:
-  - Stuff
+  - label: Head Teaching Assistants
+    body: Yolanda Shen and Shannon Hearn will run the course at a high level and are the points of contact for questions when 
+          you do not know who to reach out to. For any high-level course questions, reach out to either before Dan.
+
+  - label: Teaching Assistants
+    body: All TAs will be heading a specific aspect of the course-- Bryant Bettencourt (Lab/Lab Development), Andrew Burke (Discussion),
+          Lam Pham (Exams), Dani Swords (Check-Ins), Kellyann Ye (Content), Shannon Hearn (Academic Interns) Yolanda Shen (Course 
+          Development).
+
+  - label: Lab Teaching Assistants
+    body: Bryant Bettencourt, Shannon Hearn, and Lam Pham. Please reach out to your individual assigned TA for lab-specific questions.
+
+  - label: Discussion Teaching Assistants
+    body: Andrew Burke, Dani Swords, and Yolanda Shen. Please reach out to your individual assigned TA for discussion-specific questions.
+  
+  - label: Readers
+    body: Readers will be in charge of grading for the semester. The readers for the course are Samhita Sen, Taroob Zia, and Sarah Varghese. 
+          Please reach out to the Head Reader, Kellyann Ye, for any grading-related questions.
+
+  - label: Tutors
+    body: Tutors will primarily be running the check-in groups and holding office hours. The tutors for the course are Nicholas Lai, Vaibhav 
+          Mohata, and Gowri Somayajula. Please reach out to the tutors if you have any concerns about your ability to keep pace with the 
+          course, and they will connect you to the right person or resource needed to assist you.
