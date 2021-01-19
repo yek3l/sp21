@@ -9,13 +9,24 @@ roles:
       - shannon
 
   - label: TA
-    people: []
+    people:
+      - andrew
+      - lam
+      - bryant
+      - dani
+      - kellyann
   
   - label: Reader
-    people: []
+    people:
+      - samhita
+      - sarah
+      - taroob
   
   - label: Tutor
-    people: []
+    people:
+      - nick
+      - gowri
+      - vaibhav
   
   - label: Academic Intern
     people: []
