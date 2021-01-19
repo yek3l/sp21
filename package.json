@@ -26,6 +26,7 @@
     "@fullcalendar/timegrid": "^5.4.0",
     "babel-plugin-styled-components": "^1.12.0",
     "bootstrap": "^4.5.3",
+    "chart.js": "^2.9.4",
     "file-system": "^1.2.2",
     "fs": "^0.0.1-security",
     "gatsby": "^2.13.57",
@@ -54,6 +55,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/maxsonyang/cs10-react"
+    "url": "https://github.com/cs10/sp21"
   }
 }
