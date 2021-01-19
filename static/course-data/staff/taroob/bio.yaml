@@ -5,7 +5,7 @@ name: Taroob Zia
 email: tzia@berkeley.edu
 year: Junior
 major: Computer Science
-pronouns: she/her
+pronouns: she/her/hers
 responses:
   # Where did you grow up? What was your path to Cal?
   - I grew up in the Bay Area, about an hour away from Berkeley. Early in high school, I was impressed by Cal and dreamed about studying here one day - and now I'm here!
@@ -14,13 +14,13 @@ responses:
   - I've learned several languages through coursework at Berkeley, including Snap!, Python, Java, C, and more.
 
   # What are your Hobbies?
-  - '~'
+  - ~
 
   # What are some of your talents and skills?
-  - '~'
+  - ~
 
   # Have you done anything remarkable? Has anything memorable happened to you?
-  - '~'
+  - ~
 
   # What commitments will be consuming your cycles this semester?
   - My classes and being a reader for CS10 will be taking up most of my time this semester!
