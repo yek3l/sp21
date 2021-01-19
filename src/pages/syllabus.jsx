@@ -150,12 +150,12 @@ function CourseOverview() {
                     <div className="body">
                         Research (and anecdotal evidence) have shown that students who keep up with the material every week 
                         do better than students who fall behind, start projects late, and have to cram for each exam at the 
-                        last minute. So, as much as you can, attend our face-to-face live session (Mon @ 10am PST … but Wed 
-                        when Monday is a holiday) + a discussion (5 different times) synchronously. However, you will not be 
+                        last minute. So, as much as you can, attend our face-to-face live session (Mon @ 11am PST … but Wed 
+                        when Monday is a holiday) + a discussion (3 different times) synchronously. However, you will not be 
                         penalized for being in a time zone that makes that difficult, and you will find recordings of these 
-                        sessions available. The only required synchronous element is a weekly 15m check-in with you and three 
+                        sessions available. The only required synchronous elements are a weekly 15m check-in with you and three 
                         other students with video on (with exceptions on a student-by-student basis), but will have many times 
-                        throughout the day available for that.
+                        throughout the day available for that, and getting your lab checked off at a lab section.
                     </div>
                 </div>
             </div>
@@ -198,8 +198,8 @@ function Sections() {
                     <div className="body">
                         Location: Discord. We will have three labs scheduled through the day to be 
                         sensitive to differences in time zones. Lab attendance is encouraged and will 
-                        be counted towards extra credit, but is not mandatory.Checkoffs either happen 
-                        in lab or via a Google Form submission. Note that you are graded on completion.
+                        be counted towards extra credit, but is not mandatory. However, labs are required to be checked off at one of the lab sections
+                        (i.e. synchronously). If you are unable to attend any of the sections, please contact Shannon.
                     </div>
                 </div>
                 <div className="syllabus-subsection">
