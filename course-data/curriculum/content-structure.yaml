@@ -36,6 +36,7 @@
   discussion:
     - scoping
   projects:
+    - wordmatch
     - mastermind
   readings:
     - "intro-to-abstraction"
@@ -58,11 +59,11 @@
   lectures:
     - testing + proj3
   labs:
-    - no section
     - testing
   discussion:
     - algorithmicComplexity
   projects:
+    - mastermind
     - 2048
   readings:
     - "algo-complexity"
@@ -86,11 +87,10 @@
     - recursion three
   labs:
     - recursiveReporters
-    - catchup lab
   discussion:
     - recursion2
   projects:
-    - explore
+    - 2048
   readings:
     - "connected-but-alone"
 
@@ -100,11 +100,10 @@
     - paradigms
   labs:
     - functionsAsData
-    - catchup lab
   discussion:
     - midtermReview
   projects:
-    - explore
+    - 2048
   readings: []
 
 9:
@@ -117,7 +116,7 @@
   discussion:
     - python1
   projects:
-    - pytris
+    - explore
   readings:
     - "why-python-is-lit" # Note this should be changed
 
@@ -155,6 +154,7 @@
     - python3
   projects:
     - pytris
+    - final
   readings:
     - "data-science"
   
@@ -164,7 +164,6 @@
     - hci
   labs:
     - concurrency
-    - work session
   discussion:
     - python4
   projects:
@@ -176,8 +175,7 @@
   lectures:
     - limits
     - ai
-  labs:
-    - work session
+  labs: []
   discussion:
     - finalReview1
   projects:
@@ -188,9 +186,7 @@
   lectures:
     - alumni
     - farewell
-  labs:
-    - work session
-    - work session
+  labs: []
   discussion:
     - finalReview2
   projects:

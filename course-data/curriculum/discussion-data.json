@@ -1,27 +1,27 @@
 {
     "welcome" : {
         "title" : "Welcome to CS10!",
-        "worksheet" : "https://drive.google.com/file/d/1I2zpzaObntYjF6F8RPEcbaI6QamT8tbp/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1QuwrIGVjknvsmdzKzSOqv9W1NgXi9qWW/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1wfZgeHOWgw68RMaAYQoEUcBfytkY8suETgZyWlrwbaI/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MK2wGnoWTKh0Vg8FEfJlvFz",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1wvffS8_rGTbQUTevNXzgXQrM_0c6WoZk?usp=sharing"
+                "link" : null
             }
         ]
     },
     "numberRepresentation" : {
         "title" : "Number Representation, Boolean Logic, and Conditionals",
-        "worksheet" : "https://drive.google.com/file/d/1zu_LUvizMKIY1rcKhHnW2cDzdbt2tX9h/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1IWUHjBk5zEFe8qfDfC_v6sR_J0oGzGCv/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/12lud4x-nNpQCYr3dcxdQt6XybcHhIdANT0fynbo9MUM/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MIvW8lYOoODMcF4uMd3AfOQ",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1YbFvkAqRSwBoI_qmt0g7NBNWHAjxJXHs?usp=sharing"
+                "link" : null
             },
             {
                 "title" : "notes (Maxson)",
@@ -43,14 +43,14 @@
     },
     "scoping" : {
         "title" : "Domain/Range, HOFs, Scoping",
-        "worksheet" : "https://drive.google.com/file/d/1Q6atdJLbjCiLos5FJfkp6ap6Gc4ugyam/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1Va6JfIFvi1i6v3bD05gCZrtn0FRt1I8E/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/19njh2jbEpxl6VhTAGXV6R8u9LoJ14z4yKgfkEbx53Ys/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MKweAzb42I5sjEXz5oq-y_8",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1HiGMiVBrEEVGn0BLqAlUVfQhD4YvxhL_?usp=sharing"
+                "link" : null
             },
             {
                 "title" : "Extra Quest Review Worksheet",
@@ -68,14 +68,14 @@
     },
     "algorithms" : {
         "title" : "Quest Rehash (Mutability, HOFs) & Algorithms",
-        "worksheet" : "https://drive.google.com/file/d/1_kiftZ4ozLw_DGgpRQW1SV7xp2lcEkUe/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1SBWe98aNsBhncl4B1sNNDVuyK2NJ4yRw/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1llBfYg6wLREpYow9qLg2XN4N1az7TsVlHrTwiJ4xjjQ/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MIzyIqpYtI7bYzVBsGVawuo",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/1iX94fBmHSxHz32gYc6Tm3AAk2Tjo4jDA?usp=sharing"
+                "link" : null
             },
             {
                 "title" : "Snap! Mutability Demo",
@@ -93,14 +93,14 @@
     },
     "algorithmicComplexity" : {
         "title" : "Algorithmic Complexity",
-        "worksheet" : "https://drive.google.com/file/d/10FQfzoL7XMXeKYO2cn9okG8kBUWTqsuh/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1LPtRIAKjOTbA-PtRb5vde4h21WlY3b3t/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1rmgbyMFLe0zZBAVo1teolsV727he-CfK3v_5hsRme-8/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MK-GN21qAEfvdzUPZX6EUSb",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : "https://drive.google.com/drive/folders/12EEsk8BMy_8EOJ8KprS4kBrGhJF-B1R6?usp=sharing"
+                "link" : null
             },
             {
                 "title" : "Binary search video",
@@ -122,10 +122,10 @@
     },
     "recursion1" : {
         "title" : "Recursion I",
-        "worksheet" : "https://drive.google.com/file/d/1hSiHo8FXYHg7MkzwMEZe8zuwVHM8pRJJ/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1hq2y_SzNqZWZySdSmQUQWpdkHzFHHfTt/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1pgBJx5lY6_VgbQECehISt-CrXvTWjFs2Wmp3pHBO0j4/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/watch?v=NXsKneMkBqQ&feature=youtu.be",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Recursion write up (Murtz)",
@@ -147,10 +147,10 @@
     },
     "recursion2" : {
         "title" : "Recursion II",
-        "worksheet" : "https://drive.google.com/file/d/1-dej8TPVu3A2Gvdwh9FwEJdQNkaI4pCb/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1oiafUHNkZLn3kskOo4vliKZMVtVnoHEg/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1AvDJOCHjfpOksOLEes23UrPqHnxOQEI2W4VquGhcfSA/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLkNzAgxY_vvFXYDDboitIS",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Count Change Guide (Murtz)",
@@ -181,10 +181,10 @@
     },
     "python1" : {
         "title" : "Intro to Python",
-        "worksheet" : "https://drive.google.com/file/d/13gFCaazAMuPY6D8HjUBVc4-r4o9w7OnY/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1QQ2LsSdm-LeoFGVCKxR4g44Zd5Jgux1_/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/u/1/d/1MaN2dKLNIQSpQoDYMr8415d-8zla-qj3dgI4KfVA_s0/",
-        "recording" : "https://www.youtube.com/watch?v=yjkOKNNTUCA&feature=youtu.be",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Kahoot!",
@@ -218,10 +218,10 @@
     },
     "python2" : {
         "title" : "Data Structures in Python",
-        "worksheet" : "https://drive.google.com/file/d/1Yggluv14T3GB5i69PdsC1ftTdouROen1/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1uPYlaRQU_V79GFvgWQEy67Uatzk2Dw0S/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/155nSei8-K5NHMibJ-il-LNJcWA81y3Y1U2t5tshZ_h4/edit#slide=id.p",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MJcrnzWJlLzWNjab39-uswG",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Extra Dictionary Problems",
@@ -236,10 +236,10 @@
 
     "python3" : {
         "title" : "OOP in Python",
-        "worksheet" : "https://drive.google.com/file/d/1GfWYYdYjsbX6SviS25LvMDhaJnbn_0GZ/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1XeGLJIp5z2h3fxH7kNqWXIDVVyRfxzoM/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1JnYRCftY50Erz-Pf35xM-1iVOC8jWy2G6RlUjdzshfI/edit?usp=sharing",
-        "recording" : "https://youtu.be/ZdGv3HkYNpg",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Programiz OOP Write Up",
@@ -257,10 +257,10 @@
     },
     "python4" : {
         "title" : "Python HOFs, Lambdas, and Tree Recursion",
-        "worksheet" : "https://drive.google.com/file/d/1JlHgkuNdXYamh1WMcICoHizsaC1T1ZoM/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/17J4THFQHW-T4Att0f-xzjLOuiLixsZMg/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1Q_0_Om_MmOnTHTN6SznyfL-IWgPeT6xoLka4Z-HCRK0/edit",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLqZ335qknLqj-422OjEr3Q",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Python Lambda Guide",
@@ -274,10 +274,10 @@
     },
     "finalReview1" : {
         "title" : "Final Exam Review 1",
-        "worksheet" : "https://drive.google.com/file/d/1pmqp3k8lFV15KcNxrw7Y8eRb9T4ztK6T/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1LHUABtmuJ4cK9muTqVDhA_kzO4cxUM4C/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1qsA0HIOmVsaLF_MyviKr1oHAf_5BvU-C-SwJkNKjK5Q/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLOa4ZLirTDu-1FCP_dEit0",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "FA19 Final Walkthrough Videos",
@@ -299,10 +299,10 @@
     },
     "finalReview2" : {
         "title" : "Final Exam Review 2 and Farewell",
-        "worksheet" : "https://drive.google.com/file/d/1pmqp3k8lFV15KcNxrw7Y8eRb9T4ztK6T/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1LHUABtmuJ4cK9muTqVDhA_kzO4cxUM4C/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1qsA0HIOmVsaLF_MyviKr1oHAf_5BvU-C-SwJkNKjK5Q/edit?usp=sharing",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MLOa4ZLirTDu-1FCP_dEit0",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "FA19 Final Walkthrough Videos",
@@ -324,7 +324,7 @@
     },
     "numberSystems" : {
         "title" : "Number Systems",
-        "worksheet" : "https://drive.google.com/file/d/1BkSL9dMxPA9bHSQAS11AgoXjRbAUGOp3/view?usp=sharing",
+        "worksheet" : null,
         "solutions" : null,
         "slides" : null,
         "recording" : null,
@@ -349,10 +349,10 @@
     },
     "booleans" : {
         "title" : "Boolean Logic + Scoping",
-        "worksheet" : "https://drive.google.com/file/d/1dQ69V53AsIbzn4sp6-Qo21EnAKUaNypB/view?usp=sharing",
+        "worksheet" : null,
         "solutions" : null,
-        "slides" : "https://drive.google.com/drive/folders/17U7IQirUkoSgp4C2YTF_8V55evKW1Muj?usp=sharing",
-        "recording" : "https://drive.google.com/drive/folders/1uPFO3TOGOH6nYIaDFZ0-fNVlE41Moi14?usp=sharing",
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "boolean video",
@@ -362,10 +362,10 @@
     },
     "lists" : {
         "title" : "Lists + Mutability",
-        "worksheet" : "https://drive.google.com/file/d/1Ng63RL71V2BcVeow0IC1cWBGbAvjKRHd/view?usp=sharing",
+        "worksheet" : null,
         "solutions" : null,
-        "slides" : "https://docs.google.com/presentation/d/1QplewxrbWMqLIMvQQGd6IshT3fbGsZgEGahPhEnV30w/edit?usp=sharing",
-        "recording" : "https://drive.google.com/drive/folders/1TjxRQfiqF2ODAv5neCGwBK78mfGTK9Lj?usp=sharing",
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "write up (Murtz)",
@@ -375,10 +375,10 @@
     },
     "HOFs" : {
         "title" : "HOFs",
-        "worksheet" : "https://drive.google.com/file/d/15Y7Bu2gbOJ-bYnfwOxqPYsM0ukb4QnAW/view?usp=sharing",
+        "worksheet" : null,
         "solutions" : null,
-        "slides" : "https://docs.google.com/presentation/d/1IgX0jAHbjCN7HyTHwPhh0yewtqPo0FsrbmIDziJfYVc/edit?usp=sharing",
-        "recording" : "https://drive.google.com/drive/folders/1QbyddrUvhYKs3i2pKUtBSfVP4K2GIp_x?usp=sharing",
+        "slides" : null,
+        "recording" : null,
         "resources" : [
             {
                 "title" : "[sp18] slides (Matthew)",
@@ -388,10 +388,10 @@
     },
     "introRecursion" : {
         "title" : "HOF Review, Intro to Recursion",
-        "worksheet" : "https://drive.google.com/file/d/1pkFrhBGEtO3j7bcBOTWLrJy3W1WrmN_i/view?usp=sharing",
+        "worksheet" : null,
         "solutions" : null,
-        "slides" : "https://docs.google.com/presentation/d/1-xOvPQfW1o0C54HLhdTvRcJnURPz6oADeFVKsBDcO3k/edit?usp=sharing",
-        "recording" : "https://drive.google.com/drive/folders/1Qef03nhwMRcjYUnQR3WMEMljYgE3KsEM?usp=sharing",
+        "slides" : null,
+        "recording" : null,
         "resources" : []
     },
     "Recursion I" : {

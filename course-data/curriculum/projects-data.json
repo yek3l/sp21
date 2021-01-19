@@ -6,25 +6,25 @@
         "resources" : []
     },
     "wordmatch" : {
-        "title" : "Wordmatch Intro",
+        "title" : "Project 1: Wordmatch Intro",
         "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "mastermind" : {
-        "title" : "Mastermind",
+        "title" : "Project 2: Mastermind",
         "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "2048" : {
-        "title" : "2048",
+        "title" : "Project 3: 2048",
         "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "explore" : {
-        "title" : "Explore Post",
+        "title" : "Project 4: Explore Post",
         "spec" : null,
         "submit" : null,
         "resources" : [
@@ -35,13 +35,13 @@
         ]
     },
     "pytris" : {
-        "title" : "Pytris",
+        "title" : "Project 5: Pytris",
         "spec" : null,
         "submit" : null,
         "resources" : []
     },
     "final" : {
-        "title" : "Final Project",
+        "title" : "Project 6: Final Project",
         "spec" : null,
         "submit" : null,
         "resources" : []
