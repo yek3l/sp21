@@ -2,18 +2,18 @@
   link: "http://bjc.link/zoomroomfa20"
   icon: video_call
 
-- label: Shannon's Tutoring
-  link: "https://berkeley.zoom.us/j/94523199723"
-  icon: video_call
+# - label: Shannon's Tutoring
+#   link: "https://berkeley.zoom.us/j/94523199723"
+#   icon: video_call
 
-- label: Discord
-  link: "https://discord.gg/44mnVeG"
-  icon: exit_to_app
+# - label: Discord
+#   link: "https://discord.gg/44mnVeG"
+#   icon: exit_to_app
 
-- label: Gradescope
-  link: "https://www.gradescope.com/courses/164713"
+- label: Gradescope (6PGKWE)
+  link: "https://www.gradescope.com/courses/224752"
   icon: spellcheck
 
 - label: Piazza
-  link: "https://piazza.com/class/ke94crp1bn9ce"
+  link: "https://piazza.com/class/kjt2jqnct3u2m"
   icon: supervisor_account
