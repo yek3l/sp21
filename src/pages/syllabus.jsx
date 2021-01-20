@@ -178,7 +178,7 @@ function Sections() {
                     </div> 
                     <div className="body">
                         Lecture content has been pre-recorded with high production value. 
-                        There will be questions to answer via Gradescope after every lecture, 
+                        There will be questions to answer via PrairieLearn after every lecture, 
                         for which you will earn credit. On Mondays at 11 AM, there will be a <strong>live </strong> 
                         weekly summary lecture on Zoom with Dan. All content will be the same as in the recordings, 
                         but in less depth. You are required to watch the recording and encouraged (but not required) 
