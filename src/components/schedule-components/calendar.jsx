@@ -49,7 +49,6 @@ export default class Calendar extends React.Component {
                 ]}
                 themeSystem="bootstrap"
                 initialView="timeGridWeek"
-                slotMinTime="07:00:00"
             />
           </div>
         )
@@ -67,7 +66,6 @@ export default class Calendar extends React.Component {
               ]}
               themeSystem="bootstrap"
               initialView="timeGridDay"
-              slotMinTime="07:00:00"
           />
         </div>
       )
