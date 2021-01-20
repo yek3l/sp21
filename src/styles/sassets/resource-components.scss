@@ -5,9 +5,11 @@
     flex-direction: row;
     overflow-x: scroll;
     min-height: 61px;
+    min-width: fit-content;
 
     @include tablet-landscape {
-        display: column;
+        overflow-x: hidden;
+        flex-direction: column;
     }
 }
 // Main Content Components
@@ -16,13 +18,12 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 40px;
-    min-width: 100%;
-    max-width: 100%;
+    width: 100%;
     flex-wrap: wrap;
 
     .sections {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
     }
 }
@@ -55,21 +56,26 @@
     overflow: wrap;
     padding: 10px;
 
-    width: 100px;
-    height: 100px;
+    // Mobile portrait sizing
+    width: 150px;
+    height: 150px;
+    font-size: 12px;
+    .material-icons {
+        font-size: 48px;
+    }
+
+    @include mobile-landscape {
+
+    }
 
     @include tablet-portrait {
         display: column;
-        width: 100px;
-        height: 100px;
-    }
-    
+        width: 175px;
+        height: 175px;
 
-    .material-icons {
-        font-size: 36px;
-
-        @include mobile-landscape {
-            font-size: 24px;
+        font-size: 14px;
+        .material-icions {
+            font-size: 72px;
         }
     }
 

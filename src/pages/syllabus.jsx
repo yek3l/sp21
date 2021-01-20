@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
 import "../styles/sassets/syllabus.scss";
-import { Helmet } from 'react-helmet';
+import { Head } from "../components/head.jsx";
 import { ListGroup } from 'react-bootstrap';
 import { QuickLinkInternal } from "../components/quick-links.jsx";
 import { Doughnut } from "react-chartjs-2";
@@ -11,12 +11,7 @@ class SyllabusPage extends React.Component {
     render() {
         return (
             <div>
-                <Helmet>
-                  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-                  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-                  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-                </Helmet>
+                <Head />
                 <NavigationBar />
                 <div className="container-fluid">
                     <h1>

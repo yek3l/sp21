@@ -37,6 +37,13 @@ $screen-laptop: 1200px;
   }
 }
 
+@mixin flex {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+}
+
 .content-section {
   margin-top: 40px;
 }

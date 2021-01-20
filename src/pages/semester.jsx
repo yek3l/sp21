@@ -1,6 +1,6 @@
 import React from "react";
 import NavigationBar from "../components/navigation.jsx"
-import { Helmet } from 'react-helmet';
+import { Head } from "../components/head.jsx";
 import { createWeekContent } from "../components/weeklyschedule.jsx";
 import { getContentTypes, getContentSource } from "../components/course-data-util";
 import "../styles/main.scss"
@@ -80,17 +80,7 @@ class SemesterPage extends React.Component {
     render() {
         return (
             <div>
-                <Helmet>
-                  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
-                  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"></link>
-                  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-                  <link
-                    rel="stylesheet"
-                    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-                    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-                    crossorigin="anonymous"
-                />
-                </Helmet>
+                <Head />
                 <NavigationBar />
                 { this.loadHomeScreen() }
             </div>
