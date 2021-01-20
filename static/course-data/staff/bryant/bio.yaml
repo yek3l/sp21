@@ -1,27 +1,26 @@
 # NOTE: You can leave anything blank by typing `~`.
 # If you want to include colons in your response, put double quotes around your response.
 
-name: Andrew Burke
-email: aburke225@berkeley.edu
+name: Bryant Bettencourt
+email: bettencourt@berkeley.edu
 year: Senior
-major: Cognitive Science
-pronouns: ~
+major: Data Science
+pronouns: he/him/his
 responses:
   # Where did you grow up? What was your path to Cal?
-  - ~
+  - I grew up in Chico, California. Coming to Cal, I had no idea what I wanted to do. My extra curriculars or course work before Cal had little to do with computer science or anything related to it. That all changed when I took CS10.
 
   # How much programming have you done? Which Languages?
-  - ~
+  - My programming experience started with CS10. Since then, I have learned many different programming languages and tools including Python, Java, C, Go, and SQL.
 
   # What are your Hobbies?
-  - ~
+  - I love cooking, watching anime, playing basketball, and eating bananas
 
   # What are some of your talents and skills?
-  - ~
+  - I once ate 30 bananas in 20 minutes.
 
   # Have you done anything remarkable? Has anything memorable happened to you?
-  - ~
+  - See talents and skills.
 
   # What commitments will be consuming your cycles this semester?
-  - ~
-  
+  - In addition to CS10, I will be taking on several class and personal technical projects related to my interests.
