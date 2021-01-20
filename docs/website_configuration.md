@@ -37,3 +37,22 @@ For any links you'd like to display (like "lecture slides" or "solutions"), just
 
 You can also add an array of links for any non-standard links you'd like to associate with a particular piece of content. These are usually extra resources
 like additional notes. Instead of providing a string, you can just provide an array of objects with a "title", and "link" key.
+
+```json
+{
+    "uniqueKey" : {
+        "title": "Another title here",
+        "linkKey1": "link url",
+        "manyLinks" : [
+            {
+                "title" : "resource link 1",
+                "link" : "url here"
+            },
+            {
+                "title" : "resource link 2",
+                "link" : "url here"
+            }
+        ]
+    }
+}
+```
