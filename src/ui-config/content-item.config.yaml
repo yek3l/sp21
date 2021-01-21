@@ -2,19 +2,19 @@ lectures:
   label: Lecture
 
   displayed-links:
-    - live_session_recordings
-    - live_session_slides
+    - webcast
+    - webcast_slides
 
   core-links:
-    google-drive:
-      icon: folder_shared
-      label: live slides & recording
     webcast:
       icon: videocam
       label: video
     webcast_slides:
       icon: slideshow
       label: slides
+    google-drive:
+      icon: folder_shared
+      label: live slides & recording
     live_session_recording:
       icon: video_call
       label: live session recording
