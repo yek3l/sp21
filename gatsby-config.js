@@ -19,5 +19,5 @@ module.exports = {
       options: {}
     }
   ],
-  pathPrefix: "/sp21"
+  pathPrefix: "/cs10-react"
 }
