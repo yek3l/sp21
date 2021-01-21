@@ -1,5 +1,6 @@
 weekly-schedule:
   lectures: "#0074FD"
+  live-sessions: "#EE7C2F"
   discussion: "#FF4B4B"
   labs: "#F3B200"
   projects: "#38CA05"

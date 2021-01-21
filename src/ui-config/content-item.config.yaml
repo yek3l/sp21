@@ -12,21 +12,23 @@ lectures:
     webcast_slides:
       icon: slideshow
       label: slides
-    google-drive:
-      icon: folder_shared
-      label: live slides & recording
-    live_session_recording:
-      icon: video_call
-      label: live session recording
-    live_session_slides:
-      icon: slideshow
-      label: live session slides
     resources:
       icon: folder_shared
       label: resources
   extra-links: []
   static-contents: []
-    
+
+live-sessions:
+  label: Live Session
+  displayed-links:
+    - google-drive
+  core-links:
+    google-drive:
+      icon: folder_shared
+      label: recording & slides
+  extra-links: []
+  static-contents: []
+
 labs:
   label: Lab
   displayed-links:
