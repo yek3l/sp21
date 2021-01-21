@@ -4,6 +4,8 @@
 1: 
   lectures:
     - welcome + abstraction
+  live-sessions:
+    - welcome
   labs:
     - intro
   discussion:
@@ -14,6 +16,9 @@
 
 2:
   lectures:
+    - functions
+    - numbers + abstraction
+  live-sessions:
     - functions
     - numbers + abstraction
   labs:
@@ -28,8 +33,11 @@
 
 3:
   lectures:
-    - list + scoping
+    - lists + scoping
     - social implications one
+  live-sessions:
+    - lists + scoping
+    - social implications 1
   labs:
     - abstraction
     - lists
@@ -45,6 +53,7 @@
   lectures:
     - algorithms
     - complexity
+  live-sessions: []
   labs:
     - algorithms
     - complexity
@@ -58,6 +67,7 @@
 5:
   lectures:
     - testing + proj3
+  live-sessions: []
   labs:
     - testing
   discussion:
@@ -72,6 +82,7 @@
   lectures:
     - recursion one
     - recursion two
+  live-sessions: []
   labs:
     - boards
     - fractals
@@ -85,6 +96,7 @@
   lectures:
     - social implications two
     - recursion three
+  live-sessions: []
   labs:
     - recursiveReporters
   discussion:
@@ -98,6 +110,7 @@
   lectures:
     - procedures
     - paradigms
+  live-sessions: []
   labs:
     - functionsAsData
   discussion:
@@ -110,6 +123,7 @@
   lectures:
     - python one
     - python two
+  live-sessions: []
   labs:
     - pythonIntro
     - dataStructures
@@ -123,6 +137,7 @@
 10:
   lectures:
     - no lecture
+  live-sessions: []
   labs:
     - no section
   discussion: []
@@ -133,6 +148,7 @@
   lectures:
     - python three
     - python four
+  live-sessions: []
   labs:
     - oop
     - textProcessing
@@ -147,6 +163,7 @@
   lectures:
     - social implications three
     - python five
+  live-sessions: []
   labs:
     - dataScience
     - libraries
@@ -162,6 +179,7 @@
   lectures:
     - concurrency
     - hci
+  live-sessions: []
   labs:
     - concurrency
   discussion:
@@ -175,6 +193,7 @@
   lectures:
     - limits
     - ai
+  live-sessions: []
   labs: []
   discussion:
     - finalReview1
@@ -186,6 +205,7 @@
   lectures:
     - alumni
     - farewell
+  live-sessions: []
   labs: []
   discussion:
     - finalReview2
@@ -195,6 +215,7 @@
 
 16:
   lectures: []
+  live-sessions: []
   labs: []
   discussion: []
   projects: []
