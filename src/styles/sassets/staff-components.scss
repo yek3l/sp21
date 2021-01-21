@@ -51,8 +51,10 @@
         flex-direction: row;
         img {
             max-width: 150px;
+            max-height: 150px;
 
             @include tablet-portrait {
+                max-height: 250px;
                 max-width: 250px;
             }
         }

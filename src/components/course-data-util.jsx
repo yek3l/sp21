@@ -37,7 +37,18 @@ async function loadJSON(path) {
 async function loadYamlFile(path) {
     let result = await fetch(path);
     let blob = await result.blob();
-    let text = await blob.text()
+    let text = await readYamlBlob(blob);
     let yamlFile = yaml.safeLoad(text);
     return yamlFile
+}
+
+function readYamlBlob(blob) {
+    return new Promise((resolve, reject) => {
+        let reader = new FileReader();
+        reader.onload = () => {
+            resolve(reader.result);
+        }
+        reader.onerror = reject
+        reader.readAsText(blob);
+    })
 }
