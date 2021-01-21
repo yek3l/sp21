@@ -8,7 +8,7 @@ lectures:
   core-links:
     google-drive:
       icon: folder_shared
-      label: Google Drive
+      label: live slides & recording
     webcast:
       icon: videocam
       label: video
