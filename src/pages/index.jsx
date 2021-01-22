@@ -70,7 +70,7 @@ class Home extends React.Component {
     }
     return (
       <div>
-        Loading ;_;
+        Loading...
       </div>
     )
   }

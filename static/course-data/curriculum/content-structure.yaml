@@ -135,11 +135,9 @@
     - "why-python-is-lit" # Note this should be changed
 
 10:
-  lectures:
-    - no lecture
+  lectures: []
   live-sessions: []
-  labs:
-    - no section
+  labs: []
   discussion: []
   projects: []
   readings: []

@@ -72,7 +72,7 @@ class SemesterPage extends React.Component {
         }
         return (
             <div>
-            Loading ;_;
+            Loading...
             </div>
         )
     }

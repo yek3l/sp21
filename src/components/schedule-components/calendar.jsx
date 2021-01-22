@@ -30,8 +30,13 @@ export default class Calendar extends React.Component {
         },
         { 
             googleCalendarId: 'berkeley.edu_7qpoo4ph13p55e4ukmnpvqusdk@group.calendar.google.com',
-            className : 'lect-calendar',
+            className : 'live-calendar',
             color: "#EE7C2F"
+        },
+        { 
+            googleCalendarId: 'c_rfidjg0lmiejj4dm1hj2rvqc0c@group.calendar.google.com',
+            className : 'lect-calendar',
+            color: "#0494dc"
         }
     ]
 

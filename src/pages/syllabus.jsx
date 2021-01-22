@@ -108,6 +108,9 @@ function CourseOverview() {
                     encourage participation during this unusual online offering of the course. Special thank 
                     you to John DeNero and the CS61A team for writing the original document which this was based on.
                 </div>
+                <div className="body">
+                    This course allows time conflicts!
+                </div>
             </div>
             <div className="syllabus-section">
                 <div className="header">
@@ -279,7 +282,7 @@ function Staff() {
                     </div>
                     <div className="body">
                         Tutors will primarily be running the check-in groups and holding office hours. The tutors for the course are  
-                        <strong> Nicholas Lai, Gowri Somayajula, and Vaibhav Mohata</strong>. Please reach out to the tutors if you 
+                        <strong> Nicholas Lai, Gowri Somayajula, Vaibhav Mohata, and Deeksha Kumar</strong>. Please reach out to the tutors if you 
                         have any concerns about your ability to keep pace with the course, and they will connect you to the right 
                         person or resource needed to assist you.
                     </div>
