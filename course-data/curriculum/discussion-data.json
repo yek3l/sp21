@@ -2,13 +2,13 @@
     "welcome" : {
         "title" : "Welcome to CS10!",
         "worksheet" : "https://drive.google.com/file/d/1QAFZC-MBCK-0arrMzO9RSq_dUggCuEPf/view",
-        "solutions" : null,
-        "slides" : null,
-        "recording" : null,
+        "solutions" : "https://drive.google.com/file/d/179duY9PYYB-13XsheXoI5WI0NPgdF_DC/view?usp=sharing",
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
+        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5MK2wGnoWTKh0Vg8FEfJlvFz",
         "resources" : [
             {
                 "title" : "GDrive recording mirror",
-                "link" : null
+                "link" : "https://drive.google.com/drive/folders/1wvffS8_rGTbQUTevNXzgXQrM_0c6WoZk?usp=sharing"
             }
         ]
     },
