@@ -10,7 +10,7 @@
     "byob" : {
         "title" : "Build Your Own Blocks!",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/2-loops-variables.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Show or submit your Field of Flowers.",
             "Why should you Build Your Own Blocks? Give a reason that someone may create a custom block.",
@@ -23,8 +23,9 @@
     "conditionals" : {
         "title" : "Conditionals and Reporters",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/3-conditionals.topic&course=cs10_sfa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
+            "Reading: Why is learning how to code important? Cite at least one reason from the video, 'Code Stars'.",
             "What is a Boolean? Explain why we use them, and give examples of functions that report a Boolean value.",
             "Show or submit the \"traffic signal _\", \"letter grade _\", and \"state of water _\" blocks.",
             "Explain the difference between a command and a reporter block.",
@@ -36,7 +37,7 @@
     "abstraction" : {
         "title" : "Abstraction",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/intro_pair/4-abstraction-testing.topic&course=cs10_fa19.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Name a few of the input types. Why is it important that we specify input types?",
             "How are global variables different from script variables?",
@@ -49,7 +50,7 @@
     "lists" : {
         "title" : "Lists",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "What is a list? Why would we use a list of 10 elements instead of just making 10 variables?",
             "What do \"map\", \"keep\", and \"combine\" each do?",
@@ -63,7 +64,7 @@
     "algorithms" : {
         "title" : "Algorithms",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/areas/algorithms.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "What is an algorithm? Please give an example both in real life and from class.",
             "Please show both your “Find the number X in Unsorted List” and “Find the number X in Sorted List” blocks and describe the difference in the algorithms used.",
@@ -76,7 +77,7 @@
     "concurrency" : {
         "title" : "Concurrency",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/areas/concurrency.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "What is a race condition?",
             "s it always true that splitting a task among 10 “workers” is better than splitting it among 5 “workers”?",
@@ -104,7 +105,7 @@
     "testing" : {
         "title" : "Testing + Proj3",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/2048-testing/2048.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "How does the test block work? What is its domain and range?",
             "Show us the output of your test block on the merge column. Explain why this output makes sense.",
@@ -117,7 +118,7 @@
     "boards" : {
         "title" : "Boards",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/lists/tic-tac-toe.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): In the first chapter of Blown to Bits, do the authors argue that technology is inherently a good thing, a bad thing, or neither good nor bad?  Give an example from the reading that supports this claim.",
             "Why did we have variables like “Size”, “Start”, and “Display Width” when designing our board and what do they do?",
@@ -129,7 +130,7 @@
     "fractals" : {
         "title" : "Trees and Fractals Using Recursion",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursion-trees-fractals.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): Turkle argues that “if we never learn to be alone, we’ll only know how to be lonely”. Briefly explain how social media and communication technology relates to this claim. Connect your explanation to the key points that Turkle makes in her presentation.",
             "Please show me your “crazy-tree” block.",
@@ -143,7 +144,7 @@
     "recursiveReporters" : {
         "title" : "Recursive Reporters",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/recur/recursive-reporters-part1.topic&course=cs10_sfa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Why do we map the first item of the set in front of a recursive call of subsets _ over the rest of the list?",
             "Explain why the second version of subsets _ only makes 7 calls instead of 64. (OPTIONAL EXERCISE)",
@@ -156,7 +157,7 @@
     "functionsAsData" : {
         "title" : "Functions as Data; HOFs",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/hofs/hofs-practice.topic&course=cs10_fa17.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "No checkoff needed"
         ]
@@ -165,7 +166,7 @@
     "pythonIntro" : {
         "title" : "Welcome to Python!",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-welcome-parsons.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): Name the 5 things that the author Elliot Hauser stated as most important in a student's first programming language. Explain briefly how Python excels at one of these reasons. Do you agree with his 5 most important characteristics? If yes, why? If not, what other characteristics do you think are more important?",
             "What is the difference between the \"python\", \"python file.py\", and \"python -i file.py\" terminal commands?",
@@ -179,7 +180,7 @@
     "dataStructures" : {
         "title" : "Data Structures in Python",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-data-struct.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "What is the difference between = and == in python?",
             "Show us the result of running the autograder.",
@@ -191,7 +192,7 @@
     "textProcessing" : {
         "title" : "Text Processing in Python",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-text-processing.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): What is digital data and how is it different from previous history innovations?",
             "What are the arguments of the \"open\" function and what does it return?",
@@ -205,7 +206,7 @@
     "oop" : {
         "title" : "OOP in Python",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/besides-blocks-oop.topic&course=cs10_su18.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): AlphaStar was able to beat pro humans in StarCraft, but it may have had \"unfair\" advantages as a result of being a computer AI, rather than a human.  Using an example from the reading, what is one advantage that AlphaStar has over human players?  In your opinion, is creating a computer agent that can defeat humans in a game like StarCraft an important accomplishment, despite these \"unfair\" advantages the computer may have?",
             "Describe the purpose of an \"init\" function.",
@@ -219,7 +220,7 @@
     "dataScience" : {
         "title" : "Data Science in Python",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/python/data-lab.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Reading Response Question (Required): The NYT piece highlights that women once had a significant presence in early computer programming. Thompson identifies 1984 as the turning point when programming socially came to be seen more for men. Briefly explain the conditions and events that took place around that time which led to the exclusion of women from programming in academia (not the private sector).",
             "What are some important commands that you can use to keep only certain rows in a table?",
@@ -232,7 +233,7 @@
     "libraries" : {
         "title" : "Libraries in Snap! and Python",
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/libraries/libraries.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
-        "checkoff" : null,
+        "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
             "Bokeh:",
             "What other ways can you think of to visualize our data? Take a look at the Bokeh gallery or documentation for some examples and inspiration.",
