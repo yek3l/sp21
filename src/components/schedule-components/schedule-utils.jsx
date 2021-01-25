@@ -53,7 +53,7 @@ export function getCurrentWeek() {
     // date differences are returned in milliseconds. Divisor converts to days
     let divisor = 1000 * 60 * 60 * 24;
     let difference = (current_sunday - start_sunday) / divisor;
-    return Math.max(1, Math.min(Math.floor(difference / 7), max_weeks_available));
+    return Math.max(1, Math.min(Math.ceil(difference / 7), max_weeks_available));
 }
 
 export class Link {
