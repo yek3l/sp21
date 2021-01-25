@@ -31,19 +31,27 @@ roles:
   
   - label: Academic Intern
     people:
+      - aaronlee
       - aditisharma
       - alaynamatthews
       - angelrodriguez
       - annaclary
+      - anthonylu
       - arrushiagarwal
       - benjaminpierias
+      - danaipapaevgeniou
       - francisgeng
       - hyeonakim
       - jamescheng
+      - jasonhuang
       - jaspershine
       - jeffreyhuang
       - jennguyen
+      - jorgenunez
       - junyoungkim
+      - justinflesher
+      - kyawswaryemyint
+      - madeleinefruman
       - madeleinelabute
       - manaarsalama
       - martingarcia-angel
@@ -55,8 +63,12 @@ roles:
       - richeldhaliwal
       - rivkahbar-or
       - saadtootla
+      - sarahtaylor
       - saruulamarbayar
+      - sophiebrazdefaria
       - yonsookim
+      - vedanshmalhotra
+      - yishuchao
 
 card-config:
   subheader: "pronouns"

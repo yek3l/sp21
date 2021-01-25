@@ -1,0 +1,26 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: 'Kyaw Swar Ye Myint'
+email: 'kyawswaryemyint@berkeley.edu'
+year: 'Freshman'
+major: 'Intending CS and Econ'
+pronouns: 'he/him/his'
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - "I was born in Mandalay, Myanmar but I've lived in Yangon, Myanmar most of my life. I definitely didn't expect to get into Cal, but I'm glad I did."
+
+  # How much programming have you done? Which Languages?
+  - "Before attending Cal, I didn't have any programming experience. However, ever since attending Cal, I've taken CS10 and CS 61A so I've programmed in Snap!, Python, Scheme, and SQL." 
+
+  # What are your Hobbies?
+  - "Collecting cards! I LOVE playing cards!"
+
+  # What are some of your talents and skills?
+  - "Seeing every negative aspect of life as positive. Half full or half empty? Definitely half full for me!"
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - "I learned how to bake during the winter break!"
+
+  # What commitments will be consuming your cycles this semester?
+  - "Aside from taking CS 61B, Data C8, Math 54, and Econ 1, I will be on the course development team for CS10, doing research, and leading some clubs."
