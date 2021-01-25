@@ -6,14 +6,14 @@
     },
     "functions" : {
         "title" : "Functions",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/15MOydPyuJA1JJmpbVy5B64bATFsYF__o/view",
         "resources" : null
     },
     "numbers + abstraction" : {
         "title" : "Abstraction + Number Systems",
-        "webcast" : null,
-        "webcast_slides" : null,
+        "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
+        "webcast_slides" : "https://drive.google.com/file/d/1IGekrvrZdX8twFgIGz2lK699xd6vhH43/view",
         "resources" : null
     },
     "lists + scoping" : {
