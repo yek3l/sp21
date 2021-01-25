@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Francis Geng
+email: fgeng@berkeley.edu
+year: Freshman
+major: EECS and Data Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I grew up in Beijing, China. I applied to four UCs in my senior year. Because I heard back from Cal in early Feburary, I just withdrew the rest apps/offers.
+
+  # How much programming have you done? Which Languages?
+  - I took CS 10 last semester (Fall 2020), and I am taking CS 61A and DATA C100 right now. I program in Python, Java, SQL, R, and Scheme.
+
+  # What are your Hobbies?
+  - I enjoy camping and fishing during my free time. I picked up baking during quarantine, but outdoor activities are still my favorites.
+
+  # What are some of your talents and skills?
+  - I can eat an entire Costco salmon fillet in one meal.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - I recruited a couple hundred of high schoolers to volunteer at an outdoor science camp and mentor elementary school students as cabin leaders for one week. 
+
+  # What commitments will be consuming your cycles this semester?
+  - I am taking CS 61A, DATA C100, EECS 16B, STAT 20, CS 370 and a DeCal about Leetcode. I am also a Lab ASE for EECS 16A! If you are taking it this semester, you might see me during lab :)
+  

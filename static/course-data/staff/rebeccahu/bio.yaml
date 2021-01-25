@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Rebecca Hu
+email: rhu01@berkeley.edu
+year: Sophomore
+major: Data Science, Economics
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - Potomac, MD
+
+  # How much programming have you done? Which Languages?
+  - CS 10 was my first programming class! Now I know Snap!, Python, and am currently learning Java
+
+  # What are your Hobbies?
+  - Cooking, hiking
+
+  # What are some of your talents and skills?
+  - ~
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - ~
+
+  # What commitments will be consuming your cycles this semester?
+  - ~
+  

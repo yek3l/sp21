@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Jen Nguyen
+email: j3nguyen01@berkeley.edu
+year: Sophomore
+major: Cognitive Science and Intended Computer Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - Seattle, Washington
+
+  # How much programming have you done? Which Languages?
+  - About a year and a half! My favorite language is Java but I know CSS, Python, HTML, SQL and Snap (<3). 
+
+  # What are your Hobbies?
+  - Playing volleyball! It's the first thing I'm doing once the pandemic is over.
+
+  # What are some of your talents and skills?
+  - "I can play 5 instruments! Not super well but I can still play :D"
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - I almost got struck by lightning. 
+
+  # What commitments will be consuming your cycles this semester?
+  - ~
+  

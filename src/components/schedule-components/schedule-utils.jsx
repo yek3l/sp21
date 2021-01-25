@@ -17,6 +17,9 @@ export function getContentNumbers(contentType, dict) {
     let weeks = Object.keys(content_structure).length;
     let content_numbering = {}
     var count = 1;
+    if (contentType == "projects") {
+        count = 0;
+        }
     for (let week = 1; week <= weeks; week++) {
         let week_content = content_structure[week][contentType]
         let source_content = getContentSource(contentType, dict)

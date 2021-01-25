@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Aditi Sharma
+email: aditiksharma02@berkeley.edu
+year: Freshman
+major: Intended CS
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I'm from the Bay Area, and went to James Logan High School.
+
+  # How much programming have you done? Which Languages?
+  - My first real experience programming was when I joined CS10 in the Fall of 2020!
+
+  # What are your Hobbies?
+  - In my free time, I enjoy painting, baking, crocheting, editing videos, and hiking!
+
+  # What are some of your talents and skills?
+  - "I am a dance teacher and have been dancing since I was 5. Additionally, I know how to play four instruments and am hoping to make that five this summer :))"
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - I have been to over 15 countries, and all of those trips have been unforgettable. 
+
+  # What commitments will be consuming your cycles this semester?
+  - ~
+  

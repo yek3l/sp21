@@ -30,7 +30,34 @@ roles:
       - deeksha
   
   - label: Academic Intern
-    people: []
+    people:
+      - aditisharma
+      - alaynamatthews
+      - angelrodriguez
+      - annaclary
+      - arrushiagarwal
+      - benjaminpierias
+      - francisgeng
+      - hyeonakim
+      - jamescheng
+      - jaspershine
+      - jeffreyhuang
+      - jennguyen
+      - jorgenunez
+      - junyoungkim
+      - madeleinelabute
+      - manaarsalama
+      - martingarcia-angel
+      - mirandaaochi
+      - nhuvu
+      - paolanoun
+      - randynguyen
+      - rebeccahu
+      - richeldhaliwal
+      - rivkahbar-or
+      - saadtootla
+      - saruulamarbayar
+      - yonsookim
 
 card-config:
   subheader: "pronouns"

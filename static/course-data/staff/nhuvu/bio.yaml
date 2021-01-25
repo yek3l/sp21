@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Nhu Vu
+email: vunhu174@berkeley.edu
+year: Freshman
+major: Computer Science, minor in Data Science
+pronouns: she/her
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I was born in Vietnam and I grew up in Orange County, California. 
+
+  # How much programming have you done? Which Languages?
+  - I have programming in experience in Python, Java, and C++.
+
+  # What are your Hobbies?
+  - My hobbies consist of dancing, watching anime, reading manga and novels, and playing video games. I also like to explore things on the Internet.
+
+  # What are some of your talents and skills?
+  - Some of my notable talents and skills are dancing, coding, and video editing!
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - ~
+
+  # What commitments will be consuming your cycles this semester?
+  - My commitments this semester will include being an AI for CS10, studying and completing assignments for my classes, and brushening up my programming skills by creating some applications on the side.
+  
