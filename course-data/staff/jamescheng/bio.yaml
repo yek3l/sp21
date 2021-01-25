@@ -1,0 +1,26 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: James Cheng
+email: jamescheng@berkeley.edu
+year: Freshman
+major: Intended Business Administration and/or Computer Science/Data Science
+pronouns: he/him/his
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I grew up in San Jose, CA and attended Lynbrook High School before coming to UC Berkeley.
+
+  # How much programming have you done? Which Languages?
+  - I took CS 10 during Fall 2020 and have programmed in both Snap! and Python.
+
+  # What are your Hobbies?
+  - I enjoy watching shows and films, listening to music, playing basketball, and working out.
+
+  # What are some of your talents and skills?
+  - Art has been a large part of my life, and I have experience in sketching and painting using graphite, oil paint, watercolor, and acrylic paint.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - ~
+
+  # What commitments will be consuming your cycles this semester?
+  - This semester, I will be taking CS 61A and am expecting numerous challenges, but I am confident that CS 10 has prepared me well!
