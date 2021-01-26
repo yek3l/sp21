@@ -205,8 +205,6 @@ function bioResponseSection(header, response) {
 }
 
 export function getStaffCard(role, key) {
-    console.log(role)
-    console.log(key)
     return (
         <StaffCard staffKey={key} role={role} />
     )

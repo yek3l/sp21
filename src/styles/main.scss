@@ -44,6 +44,20 @@ $screen-laptop: 1200px;
   display: flex;
 }
 
+.loading-screen {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+  justify-content: center;
+  margin: auto;
+  
+
+  .spinner-border {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .content-section {
   margin-top: 40px;
 }
