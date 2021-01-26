@@ -5,6 +5,7 @@ import { getStaffCard } from "../components/staff-components/staff-elements.jsx"
 import staff_ui_config from "../ui-config/staff-ui.config.yaml";
 import "../styles/sassets/staff-page.scss";
 import "../styles/sassets/staff-components.scss";
+import "../styles/main.scss";
 
 class StaffPage extends React.Component {
 

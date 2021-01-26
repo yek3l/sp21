@@ -2,10 +2,12 @@ import React from "react";
 import { Card, Modal } from "react-bootstrap";
 import { getStaffBio } from "../course-data-util.jsx"
 import { withPrefix } from "gatsby";
+import { Spinner } from "react-bootstrap";
 import staff_ui_config from "../../ui-config/staff-ui.config.yaml"
 import Tooltip from 'react-bootstrap/Tooltip';
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import "../../styles/sassets/staff-components.scss";
+import "../../styles/main.scss";
 
 const card_config = staff_ui_config["card-config"];
 
@@ -23,8 +25,10 @@ export class StaffCard extends React.Component {
             year: "",
             subheader: "",
             responses: [],
+            loaded : false
         }
         this.toggleModal = this.toggleModal.bind(this);
+        this.handleImageLoaded = this.handleImageLoaded.bind(this);
     }
 
     componentDidMount() {
@@ -66,6 +70,12 @@ export class StaffCard extends React.Component {
             showModal : (!modalState)
         })
     }
+
+    handleImageLoaded() {
+        console.log("boop")
+        this.setState({loaded: true});
+    }
+
     
     render() {
         if (this.state.name === undefined) {
@@ -73,7 +83,16 @@ export class StaffCard extends React.Component {
         }
         return (
             <Card style={{ width: '15rem' }}>
-                <Card.Img src={this.state.imgPath}/>
+                <div
+                    className="staff-loading-screen"
+                    style={this.state.loaded ? {"display" : "none"} : {"height" : "240px"}}>
+                    <Spinner animation="border" variant="primary" size="lg"/>
+                </div>
+                <Card.Img 
+                    style={this.state.loaded ? {} : {"height" : "0px"}}
+                    src={this.state.imgPath} 
+                    onLoad={this.handleImageLoaded}
+                />
                 <Card.Body>
                     <Card.Text>
                         <div className="header">

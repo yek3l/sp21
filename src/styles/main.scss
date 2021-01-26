@@ -58,6 +58,14 @@ $screen-laptop: 1200px;
   }
 }
 
+.staff-loading-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+
+}
+
 .content-section {
   margin-top: 40px;
 }
