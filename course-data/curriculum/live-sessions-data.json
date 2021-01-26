@@ -3,13 +3,9 @@
         "title" : "Welcome to CS10!: Weekly Summary Lecture",
         "google-drive": "https://drive.google.com/drive/folders/14Pe6CeBdAS4JOqDoP0WAHI7YHKJBKVvf?usp=sharing"
     },
-    "functions" : {
-        "title" : "Functions",
+    "functions + abstraction" : {
+        "title" : "Functions + Abstraction (Number Systems)",
         "google-drive": "https://drive.google.com/drive/folders/1Yf5LTBwdzw4I_sf0l2k8sEoNxhu7wbpC?usp=sharing"
-    },
-    "numbers + abstraction" : {
-        "title" : "Abstraction + Number Systems",
-        "google-drive": "https://drive.google.com/drive/folders/1ep-_jzo5voIEOrAuVERsvcT7Le9K8XGN?usp=sharing"
     },
     "lists + scoping" : {
         "title" : "Lists, HOFs, and Scoping!",

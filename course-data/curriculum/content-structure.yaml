@@ -19,8 +19,7 @@
     - functions
     - numbers + abstraction
   live-sessions:
-    - functions
-    - numbers + abstraction
+    - functions + abstraction
   labs:
     - byob
     - conditionals
@@ -37,7 +36,6 @@
     - social implications one
   live-sessions:
     - lists + scoping
-    - social implications 1
   labs:
     - abstraction
     - lists

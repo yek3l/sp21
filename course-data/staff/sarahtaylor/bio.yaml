@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Sarah Taylor
+email: 20sgtaylor@berkeley.edu
+year: Freshman
+major: Computer Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - Mainly in Santa Monica, California. I did not even dream of going to Cal and applied on a whim, but ended up getting in.
+
+  # How much programming have you done? Which Languages?
+  - Not much, mainly what I did was in cs10, including Snap! and Python.
+
+  # What are your Hobbies?
+  - Photography, dance, watching others play video games (as I just dabble in gaming), hiking/walking, and watching really bad horror and romcom movies and making fun of them with my sisters/friends.
+
+  # What are some of your talents and skills?
+  - Procrastinating while having a busy schedule and writing assignments in a very short amount of time.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - Something memorable was that I shaved half my hair because I was bored with my hair style.
+
+  # What commitments will be consuming your cycles this semester?
+  - 19 units of classes and seminars, inlcluding cs61a, and Girl Scouts.
+  

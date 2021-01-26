@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Maddie Fruman
+email: madeleinefruman@berkeley.edu
+year: Sophomore
+major: Mathematics, Computer Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - ~
+
+  # How much programming have you done? Which Languages?
+  - My first programming experience was in CS10, and I can now program in Snap!, Python, Java, Scheme, and SQL.
+
+  # What are your Hobbies?
+  - Violin, reading, taking photos for the Daily Cal, making jewelry, watching movies, hiking, and math!
+
+  # What are some of your talents and skills?
+  - Jigsaw puzzles. My favorite one was a 5000-piece puzzle of the Sistine Chapel ceiling that I did at the beginning of quarantine.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - Getting to perform Stravinsky's Rite of Spring in a youth orchestra was pretty memorable. It's a crazy and difficult piece.
+
+  # What commitments will be consuming your cycles this semester?
+  - I'm currently taking a gap semester, so my commitments include an internship, working as a math tutor at the SLC, and helping out in CS10!
+  
