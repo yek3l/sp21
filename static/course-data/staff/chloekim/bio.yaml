@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Chloe Kim
+email: chloemkim@berkeley.edu
+year: Freshman
+major: Pre-Haas, Cognitive Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I grew up in Manhattan Beach, California (LA County). I went to Mira Costa High School where I focused my activities on scientific research, until I realized it wasn't for me. I came to Cal last Fall and have already been able to delve into so many different fields in depth that I wasn't able to in high school, CS being one of them.
+
+  # How much programming have you done? Which Languages?
+  - I learned Java when I was younger, and learned Python through CS10. In high school, the computer science courses at my school used AppLab, which is in JavaScript.
+
+  # What are your Hobbies?
+  - I like to do puzzles, paint, and watch documentaries/TV shows.
+
+  # What are some of your talents and skills?
+  - Violin, viola, ukulele, volleyball. 
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - ~
+
+  # What commitments will be consuming your cycles this semester?
+  - I'm taking classes in data science, business, korean, and cognitive science this semester. I'm also a part of the Daily Cal and Liberty in North Korea @ Berkeley.
+  

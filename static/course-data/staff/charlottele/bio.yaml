@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Charlotte Le
+email: charlottele@berkeley.edu
+year: Freshman
+major: Computer Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - I lived in Qatar for the past 10 years! Before that, I lived in Charlottesville, Virginia for 5 years. However, I was born in Vietnam.
+
+  # How much programming have you done? Which Languages?
+  - I came into CS10 with no experience, but now I've worked with Python, JavaScript, HTML, and CSS.
+
+  # What are your Hobbies?
+  - I love debate and politics! I'm a huge soccer fan too. I really enjoy travelling and I'm planning to visit 7 different countries this summer!
+
+  # What are some of your talents and skills?
+  - ~
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - I've played soccer with Xavi, Cafu, Yaya Toure, and Bebeto!
+
+  # What commitments will be consuming your cycles this semester?
+  - Classes, clubs, and a part-time job :)
+  
