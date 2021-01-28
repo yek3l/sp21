@@ -2,9 +2,9 @@
   link: "http://bjc.link/zoomroomsp21"
   icon: video_call
 
-# - label: Shannon's Tutoring
-#   link: "https://berkeley.zoom.us/j/94523199723"
-#   icon: video_call
+- label: Shannon's Tutoring
+  link: "https://docs.google.com/forms/d/e/1FAIpQLSeCkNAmHN0NAq6KIXCdw1s_dW1QkNbc7LLRCKbyQcJIdALQVw/viewform?usp=sf_link"
+  icon: video_call
 
 - label: Discord
   link: "https://discord.gg/x64tYsrg6z"

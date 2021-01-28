@@ -95,4 +95,14 @@ projects:
     - key: resources
       label: Extra Resources
   static-contents: []
-    
+  
+dans-oh:
+  label: Dan's OH
+  displayed-links:
+    - recording
+  core-links:
+    recording:
+      icon: videocam
+      label: recording
+  extra-links: []
+  static-contents: []

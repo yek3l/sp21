@@ -9,10 +9,14 @@
     },
     "lists + scoping" : {
         "title" : "Lists, HOFs, and Scoping!",
+        "google-drive": "https://drive.google.com/drive/folders/1ep-_jzo5voIEOrAuVERsvcT7Le9K8XGN?usp=sharing"
+    },
+    "algorithms + complexity" : {
+        "title" : "Algorithms + Complexity",
         "google-drive": "https://drive.google.com/drive/folders/1nyktJpT5tkVYwDbXg8kGJN0moyKNHDAe?usp=sharing"
     },
-    "social implications one" : {
-        "title" : "Social Implications I",
-        "google-drive": "https://drive.google.com/drive/folders/1Uj5hCkLb27dw9Q-thgikr8edIFGcCtkc?usp=sharing"
+    "testing + proj3" : {
+        "title" : "Testing + Project 3",
+        "google-drive" : "https://drive.google.com/drive/folders/1Uj5hCkLb27dw9Q-thgikr8edIFGcCtkc?usp=sharing"
     }
 }
