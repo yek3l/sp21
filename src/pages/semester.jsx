@@ -5,6 +5,7 @@ import { createWeekContent } from "../components/weeklyschedule.jsx";
 import { getContentTypes, getContentSource } from "../components/course-data-util";
 import "../styles/main.scss"
 import "../styles/sassets/semester-calendar.scss"
+import { Spinner } from "react-bootstrap";
 
 class SemesterPage extends React.Component {
 
@@ -71,8 +72,8 @@ class SemesterPage extends React.Component {
             )
         }
         return (
-            <div>
-            Loading...
+            <div className="container loading-screen">
+                <Spinner animation="border" variant="primary" size="lg" style={{"margin":"auto"}}/>
             </div>
         )
     }

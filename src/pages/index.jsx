@@ -11,6 +11,7 @@ import currentWeekContent from "../components/weeklyschedule.jsx";
 import CourseCalendar from "../components/schedule-components/calendar.jsx";
 import { getContentTypes, getContentSource } from "../components/course-data-util";
 import { Head } from "../components/head.jsx";
+import { Spinner } from "react-bootstrap";
 global.XMLHttpRequest = require('xhr2');
 
 class Home extends React.Component {
@@ -54,7 +55,6 @@ class Home extends React.Component {
   loadHomeScreen() {
     if (this.finishedLoadingData()) {
       return (
-        <div>
             <div className="container-fluid">
               <h1>
                 Dashboard
@@ -65,12 +65,11 @@ class Home extends React.Component {
                 { <CourseCalendar /> }
               </div>
             </div>
-        </div>
       )
     }
     return (
-      <div>
-        Loading...
+      <div className="container loading-screen">
+        <Spinner animation="border" variant="primary" size="lg" style={{"margin":"auto"}}/>
       </div>
     )
   }
