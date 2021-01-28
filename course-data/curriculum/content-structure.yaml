@@ -13,6 +13,7 @@
   projects:
     - survey
   readings: []
+  dans-oh: []
 
 2:
   lectures:
@@ -29,6 +30,8 @@
     - wordmatch
   readings:
     - "code-stars"
+  dans-oh:
+    - week2
 
 3:
   lectures:
@@ -46,12 +49,15 @@
     - mastermind
   readings:
     - "intro-to-abstraction"
+  dans-oh:
+    - week3
 
 4:
   lectures:
     - algorithms
     - complexity
-  live-sessions: []
+  live-sessions:
+    - algorithms + complexity
   labs:
     - algorithms
     - complexity
@@ -61,11 +67,14 @@
     - mastermind
   readings:
     - algorithms
+  dans-oh:
+    - week4
 
 5:
   lectures:
     - testing + proj3
-  live-sessions: []
+  live-sessions:
+    - testing + proj3
   labs:
     - testing
   discussion:
@@ -75,6 +84,8 @@
     - 2048
   readings:
     - "algo-complexity"
+  dans-oh:
+    - week5
 
 6:
   lectures:
@@ -90,6 +101,8 @@
     - 2048
   readings:
     - "blown-to-bits"
+  dans-oh:
+    - week6
 7:
   lectures:
     - social implications two
@@ -103,6 +116,8 @@
     - 2048
   readings:
     - "connected-but-alone"
+  dans-oh:
+    - week7
 
 8:
   lectures:
@@ -116,6 +131,8 @@
   projects:
     - 2048
   readings: []
+  dans-oh:
+    - week8
 
 9:
   lectures:
@@ -131,6 +148,8 @@
     - explore
   readings:
     - "why-python-is-lit" # Note this should be changed
+  dans-oh:
+    - week9
 
 10:
   lectures: []
@@ -139,6 +158,8 @@
   discussion: []
   projects: []
   readings: []
+  dans-oh:
+    - none
 
 11:
   lectures:
@@ -154,6 +175,8 @@
     - pytris
   readings:
     - alphastar
+  dans-oh:
+    - week11
 
 12:
   lectures:
@@ -170,6 +193,8 @@
     - final
   readings:
     - "data-science"
+  dans-oh:
+    - week12
   
 13:
   lectures:
@@ -184,6 +209,8 @@
     - final
   readings:
     - "women-in-coding"
+  dans-oh:
+    - week13
 
 14:
   lectures:
@@ -196,6 +223,8 @@
   projects:
     - final
   readings: []
+  dans-oh:
+    - week14
 
 15:
   lectures:
@@ -208,6 +237,8 @@
   projects:
     - final
   readings: []
+  dans-oh:
+    - week15
 
 16:
   lectures: []
@@ -216,3 +247,4 @@
   discussion: []
   projects: []
   readings: []
+  dans-oh: []

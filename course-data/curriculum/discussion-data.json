@@ -16,7 +16,7 @@
         "title" : "Number Representation, Boolean Logic, and Conditionals",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -45,7 +45,7 @@
         "title" : "Domain/Range, HOFs, Scoping",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -70,7 +70,7 @@
         "title" : "Quest Rehash (Mutability, HOFs) & Algorithms",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -95,7 +95,7 @@
         "title" : "Algorithmic Complexity",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -124,7 +124,7 @@
         "title" : "Recursion I",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -149,7 +149,7 @@
         "title" : "Recursion II",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -164,10 +164,10 @@
     },
     "midtermReview" : {
         "title" : "Midterm Review",
-        "worksheet" : "https://drive.google.com/file/d/1E1BmdHNZLl4gUYwpVO-wxvPgmQ_vdXDD/view?usp=sharing",
-        "solutions" : "https://drive.google.com/file/d/1QdjfeVcYgggtH2wORo_dXiPPHuTQJySj/view?usp=sharing",
-        "slides" : "https://docs.google.com/presentation/d/1QYwlLzgKF504PtFDCBj7MGjgWhErUH-CA0lQO48xUPU/",
-        "recording" : "https://www.youtube.com/playlist?list=PLFtj8IkGH5ML2PP0fgjG7evC-3F4QUydA",
+        "worksheet" : null,
+        "solutions" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
+        "recording" : null,
         "resources" : [
             {
                 "title" : "Extra Practice Fractals",
@@ -183,7 +183,7 @@
         "title" : "Intro to Python",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -220,7 +220,7 @@
         "title" : "Data Structures in Python",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -238,7 +238,7 @@
         "title" : "OOP in Python",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -259,7 +259,7 @@
         "title" : "Python HOFs, Lambdas, and Tree Recursion",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -276,7 +276,7 @@
         "title" : "Final Exam Review 1",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -301,7 +301,7 @@
         "title" : "Final Exam Review 2 and Farewell",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -326,7 +326,7 @@
         "title" : "Number Systems",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -351,7 +351,7 @@
         "title" : "Boolean Logic + Scoping",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -364,7 +364,7 @@
         "title" : "Lists + Mutability",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -377,7 +377,7 @@
         "title" : "HOFs",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : [
             {
@@ -390,7 +390,7 @@
         "title" : "HOF Review, Intro to Recursion",
         "worksheet" : null,
         "solutions" : null,
-        "slides" : null,
+        "slides" : "https://drive.google.com/drive/folders/1Auyojr0XbhqtwjpTiHbnO9Kyx-AkbeyD?usp=sharing",
         "recording" : null,
         "resources" : []
     },
