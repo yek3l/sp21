@@ -1,0 +1,27 @@
+# NOTE: You can leave anything blank by typing `~`.
+# If you want to include colons in your response, put double quotes around your response.
+
+name: Sofia Bourche
+email: sbourche@berkeley.edu
+year: Freshman
+major: Computer Science
+pronouns: she/her/hers
+responses:
+  # Where did you grow up? What was your path to Cal?
+  - San Diego, CA. As soon as I got into Cal, I knew it was the right place for me.
+
+  # How much programming have you done? Which Languages?
+  - I have taken CS10 and am currently taking CS61A. I have used Python and Snap!.
+
+  # What are your Hobbies?
+  - I love dancing and am on Cal Dance Team!
+
+  # What are some of your talents and skills?
+  - Baking, teaching and procrastination.
+
+  # Have you done anything remarkable? Has anything memorable happened to you?
+  - ~
+
+  # What commitments will be consuming your cycles this semester?
+  - ~
+  

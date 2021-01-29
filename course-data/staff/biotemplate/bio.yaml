@@ -3,9 +3,9 @@
 
 name: your name here
 email: your email here
-year: your grade level here
-major: your major here
-pronouns: your pronouns here
+year: your grade level here (Freshman, Sophomore, etc)
+major: your major(s) here
+pronouns: your pronouns here (she/her/hers, he/him/his, etc)
 responses:
   # Where did you grow up? What was your path to Cal?
   - ~
