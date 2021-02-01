@@ -52,6 +52,7 @@
         "link" : "https://beautyjoy.github.io/bjc-r/topic/topic.html?topic=berkeley_bjc/lists/lists-I.topic&course=cs10_fa20.html&novideo&noreading&noassignment",
         "checkoff" : "https://forms.gle/72HPHeLhThUKDzk96",
         "checkOffQuestions" : [
+            "Reading Response Question: Why is a car a good example of abstraction? Using this example, give one reason why abstraction is helpful and then also give one reason why abstraction can do more harm than good.",
             "What is a list? Why would we use a list of 10 elements instead of just making 10 variables?",
             "What do \"map\", \"keep\", and \"combine\" each do?",
             "Explain the bug(s) in '(Problem 3) Sum of numbers between x and y.",
