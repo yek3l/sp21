@@ -7,26 +7,22 @@
     "functions" : {
         "title" : "Functions",
         "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
-        "webcast_slides" : "https://drive.google.com/file/d/15MOydPyuJA1JJmpbVy5B64bATFsYF__o/view",
-        "resources" : null
+        "webcast_slides" : "https://drive.google.com/file/d/15MOydPyuJA1JJmpbVy5B64bATFsYF__o/view"
     },
     "numbers + abstraction" : {
         "title" : "Abstraction + Number Systems",
         "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
-        "webcast_slides" : "https://drive.google.com/file/d/1IGekrvrZdX8twFgIGz2lK699xd6vhH43/view",
-        "resources" : null
+        "webcast_slides" : "https://drive.google.com/file/d/1IGekrvrZdX8twFgIGz2lK699xd6vhH43/view"
     },
     "lists + scoping" : {
         "title" : "Lists, HOFs, and Scoping!",
         "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast_slides" : "https://drive.google.com/file/d/1KLIFqR8oOmh-rg1XiwylJy01prprhgnj/view?usp=sharing"
     },
     "social implications one" : {
         "title" : "Social Implications I",
         "webcast" : "https://cbt-dev.berkeley.edu/pl/course_instance/23/assessments",
-        "webcast_slides" : null,
-        "resources" : null
+        "webcast_slides" : "https://drive.google.com/file/d/0B4EVGAjXEk4seGk1a3FRcm5NVnc/view"
     },
     "social implications two" : {
         "title" : "Social Implications II",
