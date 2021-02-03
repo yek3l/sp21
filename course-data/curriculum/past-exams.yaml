@@ -1,0 +1,141 @@
+- semester: "Spring 2020"
+  exams:
+    quest:
+      - exam: https://drive.google.com/file/d/1sCleoTMSogFmyihz1-ns71riunWtl1ir/view?usp=sharing
+        solutions: https://drive.google.com/file/d/1lSs3TXCJrqB22zgLBByZTI1-5ITqfE9K/view?usp=sharing
+    paper_midterm:
+      - exam: ~
+        solutions: ~
+    online_midterm:
+      - exam: ~
+        solutions: ~
+    paper_final:
+      - exam: https://drive.google.com/file/d/1IXByRzNhPgjmiDDb9kufU4x02Gx2xI9C/view?usp=sharing
+        solutions: https://drive.google.com/file/d/192pX5wig1Y-2p9OVktznTe0Obf5faode/view?usp=sharing
+    paper_online:
+      - exam: https://drive.google.com/file/d/1ZuWs6FWDZAsVCJSDLiPXIfLePhm-eBfT/view?usp=sharing
+        solutions: https://drive.google.com/file/d/1yEzOB_eSSu4HC_RSUsx7ei77j66dhCeY/view?usp=sharing
+
+- semester: "Fall 2019"
+  exams:
+    quest:
+      - exam: http://cs10.org/sp20/exams/quest/2019Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/quest/2019Fa/answers.pdf
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2019Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2019Fa/exam.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2019Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2019Fa/answers.pdf
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/final/2019Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/final/2019Fa/answers.pdf
+
+- semester: "Summer 2019"
+  exams:
+    quest:
+      - exam: http://cs10.org/sp20/exams/quest/2019Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/quest/2019Su/answers.pdf
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2019Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2019Su/answers.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2019Su/answers.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2019Su/answers.pdf
+    paper_final:
+      - exam: ~
+        solutions: ~
+    online_final:
+      - exam: ~
+        solutions: ~
+
+- semester: "Spring 2019"
+  exams:
+    quest:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2019Su/answers.pdf
+        solutions: http://cs10.org/sp20/exams/quest/2019Sp/answers.pdf
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2019Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2019Sp/answers.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2019Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2019Sp/answers.pdf
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2019Sp/answers.pdf
+        solutions: http://cs10.org/sp20/exams/final/2019Sp/exam.pdf
+    online_final:
+      - exam: http://cs10.org/sp20/exams/in-lab-final/2019Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-final/2019Sp/exam.pdf
+
+- semester: "Fall 2018"
+  exams:
+    quest:
+      exam: http://cs10.org/sp20/exams/quest/2018Fa/exam.pdf
+      solutions: http://cs10.org/sp20/exams/quest/2018Fa/answers.pdf
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/quest/2018Fa/answers.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2018Fa/answers1.pdf
+      - exam: http://cs10.org/sp20/exams/midterm/2018Fa/exam2.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2018Fa/answers2.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2018Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2018Fa/answers.pdf
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/final/2018Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/final/2018Fa/answers.pdf
+    online_final:
+      - exam: http://cs10.org/sp20/exams/in-lab-final/2018Fa/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-final/2018Fa/answers.pdf
+
+- semester: "Summer 2018"
+  exams:
+    quest:
+      - exam: ~
+        solutions: ~
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2018Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2018Su/answers.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2018Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2018Su/answers.pdf
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/final/2018Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/final/2018Su/answers.pdf
+    online_final:
+      - exam: http://cs10.org/sp20/exams/final/2018Su/answers.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-final/2018Su/answers.pdf
+
+- semester: "Spring 2018"
+  exams:
+    quest:
+      - exam: http://cs10.org/sp20/exams/quest/2018Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/quest/2018Sp/answers.pdf
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2018Sp/exam1.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2018Sp/answers1.pdf
+      - exam: http://cs10.org/sp20/exams/midterm/2018Sp/exam2.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2018Sp/answers2.pdf
+    online_midterm:
+      - exam: http://cs10.org/sp20/exams/in-lab-midterm/2018Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-midterm/2018Sp/answers.pdf
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/final/2018Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/final/2018Sp/answers.pdf
+    online_final:
+      - exam: http://cs10.org/sp20/exams/in-lab-final/2018Sp/exam.pdf
+        solutions: http://cs10.org/sp20/exams/in-lab-final/2018Sp/answers.pdf
+    
+- semester: "Summer 2017"
+  exams:
+    quest:
+      - exam: ~
+        solutions: ~
+    paper_midterm:
+      - exam: http://cs10.org/sp20/exams/midterm/2017Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/midterm/2017Su/answers.pdf
+    online_midterm:
+      - exam: ~
+        solutions: ~
+    paper_final:
+      - exam: http://cs10.org/sp20/exams/final/2018Su/exam.pdf
+        solutions: http://cs10.org/sp20/exams/final/2018Su/answers.pdf
