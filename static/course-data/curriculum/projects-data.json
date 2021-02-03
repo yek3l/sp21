@@ -6,15 +6,15 @@
         "resources" : []
     },
     "wordmatch" : {
-        "title" : "Project 1: Wordmatch Intro",
+        "title" : "Project 1: Wordmatch",
         "spec" : "https://docs.google.com/document/d/1hQFDD6FlBZhgt_rFP8eY8BLbXPSKtzw0Z8fY9Dnpz1I/edit?usp=sharing",
         "submit" : "https://www.gradescope.com/courses/224752/assignments/927230/",
         "resources" : []
     },
     "mastermind" : {
         "title" : "Project 2: Mastermind",
-        "spec" : null,
-        "submit" : null,
+        "spec" : "https://docs.google.com/document/d/1B-Ueptc-MmVpGsQ1FZ34wg_mZd9fpwJkDxcBjZfA7rc/edit?usp=sharing",
+        "submit" : "https://www.gradescope.com/courses/224752/assignments/927232/",
         "resources" : []
     },
     "2048" : {
