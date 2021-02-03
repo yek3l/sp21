@@ -11,6 +11,9 @@ class Exams extends React.Component {
                 <Head />
                 <NavigationBar />
                 <div className="container-fluid">
+                    <h2>
+                        Exams
+                    </h2>
                     <table className="table">
                         <thead>
                             <tr>
