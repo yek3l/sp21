@@ -12,3 +12,6 @@
 
 - label: Resources
   path: /resources
+
+- label: Exams
+  path: /exams
